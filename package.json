@@ -1,0 +1,25 @@
+{
+  "name": "js_auto_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "testAll": "./node_modules/.bin/wdio config/wdio.ios.conf.js",
+    "Testyamimeal": "./node_modules/.bin/wdio config/wdio.ios.conf.js --mochaOpts.grep 'case_01'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^6.11.0",
+    "@wdio/appium-service": "^6.11.0",
+    "@wdio/cli": "^6.11.3",
+    "@wdio/local-runner": "^6.11.3",
+    "@wdio/mocha-framework": "^6.11.0",
+    "@wdio/spec-reporter": "^6.11.0",
+    "@wdio/sync": "^6.11.0",
+    "appium": "^1.20.0",
+    "chromedriver": "^87.0.5",
+    "wdio-chromedriver-service": "^6.0.4"
+  }
+}
