@@ -1,16 +1,18 @@
 {
-  "uid" : "45c757d945d10a04",
+  "uid" : "edb52e5fe0e7f766",
   "name" : "test_01",
   "fullName" : "case_01.test_01",
   "historyId" : "cbf0992ca3aaa93e05c9c74d7e910055",
   "time" : {
-    "start" : 1610592895121,
-    "stop" : 1610592895122,
-    "duration" : 1
+    "start" : 1610607301412,
+    "stop" : 1610607301415,
+    "duration" : 3
   },
   "description" : "",
   "descriptionHtml" : "",
-  "status" : "passed",
+  "status" : "failed",
+  "statusMessage" : "不想打: expected 2 to equal 3",
+  "statusTrace" : "AssertionError: 不想打: expected 2 to equal 3\n                    at Context.<anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:7:16)",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
@@ -48,14 +50,12 @@
     "value" : "CYRUS-14.1"
   } ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "45c757d945d10a04.json",
+  "source" : "edb52e5fe0e7f766.json",
   "parameterValues" : [ "CYRUS-14.1" ]
 }

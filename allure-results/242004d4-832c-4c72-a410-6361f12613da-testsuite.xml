@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1610694456492' stop='1610694457869'>
+    <name>case_01</name>
+    <title>case_01</title>
+    <test-cases>
+        <test-case start='1610694456493' status='broken' stop='1610694457868'>
+            <name>test_01</name>
+            <title>test_01</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='frist test'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='CYRUS-14.1'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Locator Strategy 'css selector' is not supported for this session</message>
+                <stack-trace>invalid selector: Locator Strategy 'css selector' is not supported for this session
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at global.$ (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/node_modules/@wdio/runner/build/index.js:114:42)
+                    at Context.&lt;anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:12:16)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

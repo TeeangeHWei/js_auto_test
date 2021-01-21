@@ -4,13 +4,13 @@
     "name" : "case_01",
     "children" : [ {
       "name" : "test_01",
-      "uid" : "45c757d945d10a04",
+      "uid" : "f659d225bdcde010",
       "parentUid" : "b5eee49606eb86b7fae4bc4d50261609",
       "status" : "passed",
       "time" : {
-        "start" : 1610592895121,
-        "stop" : 1610592895122,
-        "duration" : 1
+        "start" : 1610609312685,
+        "stop" : 1610609312687,
+        "duration" : 2
       },
       "flaky" : false,
       "newFailed" : false,

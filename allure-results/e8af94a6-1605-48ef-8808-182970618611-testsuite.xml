@@ -1,0 +1,41 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1610695932419' stop='1610695933581'>
+    <name>case_01</name>
+    <title>case_01</title>
+    <test-cases>
+        <test-case start='1610695932420' status='broken' stop='1610695933579'>
+            <name>test_01</name>
+            <title>test_01</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='frist test'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='CYRUS-14.1'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Wrong parameters applied for findElements
+                Usage: findElements(using, value)
+                
+                Property Description:
+                  "using" (string): a valid element location strategy
+                  "value" (string): the actual selector that will be used to find an element
+                
+                For more info see https://w3c.github.io/webdriver/#dfn-find-elements
+                </message>
+                <stack-trace>Error: Wrong parameters applied for findElements
+                Usage: findElements(using, value)
+                Property Description:
+                  "using" (string): a valid element location strategy
+                  "value" (string): the actual selector that will be used to find an element
+                For more info see https://w3c.github.io/webdriver/#dfn-find-elements
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Context.&lt;anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:12:29)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
