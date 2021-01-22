@@ -1,0 +1,34 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1611215353424' stop='1611215452549'>
+    <name>case_01</name>
+    <title>case_01</title>
+    <test-cases>
+        <test-case start='1611215353424' status='broken' stop='1611215452547'>
+            <name>test_01</name>
+            <title>test_01</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='frist test'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='CYRUS-14.1'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>read ECONNRESET</message>
+                <stack-trace>RequestError: read ECONNRESET
+                    at ClientRequest.&lt;anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/node_modules/got/dist/source/core/index.js:953:111)
+                    at ClientRequest.origin.emit (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/node_modules/@szmarczak/http-timer/dist/source/index.js:39:20)
+                    at Socket.socketErrorListener (_http_client.js:469:9)
+                    at emitErrorNT (internal/streams/destroy.js:106:8)
+                    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+                    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+                    at accountPage.title_01 (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/testiOSYamimeal/test_Home/account.element.js:30:36)
+                    at Context.&lt;anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:24:44)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

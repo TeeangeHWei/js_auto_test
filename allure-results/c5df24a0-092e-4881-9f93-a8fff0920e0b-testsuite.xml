@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1611193299252' stop='1611193359252'>
+    <name>case_01</name>
+    <title>case_01</title>
+    <test-cases>
+        <test-case start='1611193299252' status='broken' stop='1611193359251'>
+            <name>test_01</name>
+            <title>test_01</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='frist test'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='CYRUS-14.1'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timeout of 60000ms exceeded. The execution in the test "case_01 test_01" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. The execution in the test "case_01 test_01" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js)
+                    at Test.Runnable._timeoutError (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/node_modules/mocha/lib/runnable.js:432:10)
+                    at Timeout.&lt;anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/node_modules/mocha/lib/runnable.js:244:24)
+                    at listOnTimeout (internal/timers.js:554:17)
+                    at processTimers (internal/timers.js:497:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

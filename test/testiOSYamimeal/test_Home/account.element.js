@@ -4,38 +4,31 @@ class accountPage{
         
         return $(`-ios class chain:${selector}`);
     }
-    get itemTitle(){
-        return $('XCUIElementTypeStaticText'); 
-    }
-    get elements_00(){
-        return this.itemTitle.$$('value');
-    }
-    get getText(){
-        return this.elements_00.filter(element =>{
-            console.log(element.getText());
-
-        });
+    collectionTitle(ele){
+        const selector = `value == "${ele}"`
+        return $(`-ios predicate string:${selector}`);
     }
     aa (indexx){
         return $$("XCUIElementTypeStaticText")[indexx];
         // return browser.findElements('class name','XCUIElementTypeStaticText')
-    } 
-    get selectoTitle(){
-        return $$('**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[2]')
     }
-    // get collectionItem(item){
-    //     const selector = `**/XCUIElementTypeStaticText['value == ${item}']`
-        
-    //     return $(`-ios predicate string:${selector}`)
-        
-    // }
+    get activeincator(){
+        // const selector = '**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]'
+        return $('//XCUIElementTypeApplication[@name="Yamimeal"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]');
+    } 
 
     clickCollection(){
         this.collectionBtn.click()
     }
+    clickTitle(ele){
+        this.collectionTitle(ele).click()
+    }
 
     clickCollectionItem(){
         this.clickCollectionItem.click()
+    }
+    activeIsTure(){
+        this.activeincator.isDisplayed()
     }
     title_01(index){
         console.log(this.aa(index).getAttribute("value"));
