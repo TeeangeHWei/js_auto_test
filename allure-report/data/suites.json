@@ -1,0 +1,22 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "case_01",
+    "children" : [ {
+      "name" : "test_01",
+      "uid" : "a6ed361baac68f28",
+      "parentUid" : "06356395c72d62ba9c1d4fd0047f7049",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611305161655,
+        "stop" : 1611305218324,
+        "duration" : 56669
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "CYRUS-14.1" ]
+    } ],
+    "uid" : "06356395c72d62ba9c1d4fd0047f7049"
+  } ]
+}

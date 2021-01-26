@@ -4,6 +4,10 @@ class accountPage{
         
         return $(`-ios class chain:${selector}`);
     }
+    get scrollTouch(){
+        const selector = '**/XCUIElementTypeStaticText[`value == "测1"`][2]'
+        return $(`-ios class chain:${selector}`);
+    }
     collectionTitle(ele){
         const selector = `value == "${ele}"`
         return $(`-ios predicate string:${selector}`);
@@ -23,6 +27,10 @@ class accountPage{
     clickTitle(ele){
         this.collectionTitle(ele).click()
     }
+    moveToElement(element){
+        element.waitForDisplayer();
+        element.moveTo();
+    }
 
     clickCollectionItem(){
         this.clickCollectionItem.click()
@@ -33,10 +41,16 @@ class accountPage{
     title_01(index){
         console.log(this.aa(index).getAttribute("value"));
         return this.aa(index).getAttribute("value");
-        
-        
-        
     }
+    waitIndicator (element){
+       return driver.waitUntil(function () {
+           console.log('等待菊花',element.isDisplayed())
+            return element.isDisplayed() === true
+        },6000,'元素不存在')
+        
+
+    }
+    
     
 }
 
