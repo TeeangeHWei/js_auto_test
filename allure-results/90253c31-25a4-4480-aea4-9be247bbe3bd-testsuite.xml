@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1611732176683' stop='1611732261141'>
+    <name>case_01</name>
+    <title>case_01</title>
+    <test-cases>
+        <test-case start='1611732176683' status='broken' stop='1611732261139'>
+            <name>test_01</name>
+            <title>test_01</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='frist test'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='CYRUS-14.1'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f050e4bc-5932-4111-b41e-581f9e96f3dd-attachment.png' type='image/png' size='342118'/>
+            </attachments>
+            <failure>
+                <message>waitUntil condition failed with the following reason: cellElement.isDisplayed is not a function</message>
+                <stack-trace>Error: waitUntil condition failed with the following reason: cellElement.isDisplayed is not a function
+                    at Context.&lt;anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:52:16)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

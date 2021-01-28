@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1611801987523' stop='1611802067055'>
+    <name>case_01</name>
+    <title>case_01</title>
+    <test-cases>
+        <test-case start='1611801987523' status='broken' stop='1611802067054'>
+            <name>test_01</name>
+            <title>test_01</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='frist test'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='CYRUS-14.1'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f416de70-3830-4205-b267-57cc34875d61-attachment.png' type='image/png' size='312448'/>
+                <attachment title='Screenshot' source='35225901-a2cd-4ed4-bfcb-0d97e8a7decb-attachment.png' type='image/png' size='308549'/>
+            </attachments>
+            <failure>
+                <message>Can't call click on element with selector "-ios class chain:**/XCUIElementTypeStaticText[`value == "䞍"`]'[1]'" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "-ios class chain:**/XCUIElementTypeStaticText[`value == "䞍"`]'[1]'" because element wasn't found
+                    at accountPage.addShopItemCell (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/testiOSYamimeal/test_Home/account.element.js:38:34)
+                    at Context.&lt;anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:51:21)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,9 +1,10 @@
 exports.config = {
-
+    //配置allure 
+    //需要截图 设置disableWebdriverScreenshotsReporting为false
     reporters: [['allure', {
         outputDir: 'allure-results',
         disableWebdriverStepsReporting: true,
-        disableWebdriverScreenshotsReporting: true,
+        disableWebdriverScreenshotsReporting: false,
     }]],
     //
     // ====================
@@ -219,8 +220,10 @@ exports.config = {
     /**
      * Function to be executed after a test (in Mocha/Jasmine).
      */
-    // afterTest: function(test, context, { error, result, duration, passed, retries }) {
-    // },
+    afterTest: function(test, context, { error, result, duration, passed, retries }) {
+        var name = 'error-yamimeal-module-'+ Date.now()
+        driver.takeScreenshot();
+    },
 
 
     /**

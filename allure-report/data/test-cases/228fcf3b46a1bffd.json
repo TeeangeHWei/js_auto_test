@@ -1,0 +1,87 @@
+{
+  "uid" : "228fcf3b46a1bffd",
+  "name" : "test_01",
+  "fullName" : "case_01.test_01",
+  "historyId" : "cbf0992ca3aaa93e05c9c74d7e910055",
+  "time" : {
+    "start" : 1611815916555,
+    "stop" : 1611815997791,
+    "duration" : 81236
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "618907cd7ce8f765",
+      "name" : "Screenshot",
+      "source" : "618907cd7ce8f765.png",
+      "type" : "image/png",
+      "size" : 277874
+    }, {
+      "uid" : "860a568eb6ad72b7",
+      "name" : "Screenshot",
+      "source" : "860a568eb6ad72b7.png",
+      "type" : "image/png",
+      "size" : 322394
+    }, {
+      "uid" : "d7bbb6f795dff66f",
+      "name" : "Screenshot",
+      "source" : "d7bbb6f795dff66f.png",
+      "type" : "image/png",
+      "size" : 322394
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "frist test"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "case_01"
+  }, {
+    "name" : "testClass",
+    "value" : "case_01"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_01"
+  }, {
+    "name" : "package",
+    "value" : "case_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "CYRUS-14.1"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "228fcf3b46a1bffd.json",
+  "parameterValues" : [ "CYRUS-14.1" ]
+}

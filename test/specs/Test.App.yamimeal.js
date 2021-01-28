@@ -3,7 +3,6 @@ const HomePage = require('../testiOSYamimeal/test_Home/home')
 const accountPage = require('../testiOSYamimeal/test_Home/account.element')
 const getAccountPage = require('../testiOSYamimeal/page_interface/accountPage')
 const Gestures = require('../../common/Gestures')
-// import Gestures from '../../common/Gestures'
 var assert = require('chai').assert;
 describe('case_01',() =>{
     it('test_01',function(){
@@ -16,10 +15,6 @@ describe('case_01',() =>{
         } catch (error) {
             console.log(error)
         }
-
-
-
-        
         var setTime = 6000
         driver.pause(setTime);
         var ss = new Array();
@@ -39,21 +34,42 @@ describe('case_01',() =>{
         accountPage.clickTitle(titleData[3]);
         driver.pause(2000)
         // accountPage.waitIndicator(accountPage.activeincator)
-        try {
-            if (accountPage.waitIndicator(accountPage.activeincator)) {
-                console.log('元素为',accountPage.waitIndicator(accountPage.activeincator))
-            } 
-        } catch (e) {
-            console.log('跳出')
-            // break;
-            
-        }
-        driver.pause(2000)
+        accountPage.waitShop();
+        driver.takeScreenshot();
+        
         const from = { x: 239, y:673 }
-        const to = { x: 245, y:394 } 
+        const to = { x: 245, y:394 }
         Gestures.swipe(from,to);
-        
-        
-        
+        driver.pause(1000);
+        accountPage.addShopItemCell(1);
+        accountPage.addShopItemCell(2);
+        accountPage.checkOutClick();
+        driver.pause(3000);
+        accountPage.waitPayMentPage();
+        driver.touchPerform({action:'tap',x:204,y:510});
+        driver.takeScreenshot();
+
+
+
+        // driver.pause(10000);
+        // cell = driver.findElements('xpath',accountPage.shopCategoryCell);
+        // const cellElement = $(accountPage.shopCategoryCell);
+        // driver.waitUntil(function () {
+        //     console.log(accountPage.shopCategoryImageClick(1).isDisplayed())
+        //     while (accountPage.shopCategoryImageClick(1).isDisplayed()) {
+        //         console.log(cellElement.isDisplayed())
+        //         return accountPage.shopCategoryImageClick(1).isDisplayed() === true
+                
+        //     }
+            
+        // },1000,'元素不存在');
+        // driver.pause(10000);
+        // console.log(cell.length);
+        // for(i = 0;i<cell.length;i++){
+        //     console.log('点击了：',i+1);
+        //     console.log('元素在',accountPage.shopCategoryImageClick(i+1))
+        //     accountPage.shopCategoryImageClick(i+1).click();
+        //     driver.pause(1000);
+        // }
     })
 })

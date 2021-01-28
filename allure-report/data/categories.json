@@ -1,5 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "waitUntil condition failed with the following reason: Can't call getValue on element with selector \"-ios class chain:**/XCUIElementTypeStaticText[`value == \"10/20\"`][1]\" because element wasn't found",
+      "children" : [ {
+        "name" : "test_01",
+        "uid" : "d3b5e4f88489a5e2",
+        "parentUid" : "87bc9ab43914f0fc6a038efa890759ee",
+        "status" : "broken",
+        "time" : {
+          "start" : 1611825403236,
+          "stop" : 1611825467067,
+          "duration" : 63831
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "CYRUS-14.1" ]
+      } ],
+      "uid" : "87bc9ab43914f0fc6a038efa890759ee"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
 }

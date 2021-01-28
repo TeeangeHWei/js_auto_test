@@ -12,14 +12,43 @@ class accountPage{
         const selector = `value == "${ele}"`
         return $(`-ios predicate string:${selector}`);
     }
+    shopItemCell(index){
+        const selector = '**/XCUIElementTypeStaticText[`value == ""`]'+`[${index}]`
+        return $(`-ios class chain:${selector}`);
+
+    }
+
     aa (indexx){
         return $$("XCUIElementTypeStaticText")[indexx];
         // return browser.findElements('class name','XCUIElementTypeStaticText')
     }
+    get shopWaitItem(){
+        const selector = '**/XCUIElementTypeStaticText[`value == "10/20"`][1]'
+        return $(`-ios class chain:${selector}`);
+    }
+    get payMentWaitEle(){
+        const selector = '**/XCUIElementTypeStaticText[`value == "預計送達時間"`]'
+        return $(`-ios class chain:${selector}`); 
+    }
     get activeincator(){
-        // const selector = '**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]'
+        
         return $('//XCUIElementTypeApplication[@name="Yamimeal"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]');
     } 
+    get shopDetailPage(){
+        const selector = '**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeTable/XCUIElementTypeOther'
+        return $$(`-ios class chain:${selector}`);
+    }
+    get checkOut(){
+        const selector = '**/XCUIElementTypeStaticText[`value == "去結賬"`]'
+        return $(`-ios class chain:${selector}`);
+    }
+    shopCategoryImageClick(index){
+        const selector = `**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeTable/XCUIElementTypeOther/XCUIElementTypeImage[${index}]`
+        return $(`-ios class chain:${selector}`);
+    }
+    addShopItemCell(index){
+        this.shopItemCell(index).click();
+    }
 
     clickCollection(){
         this.collectionBtn.click()
@@ -46,10 +75,30 @@ class accountPage{
        return driver.waitUntil(function () {
            console.log('等待菊花',element.isDisplayed())
             return element.isDisplayed() === true
-        },6000,'元素不存在')
-        
-
+        },2000,'元素不存在')
     }
+    eleList(){
+        console.log(this.shopDetailPage())
+    }
+    checkOutClick(){
+        return this.checkOut.click()
+    }
+    waitShop(){
+        const value = this.shopWaitItem;
+        return driver.waitUntil(function () {
+            return value.getValue() === '10/20'
+            
+        },5000,'111111')
+    }
+    waitPayMentPage(){
+        const el = this.payMentWaitEle;
+        return driver.waitUntil(function(){
+            return value.getValue() === '預計送達時間'
+
+        },5000);
+    }
+
+    shopCategoryCell = '//XCUIElementTypeApplication[@name="Yamimeal"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeTable/XCUIElementTypeOther//XCUIElementTypeImage'
     
     
 }
