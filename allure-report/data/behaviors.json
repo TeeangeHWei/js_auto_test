@@ -4,13 +4,13 @@
     "name" : "frist test",
     "children" : [ {
       "name" : "test_01",
-      "uid" : "d3b5e4f88489a5e2",
+      "uid" : "fe9b9872f5d23089",
       "parentUid" : "fbcb55f1ceee387398ac8b9520850cdc",
-      "status" : "broken",
+      "status" : "failed",
       "time" : {
-        "start" : 1611825403236,
-        "stop" : 1611825467067,
-        "duration" : 63831
+        "start" : 1612172007479,
+        "stop" : 1612173095748,
+        "duration" : 1088269
       },
       "flaky" : false,
       "newFailed" : false,

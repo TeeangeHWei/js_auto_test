@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1611883859577' stop='1611883934931'>
+    <name>case_01</name>
+    <title>case_01</title>
+    <test-cases>
+        <test-case start='1611883859577' status='failed' stop='1611883934929'>
+            <name>test_01</name>
+            <title>test_01</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='frist test'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='CYRUS-14.1'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='217f5b5a-5072-4447-98f7-3c27d1990467-attachment.png' type='image/png' size='356157'/>
+                <attachment title='Screenshot' source='2a28ea64-8324-4c16-b66d-203e95a696bd-attachment.png' type='image/png' size='251638'/>
+            </attachments>
+            <failure>
+                <message>Malformed type for "actions" parameter of command touchPerform
+                Expected: object[]
+                Actual: (object)[]
+                
+                For more info see http://appium.io/docs/en/commands/interactions/touch/touch-perform/
+                </message>
+                <stack-trace>Error: Malformed type for "actions" parameter of command touchPerform
+                Expected: object[]
+                Actual: (object)[]
+                For more info see http://appium.io/docs/en/commands/interactions/touch/touch-perform/
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Context.&lt;anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:49:16)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

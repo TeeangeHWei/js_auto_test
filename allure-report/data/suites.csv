@@ -1,2 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Thu Jan 28 17:16:43 CST 2021","Thu Jan 28 17:17:47 CST 2021","63831","","case_01","","case_01","test_01","test_01",""
+"failed","Mon Feb 01 17:33:27 CST 2021","Mon Feb 01 17:51:35 CST 2021","1088269","","case_01","","case_01","test_01","test_01",""

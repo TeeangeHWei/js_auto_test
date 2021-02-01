@@ -1,0 +1,79 @@
+{
+  "uid" : "b1fd49e12309f1ac",
+  "name" : "test_01",
+  "fullName" : "case_01.test_01",
+  "historyId" : "cbf0992ca3aaa93e05c9c74d7e910055",
+  "time" : {
+    "start" : 1611714121383,
+    "stop" : 1611714157138,
+    "duration" : 35755
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call click on element with selector \"-ios predicate string:value == \"undefined\"\" because element wasn't found",
+  "statusTrace" : "Error: Can't call click on element with selector \"-ios predicate string:value == \"undefined\"\" because element wasn't found\n                    at accountPage.clickTitle (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/testiOSYamimeal/test_Home/account.element.js:33:35)\n                    at Context.<anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:34:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Can't call click on element with selector \"-ios predicate string:value == \"undefined\"\" because element wasn't found",
+    "statusTrace" : "Error: Can't call click on element with selector \"-ios predicate string:value == \"undefined\"\" because element wasn't found\n                    at accountPage.clickTitle (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/testiOSYamimeal/test_Home/account.element.js:33:35)\n                    at Context.<anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:34:21)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9fe94c1aae52e58d",
+      "name" : "Screenshot",
+      "source" : "9fe94c1aae52e58d.png",
+      "type" : "image/png",
+      "size" : 179521
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "frist test"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "case_01"
+  }, {
+    "name" : "testClass",
+    "value" : "case_01"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_01"
+  }, {
+    "name" : "package",
+    "value" : "case_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "CYRUS-14.1"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b1fd49e12309f1ac.json",
+  "parameterValues" : [ "CYRUS-14.1" ]
+}

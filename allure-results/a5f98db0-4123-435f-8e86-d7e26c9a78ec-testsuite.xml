@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1612147049913' stop='1612147164389'>
+    <name>case_01</name>
+    <title>case_01</title>
+    <test-cases>
+        <test-case start='1612147049913' status='broken' stop='1612147164388'>
+            <name>test_01</name>
+            <title>test_01</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='frist test'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='CYRUS-14.1'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='29b7dfa8-5ce6-4447-80d5-d7fc1a25bdb4-attachment.png' type='image/png' size='355883'/>
+                <attachment title='Screenshot' source='ad36c7e9-b6a0-4c5a-a0fe-4f001be81ac5-attachment.png' type='image/png' size='333094'/>
+                <attachment title='Screenshot' source='5c8f4731-7fc5-4e92-a2d1-b88ebefc03d5-attachment.png' type='image/png' size='333071'/>
+            </attachments>
+            <failure>
+                <message>selector needs to be typeof `string` or `function`</message>
+                <stack-trace>Error: selector needs to be typeof `string` or `function`
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at global.$$ (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/node_modules/@wdio/runner/build/index.js:115:43)
+                    at Context.&lt;anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:65:25)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

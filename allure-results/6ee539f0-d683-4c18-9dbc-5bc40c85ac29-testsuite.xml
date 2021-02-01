@@ -1,0 +1,26 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1612146884374' stop='1612146993608'>
+    <name>case_01</name>
+    <title>case_01</title>
+    <test-cases>
+        <test-case start='1612146884374' status='passed' stop='1612146993606'>
+            <name>test_01</name>
+            <title>test_01</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='frist test'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='CYRUS-14.1'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='da4491d2-d426-49f7-b351-9b7819df4a2d-attachment.png' type='image/png' size='355143'/>
+                <attachment title='Screenshot' source='67707a44-d9b6-4ba7-8c4b-3b791691ad58-attachment.png' type='image/png' size='336531'/>
+                <attachment title='Screenshot' source='9ec7f9a4-0ea4-4cb2-9e6e-b8e229309e68-attachment.png' type='image/png' size='336531'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

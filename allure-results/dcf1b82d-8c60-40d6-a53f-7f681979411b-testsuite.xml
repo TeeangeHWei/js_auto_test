@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1612145367420' stop='1612145450102'>
+    <name>case_01</name>
+    <title>case_01</title>
+    <test-cases>
+        <test-case start='1612145367420' status='broken' stop='1612145450101'>
+            <name>test_01</name>
+            <title>test_01</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='frist test'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='CYRUS-14.1'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='2deac265-ea8d-4a1b-b8f5-df0100c434ed-attachment.png' type='image/png' size='355062'/>
+                <attachment title='Screenshot' source='25c9008f-1ae1-4a91-91c9-38e44cda9764-attachment.png' type='image/png' size='333983'/>
+                <attachment title='Screenshot' source='b54c7620-3d96-46fe-9e9c-1826c98d7028-attachment.png' type='image/png' size='333983'/>
+            </attachments>
+            <failure>
+                <message>payData_03[1].getAttribute is not a function</message>
+                <stack-trace>TypeError: payData_03[1].getAttribute is not a function
+                    at Context.&lt;anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:62:35)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

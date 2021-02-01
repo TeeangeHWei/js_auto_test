@@ -1,0 +1,45 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1612165110676' stop='1612165236097'>
+    <name>case_01</name>
+    <title>case_01</title>
+    <test-cases>
+        <test-case start='1612165110677' status='broken' stop='1612165236096'>
+            <name>test_01</name>
+            <title>test_01</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='frist test'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='frist test'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='frist test'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='CYRUS-14.1'/>
+                <parameter kind='argument' name='device' value='CYRUS-14.1'/>
+                <parameter kind='argument' name='device' value='CYRUS-14.1'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='8db18786-0eaf-443c-b17b-d1ce097e935c-attachment.png' type='image/png' size='944884'/>
+                <attachment title='Screenshot' source='0d25aa32-806c-4f47-9f12-774b21ace81b-attachment.png' type='image/png' size='343428'/>
+                <attachment title='Screenshot' source='0a38bfde-3a6f-4d4b-9877-6d4aad127910-attachment.png' type='image/png' size='343550'/>
+                <attachment title='Screenshot' source='8e928a36-deb6-4195-ba3e-466c466418da-attachment.png' type='image/png' size='343550'/>
+                <attachment title='Screenshot' source='5ae4c36b-0057-4b6b-9ea2-fe6b6dfbac7f-attachment.png' type='image/png' size='343550'/>
+            </attachments>
+            <failure>
+                <message>Can't call click on element with selector "~帳戶" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "~帳戶" because element wasn't found
+                    at HomePage.accountClick (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/testiOSYamimeal/test_Home/home.js:32:22)
+                    at getAccountPage.inAccount (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/testiOSYamimeal/page_interface/accountPage.js:6:18)
+                    at Context.&lt;anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:11:24)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

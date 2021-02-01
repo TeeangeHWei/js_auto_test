@@ -1,4 +1,7 @@
 class accountPage{
+    shopCategoryCell = '//XCUIElementTypeApplication[@name="Yamimeal"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeTable/XCUIElementTypeOther//XCUIElementTypeImage'
+    payMentData_02 = '//XCUIElementTypeApplication[@name="Yamimeal"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[3]/XCUIElementTypeScrollView/XCUIElementTypeOther[6]//XCUIElementTypeOther/XCUIElementTypeStaticText'
+
     get collectionBtn(){
         const selector = '**/XCUIElementTypeStaticText[`value == "收藏"`]'
         
@@ -21,6 +24,12 @@ class accountPage{
     aa (indexx){
         return $$("XCUIElementTypeStaticText")[indexx];
         // return browser.findElements('class name','XCUIElementTypeStaticText')
+    }
+    payForLoca(index){
+        return $$(this.payMentData_02)[index]
+    }
+    payForPage(index){
+        return $$("XCUIElementTypeStaticText")[index];
     }
     get shopWaitItem(){
         const selector = '**/XCUIElementTypeStaticText[`value == "10/20"`][1]'
@@ -71,6 +80,10 @@ class accountPage{
         console.log(this.aa(index).getAttribute("value"));
         return this.aa(index).getAttribute("value");
     }
+    payForData(index){
+        console.log(this.payForPage(index).getAttribute("value"));
+        return this.payForPage(index).getAttribute("value")
+    }
     waitIndicator (element){
        return driver.waitUntil(function () {
            console.log('等待菊花',element.isDisplayed())
@@ -88,17 +101,20 @@ class accountPage{
         return driver.waitUntil(function () {
             return value.getValue() === '10/20'
             
-        },5000,'111111')
+        },7000,'111111')
     }
     waitPayMentPage(){
         const el = this.payMentWaitEle;
         return driver.waitUntil(function(){
-            return value.getValue() === '預計送達時間'
+            return el.getValue() === '預計送達時間'
 
         },5000);
     }
+    payForDetail(count){
+        console.log(this.payForLoca(count).getAttribute("value"))
+        return this.payForLoca(count).getAttribute("value");
+    }
 
-    shopCategoryCell = '//XCUIElementTypeApplication[@name="Yamimeal"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeTable/XCUIElementTypeOther//XCUIElementTypeImage'
     
     
 }

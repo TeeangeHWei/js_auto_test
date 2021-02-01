@@ -1,0 +1,91 @@
+{
+  "uid" : "42718b7d7ad4def3",
+  "name" : "test_01",
+  "fullName" : "case_01.test_01",
+  "historyId" : "cbf0992ca3aaa93e05c9c74d7e910055",
+  "time" : {
+    "start" : 1612147049913,
+    "stop" : 1612147164388,
+    "duration" : 114475
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "selector needs to be typeof `string` or `function`",
+  "statusTrace" : "Error: selector needs to be typeof `string` or `function`\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at global.$$ (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/node_modules/@wdio/runner/build/index.js:115:43)\n                    at Context.<anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:65:25)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selector needs to be typeof `string` or `function`",
+    "statusTrace" : "Error: selector needs to be typeof `string` or `function`\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at global.$$ (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/node_modules/@wdio/runner/build/index.js:115:43)\n                    at Context.<anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:65:25)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "af68f645a63bb2d9",
+      "name" : "Screenshot",
+      "source" : "af68f645a63bb2d9.png",
+      "type" : "image/png",
+      "size" : 355883
+    }, {
+      "uid" : "88439754f2f261f9",
+      "name" : "Screenshot",
+      "source" : "88439754f2f261f9.png",
+      "type" : "image/png",
+      "size" : 333094
+    }, {
+      "uid" : "a92bad08a11872f2",
+      "name" : "Screenshot",
+      "source" : "a92bad08a11872f2.png",
+      "type" : "image/png",
+      "size" : 333071
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "frist test"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "case_01"
+  }, {
+    "name" : "testClass",
+    "value" : "case_01"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_01"
+  }, {
+    "name" : "package",
+    "value" : "case_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "CYRUS-14.1"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "42718b7d7ad4def3.json",
+  "parameterValues" : [ "CYRUS-14.1" ]
+}

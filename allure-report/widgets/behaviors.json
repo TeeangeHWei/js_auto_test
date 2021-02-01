@@ -4,8 +4,8 @@
     "uid" : "fbcb55f1ceee387398ac8b9520850cdc",
     "name" : "frist test",
     "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
+      "failed" : 1,
+      "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,

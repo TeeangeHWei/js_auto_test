@@ -1,0 +1,32 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1611903890908' stop='1611903988871'>
+    <name>case_01</name>
+    <title>case_01</title>
+    <test-cases>
+        <test-case start='1611903890908' status='broken' stop='1611903988870'>
+            <name>test_01</name>
+            <title>test_01</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='frist test'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='CYRUS-14.1'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='df77ef2a-e849-4554-992d-bd872eb6cf6b-attachment.png' type='image/png' size='357642'/>
+                <attachment title='Screenshot' source='0c198e0f-c293-4faf-8b3d-c0b88e92b023-attachment.png' type='image/png' size='362633'/>
+                <attachment title='Screenshot' source='3489ed21-acc4-45dc-a1d8-be7066ee907a-attachment.png' type='image/png' size='362633'/>
+            </attachments>
+            <failure>
+                <message>Method is not implemented</message>
+                <stack-trace>unknown method: Method is not implemented
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Context.&lt;anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:60:31)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

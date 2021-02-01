@@ -1,0 +1,43 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1612163069538' stop='1612163116317'>
+    <name>case_01</name>
+    <title>case_01</title>
+    <test-cases>
+        <test-case start='1612163069538' status='broken' stop='1612163116316'>
+            <name>test_01</name>
+            <title>test_01</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='frist test'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='frist test'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='frist test'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='CYRUS-14.1'/>
+                <parameter kind='argument' name='device' value='CYRUS-14.1'/>
+                <parameter kind='argument' name='device' value='CYRUS-14.1'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='605b878c-bd15-4af2-b6b0-250d62a8de2c-attachment.png' type='image/png' size='88748'/>
+                <attachment title='Screenshot' source='7c66558f-db3d-49e2-a3b6-2af0e983f1ba-attachment.png' type='image/png' size='88944'/>
+                <attachment title='Screenshot' source='60bebbf6-9fb3-4271-9294-49e05c896991-attachment.png' type='image/png' size='88944'/>
+            </attachments>
+            <failure>
+                <message>Can't call click on element with selector "~帳戶" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "~帳戶" because element wasn't found
+                    at HomePage.accountClick (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/testiOSYamimeal/test_Home/home.js:32:22)
+                    at getAccountPage.inAccount (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/testiOSYamimeal/page_interface/accountPage.js:6:18)
+                    at Context.&lt;anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:11:24)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
