@@ -5,7 +5,6 @@ const getAccountPage = require('../testiOSYamimeal/page_interface/accountPage')
 const Gestures = require('../../common/Gestures')
 var assert = require('chai').assert;
 describe('case_01',function(){
-    this.retries(2);
     it('test_01',function(){
         AllureReporter.addFeature('frist test')
         getAccountPage.inAccount();
@@ -70,7 +69,7 @@ describe('case_01',function(){
         Array.prototype.insert = function(index, value){
             this.splice(index,0, value);
         }
-        for (let i = 0; i < payData_04.length; i++) {
+        for (let i = 0; i < 20; i++) {
             if (accountPage.payForDetail(i).indexOf("$") != -1) {
                 payData.push(accountPage.payForDetail(i).replace('$ ',''))
             }
