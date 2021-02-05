@@ -41,7 +41,7 @@ ideviceinstaller不支持iOS10，所以还需要安装ios-deploy，ios-deploy是
 `brew install ios-deploy`
 或 `cnpm install -g ios-deploy`
 # 4.配置项目
-1. git 项目到本地
+1. git js_auto_test项目到本地
 2. 进入项目
 3. npm install 安装依赖
 4. config/wdio.ios.conf.js找到以下方法修改里面的参数，目前只配置了模拟器的，后续真机配置会发出来
