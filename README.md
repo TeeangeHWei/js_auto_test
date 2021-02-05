@@ -38,8 +38,8 @@
 3. ios-deploy
 ideviceinstaller不支持iOS10，所以还需要安装ios-deploy，ios-deploy是一个使用命令行安装ipa到连接的设备的工具，原理是根据osx命令行工程调用系统底层函数，获取连接的设备，查询安装/卸载ipa
 安装命令：
-4. `brew install ios-deploy`
-或 cnpm install -g ios-deploy
+`brew install ios-deploy`
+或 `cnpm install -g ios-deploy`
 # 4.配置项目
 1. git 项目到本地
 2. 进入项目
