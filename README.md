@@ -24,8 +24,8 @@
 4. 替换appium 下的WebDriverAgent:在应用程序右键appium点击打开包内容
 以我的电脑路径为:/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-webdriveragent
 之前编译过的webdriveragent 目录文件替换到以上目录的文件里
-1. 安装必备环境
-2. libimobiledevice
+# 安装必备环境
+1. libimobiledevice
 安装命令：
 `brew install --HEAD libimobiledevice`
 2. ideviceinstaller
