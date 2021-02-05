@@ -1,3 +1,10 @@
+###目前版本只适用在macOS环境下执行
+# 环境
+* node.js -> v14.15.4
+* xcode -> V12.2
+* 被测对象->yamimeal 旧版APP
+
+
 # 1.安装appium
 1. 进入appium官网：http://appium.io/
 2. 点击download appium
@@ -5,35 +12,35 @@
 
 4. appium界面![](https://github.com/TeeangeHWei/js_auto_test/blob/master/img/16122552926408.jpg)
 5. 点击start开启服务
-# 配置xcode
-2.libimobiledevice
 
+# 安装webDriverAgent
+1. `git clone https://github.com/facebookarchive/WebDriverAgent`
+2. 初始化
+    * 在 WebDriverAgent 目录下执行：./Scripts/bootstrap.sh
+3. 配置webdriveragent
+    * 打开WebDriverAgent 项目.xcodeproj
+    * 设置证书(真机需要设置开发者账号，个人账号也可，simulator可以不用)
+    * 可以选择模拟器进行调试 Product -> Test
+4. 替换appium 下的WebDriverAgent:在应用程序右键appium点击打开包内容
+以我的电脑路径为:/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-webdriveragent
+之前编译过的webdriveragent 目录文件替换到以上目录的文件里
+1. # 安装必备环境
+2. libimobiledevice
 安装命令：
-
 `brew install --HEAD libimobiledevice`
-3.ideviceinstaller
+2. ideviceinstaller
 
 ideviceinstaller，负责给iOS设备安装卸载应用或者备份应用，该工具是基于libmobiledevice的，因此首先要完成libmobiledevice的编译安装
 
 安装命令：
-
 `brew install --HEAD ideviceinstaller`
-4.ios-deploy
+3. ios-deploy
 
 ideviceinstaller不支持iOS10，所以还需要安装ios-deploy，ios-deploy是一个使用命令行安装ipa到连接的设备的工具，原理是根据osx命令行工程调用系统底层函数，获取连接的设备，查询安装/卸载ipa
 
 安装命令：
-
-`brew install ios-deploy`
+4. `brew install ios-deploy`
 或 cnpm install -g ios-deploy
-
-5.App Inspector
-
-App Inspector是运行在浏览器端的移动设备 UI 查看器，使用树状态结构查看 UI 布局，并且能自动生成 XPath，方便脚本的编写和生成
-
-安装命令：
-
-`cnpm install app-inspector -g`
 # 配置项目
 1. git 项目到本地
 2. 进入项目
