@@ -67,8 +67,8 @@ capabilities: [{
         6. platformVersion:系统版本
 # 5.执行
 可以找到package.json查看执行的路径
-例：执行测试用例：npm run Testyamimeal
-    执行测试报告：npm run report
+1. 执行测试用例：npm run Testyamimeal
+2. 执行测试告：npm run report
 ![](https://github.com/TeeangeHWei/js_auto_test/blob/master/img/16122568184766.jpg)
 
 
