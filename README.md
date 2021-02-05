@@ -27,14 +27,16 @@
 # 3.安装必备环境
 1. libimobiledevice
 安装命令：
+
 `brew install --HEAD libimobiledevice`
 
 2. ideviceinstaller，负责给iOS设备安装卸载应用或者备份应用，该工具是基于libmobiledevice的，因此首先要完成libmobiledevice的编译安装
 安装命令:
+
 `brew install --HEAD ideviceinstaller`
+
 3. ios-deploy
 ideviceinstaller不支持iOS10，所以还需要安装ios-deploy，ios-deploy是一个使用命令行安装ipa到连接的设备的工具，原理是根据osx命令行工程调用系统底层函数，获取连接的设备，查询安装/卸载ipa
-
 安装命令：
 4. `brew install ios-deploy`
 或 cnpm install -g ios-deploy
