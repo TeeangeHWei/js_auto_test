@@ -1,0 +1,32 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1612419529381' stop='1612419539628'>
+    <name>case_01</name>
+    <title>case_01</title>
+    <test-cases>
+        <test-case start='1612419529381' status='broken' stop='1612419539628'>
+            <name>test_01</name>
+            <title>test_01</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iPhone 12 Pro-14.2'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='7a52ce6d-cc31-4fb2-bc31-d99ba70f4419-attachment.png' type='image/png' size='824940'/>
+            </attachments>
+            <failure>
+                <message>waitUntil condition failed with the following reason: element.isDisplayed is not a function</message>
+                <stack-trace>Error: waitUntil condition failed with the following reason: element.isDisplayed is not a function
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at runNextTicks (internal/process/task_queues.js:62:3)
+                    at processTimers (internal/timers.js:494:9)
+                    at HomePage.alertbindPhone (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/testiOSYamimeal/test_Home/home.js:23:16)
+                    at Context.&lt;anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:10:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,91 @@
+{
+  "uid" : "9982ea71915638dc",
+  "name" : "对比结账金额",
+  "fullName" : "case_01.对比结账金额",
+  "historyId" : "f4c6f0812673339048bab9c4cefe39db",
+  "time" : {
+    "start" : 1612436957449,
+    "stop" : 1612437078793,
+    "duration" : 121344
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Cannot read property 'getAttribute' of undefined",
+  "statusTrace" : "TypeError: Cannot read property 'getAttribute' of undefined\n                    at accountPage.payForDetail (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/testiOSYamimeal/test_Home/account.element.js:114:43)\n                    at Context.<anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:95:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Cannot read property 'getAttribute' of undefined",
+    "statusTrace" : "TypeError: Cannot read property 'getAttribute' of undefined\n                    at accountPage.payForDetail (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/testiOSYamimeal/test_Home/account.element.js:114:43)\n                    at Context.<anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:95:29)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "18908395747d1630",
+      "name" : "Screenshot",
+      "source" : "18908395747d1630.png",
+      "type" : "image/png",
+      "size" : 1690805
+    }, {
+      "uid" : "107a43a1d6409cfa",
+      "name" : "Screenshot",
+      "source" : "107a43a1d6409cfa.png",
+      "type" : "image/png",
+      "size" : 657553
+    }, {
+      "uid" : "9e0977c14e334b4f",
+      "name" : "Screenshot",
+      "source" : "9e0977c14e334b4f.png",
+      "type" : "image/png",
+      "size" : 657553
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "frist test"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "case_01"
+  }, {
+    "name" : "testClass",
+    "value" : "case_01"
+  }, {
+    "name" : "testMethod",
+    "value" : "对比结账金额"
+  }, {
+    "name" : "package",
+    "value" : "case_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "iPhone 12 Pro-14.2"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9982ea71915638dc.json",
+  "parameterValues" : [ "iPhone 12 Pro-14.2" ]
+}

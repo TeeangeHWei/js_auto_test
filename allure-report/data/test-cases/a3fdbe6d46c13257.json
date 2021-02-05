@@ -1,0 +1,59 @@
+{
+  "uid" : "a3fdbe6d46c13257",
+  "name" : "test_01",
+  "fullName" : "case_01.test_01",
+  "historyId" : "cbf0992ca3aaa93e05c9c74d7e910055",
+  "time" : {
+    "start" : 1611042572346,
+    "stop" : 1611042586568,
+    "duration" : 14222
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "frist test"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "case_01"
+  }, {
+    "name" : "testClass",
+    "value" : "case_01"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_01"
+  }, {
+    "name" : "package",
+    "value" : "case_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "CYRUS-14.1"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a3fdbe6d46c13257.json",
+  "parameterValues" : [ "CYRUS-14.1" ]
+}

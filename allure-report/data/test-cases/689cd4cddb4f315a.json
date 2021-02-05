@@ -1,0 +1,97 @@
+{
+  "uid" : "689cd4cddb4f315a",
+  "name" : "test_01",
+  "fullName" : "case_01.test_01",
+  "historyId" : "cbf0992ca3aaa93e05c9c74d7e910055",
+  "time" : {
+    "start" : 1612231038261,
+    "stop" : 1612231140351,
+    "duration" : 102090
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call click on element with selector \"~帳戶\" because element wasn't found",
+  "statusTrace" : "Error: Can't call click on element with selector \"~帳戶\" because element wasn't found\n                    at HomePage.accountClick (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/testiOSYamimeal/test_Home/home.js:32:22)\n                    at getAccountPage.inAccount (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/testiOSYamimeal/page_interface/accountPage.js:6:18)\n                    at Context.<anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:11:24)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Can't call click on element with selector \"~帳戶\" because element wasn't found",
+    "statusTrace" : "Error: Can't call click on element with selector \"~帳戶\" because element wasn't found\n                    at HomePage.accountClick (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/testiOSYamimeal/test_Home/home.js:32:22)\n                    at getAccountPage.inAccount (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/testiOSYamimeal/page_interface/accountPage.js:6:18)\n                    at Context.<anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:11:24)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "72872f438952f7b0",
+      "name" : "Screenshot",
+      "source" : "72872f438952f7b0.png",
+      "type" : "image/png",
+      "size" : 868833
+    }, {
+      "uid" : "b8daccb5e837c1e2",
+      "name" : "Screenshot",
+      "source" : "b8daccb5e837c1e2.png",
+      "type" : "image/png",
+      "size" : 226045
+    }, {
+      "uid" : "34a02216fd15605c",
+      "name" : "Screenshot",
+      "source" : "34a02216fd15605c.png",
+      "type" : "image/png",
+      "size" : 226045
+    }, {
+      "uid" : "98380a03d23dea28",
+      "name" : "Screenshot",
+      "source" : "98380a03d23dea28.png",
+      "type" : "image/png",
+      "size" : 226041
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "frist test"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "case_01"
+  }, {
+    "name" : "testClass",
+    "value" : "case_01"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_01"
+  }, {
+    "name" : "package",
+    "value" : "case_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "CYRUS-14.1"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "689cd4cddb4f315a.json",
+  "parameterValues" : [ "CYRUS-14.1" ]
+}

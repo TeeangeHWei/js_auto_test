@@ -1,11 +1,41 @@
 [ {
-  "uid" : "fe9b9872f5d23089",
-  "name" : "test_01",
+  "uid" : "a976b14f80ac5864",
+  "name" : "登录case",
   "time" : {
-    "start" : 1612172007479,
-    "stop" : 1612173095748,
-    "duration" : 1088269
+    "start" : 1612486238590,
+    "stop" : 1612486249103,
+    "duration" : 10513
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "802e5b15251afd62",
+  "name" : "对比结账金额",
+  "time" : {
+    "start" : 1612486249104,
+    "stop" : 1612486696713,
+    "duration" : 447609
   },
   "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b6b14c862d37a24c",
+  "name" : "test_01",
+  "time" : {
+    "start" : 1612421650428,
+    "stop" : 1612422083509,
+    "duration" : 433081
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ff22160375d5ad62",
+  "name" : "test_01",
+  "time" : {
+    "start" : 1612231539438,
+    "stop" : 1612232236280,
+    "duration" : 696842
+  },
+  "status" : "broken",
   "severity" : "normal"
 } ]

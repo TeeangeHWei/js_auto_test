@@ -1,0 +1,91 @@
+{
+  "uid" : "2c8386b1d0754849",
+  "name" : "test_01",
+  "fullName" : "case_01.test_01",
+  "historyId" : "cbf0992ca3aaa93e05c9c74d7e910055",
+  "time" : {
+    "start" : 1612172007479,
+    "stop" : 1612173095748,
+    "duration" : 1088269
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected '308.50' to equal '210.22'",
+  "statusTrace" : "AssertionError: expected '308.50' to equal '210.22'\n                    at Context.<anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:92:16)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected '308.50' to equal '210.22'",
+    "statusTrace" : "AssertionError: expected '308.50' to equal '210.22'\n                    at Context.<anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:92:16)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a272c6610b799089",
+      "name" : "Screenshot",
+      "source" : "a272c6610b799089.png",
+      "type" : "image/png",
+      "size" : 959751
+    }, {
+      "uid" : "da68caa42d466eb6",
+      "name" : "Screenshot",
+      "source" : "da68caa42d466eb6.png",
+      "type" : "image/png",
+      "size" : 343829
+    }, {
+      "uid" : "e59d6dc6994c9c8c",
+      "name" : "Screenshot",
+      "source" : "e59d6dc6994c9c8c.png",
+      "type" : "image/png",
+      "size" : 343423
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "frist test"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "case_01"
+  }, {
+    "name" : "testClass",
+    "value" : "case_01"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_01"
+  }, {
+    "name" : "package",
+    "value" : "case_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "CYRUS-14.1"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2c8386b1d0754849.json",
+  "parameterValues" : [ "CYRUS-14.1" ]
+}

@@ -1,0 +1,79 @@
+{
+  "uid" : "443fef93e9ae250e",
+  "name" : "登录case",
+  "fullName" : "case_01.登录case",
+  "historyId" : "69801a95b8acaa655082ff28cc120111",
+  "time" : {
+    "start" : 1612436863942,
+    "stop" : 1612436868876,
+    "duration" : 4934
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "read ECONNRESET",
+  "statusTrace" : "RequestError: read ECONNRESET\n                    at ClientRequest.<anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/node_modules/got/dist/source/core/index.js:953:111)\n                    at ClientRequest.origin.emit (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/node_modules/@szmarczak/http-timer/dist/source/index.js:39:20)\n                    at Socket.socketErrorListener (_http_client.js:469:9)\n                    at emitErrorNT (internal/streams/destroy.js:106:8)\n                    at emitErrorCloseNT (internal/streams/destroy.js:74:3)\n                    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)\n                    at Context.<anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:14:16)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "read ECONNRESET",
+    "statusTrace" : "RequestError: read ECONNRESET\n                    at ClientRequest.<anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/node_modules/got/dist/source/core/index.js:953:111)\n                    at ClientRequest.origin.emit (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/node_modules/@szmarczak/http-timer/dist/source/index.js:39:20)\n                    at Socket.socketErrorListener (_http_client.js:469:9)\n                    at emitErrorNT (internal/streams/destroy.js:106:8)\n                    at emitErrorCloseNT (internal/streams/destroy.js:74:3)\n                    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)\n                    at Context.<anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:14:16)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b9fec977c583fe30",
+      "name" : "Screenshot",
+      "source" : "b9fec977c583fe30.png",
+      "type" : "image/png",
+      "size" : 1759182
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "google登录测试"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "case_01"
+  }, {
+    "name" : "testClass",
+    "value" : "case_01"
+  }, {
+    "name" : "testMethod",
+    "value" : "登录case"
+  }, {
+    "name" : "package",
+    "value" : "case_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "iPhone 12 Pro-14.2"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "443fef93e9ae250e.json",
+  "parameterValues" : [ "iPhone 12 Pro-14.2" ]
+}

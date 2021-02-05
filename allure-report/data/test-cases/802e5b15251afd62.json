@@ -1,0 +1,178 @@
+{
+  "uid" : "802e5b15251afd62",
+  "name" : "对比结账金额",
+  "fullName" : "case_01.对比结账金额",
+  "historyId" : "f4c6f0812673339048bab9c4cefe39db",
+  "time" : {
+    "start" : 1612486249104,
+    "stop" : 1612486696713,
+    "duration" : 447609
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected '33.30' to equal '210.22'",
+  "statusTrace" : "AssertionError: expected '33.30' to equal '210.22'\n                    at Context.<anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:114:16)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected '33.30' to equal '210.22'",
+    "statusTrace" : "AssertionError: expected '33.30' to equal '210.22'\n                    at Context.<anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:114:16)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fb23478542fc2c2a",
+      "name" : "Screenshot",
+      "source" : "fb23478542fc2c2a.png",
+      "type" : "image/png",
+      "size" : 1733155
+    }, {
+      "uid" : "59ae22bca53353f5",
+      "name" : "Screenshot",
+      "source" : "59ae22bca53353f5.png",
+      "type" : "image/png",
+      "size" : 664709
+    }, {
+      "uid" : "d1c38e18ea567b83",
+      "name" : "Screenshot",
+      "source" : "d1c38e18ea567b83.png",
+      "type" : "image/png",
+      "size" : 786116
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "frist test"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "case_01"
+  }, {
+    "name" : "testClass",
+    "value" : "case_01"
+  }, {
+    "name" : "testMethod",
+    "value" : "对比结账金额"
+  }, {
+    "name" : "package",
+    "value" : "case_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "iPhone 12 Pro-14.2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6dfe214b5c40bf5b",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'getAttribute' of undefined",
+      "time" : {
+        "start" : 1612486091692,
+        "stop" : 1612486222210,
+        "duration" : 130518
+      }
+    }, {
+      "uid" : "9982ea71915638dc",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'getAttribute' of undefined",
+      "time" : {
+        "start" : 1612436957449,
+        "stop" : 1612437078793,
+        "duration" : 121344
+      }
+    }, {
+      "uid" : "cb748968ca161cf3",
+      "status" : "broken",
+      "statusDetails" : "A sessionId is required for this command",
+      "time" : {
+        "start" : 1612436868876,
+        "stop" : 1612436872882,
+        "duration" : 4006
+      }
+    }, {
+      "uid" : "721fb15cef4d51f8",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition failed with the following reason: Can't call getValue on element with selector \"-ios class chain:**/XCUIElementTypeStaticText[`value == \"你的賬戶需要更新\"`]\" because element wasn't found",
+      "time" : {
+        "start" : 1612436757151,
+        "stop" : 1612436771404,
+        "duration" : 14253
+      }
+    }, {
+      "uid" : "408f14d14db08f62",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition failed with the following reason: Can't call getValue on element with selector \"-ios class chain:**/XCUIElementTypeStaticText[`value == \"你的賬戶需要更新\"`]\" because element wasn't found",
+      "time" : {
+        "start" : 1612436689568,
+        "stop" : 1612436703863,
+        "duration" : 14295
+      }
+    }, {
+      "uid" : "4196d43af0d1c0e2",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition failed with the following reason: Can't call getValue on element with selector \"-ios class chain:**/XCUIElementTypeStaticText[`value == \"你的賬戶需要更新\"`]\" because element wasn't found",
+      "time" : {
+        "start" : 1612436640866,
+        "stop" : 1612436655117,
+        "duration" : 14251
+      }
+    }, {
+      "uid" : "954adb1a22a53271",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition failed with the following reason: Can't call getValue on element with selector \"-ios class chain:**/XCUIElementTypeStaticText[`value == \"你的賬戶需要更新\"`]\" because element wasn't found",
+      "time" : {
+        "start" : 1612436559656,
+        "stop" : 1612436573745,
+        "duration" : 14089
+      }
+    }, {
+      "uid" : "224e4525497fb5a3",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition failed with the following reason: Can't call getValue on element with selector \"-ios class chain:**/XCUIElementTypeStaticText[`value == \"你的賬戶需要更新\"`]\" because element wasn't found",
+      "time" : {
+        "start" : 1612436450026,
+        "stop" : 1612436464677,
+        "duration" : 14651
+      }
+    }, {
+      "uid" : "d9e8d34803e331df",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition failed with the following reason: Can't call getValue on element with selector \"-ios class chain:**/XCUIElementTypeStaticText[`value == \"你的賬戶需要更新\"`]\" because element wasn't found",
+      "time" : {
+        "start" : 1612436386278,
+        "stop" : 1612436400926,
+        "duration" : 14648
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "802e5b15251afd62.json",
+  "parameterValues" : [ "iPhone 12 Pro-14.2" ]
+}

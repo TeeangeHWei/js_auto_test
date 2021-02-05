@@ -1,2 +1,5 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"failed","Mon Feb 01 17:33:27 CST 2021","Mon Feb 01 17:51:35 CST 2021","1088269","","case_01","","case_01","test_01","test_01",""
+"broken","Fri Feb 05 08:50:38 CST 2021","Fri Feb 05 08:50:49 CST 2021","10513","","case_01","","case_01","登录case","登录case",""
+"failed","Fri Feb 05 08:50:49 CST 2021","Fri Feb 05 08:58:16 CST 2021","447609","","case_01","","case_01","对比结账金额","对比结账金额",""
+"failed","Thu Feb 04 14:54:10 CST 2021","Thu Feb 04 15:01:23 CST 2021","433081","","case_01","","case_01","test_01","test_01",""
+"broken","Tue Feb 02 10:05:39 CST 2021","Tue Feb 02 10:17:16 CST 2021","696842","","case_01","","case_01","test_01","test_01",""

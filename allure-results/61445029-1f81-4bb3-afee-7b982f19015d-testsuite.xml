@@ -1,0 +1,32 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1612405051386' stop='1612405167430'>
+    <name>case_01</name>
+    <title>case_01</title>
+    <test-cases>
+        <test-case start='1612405051386' status='broken' stop='1612405167429'>
+            <name>test_01</name>
+            <title>test_01</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='frist test'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iPhone 12 Pro-14.2'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='c4ceff49-496c-4ced-86e3-ff18471651e8-attachment.png' type='image/png' size='1723824'/>
+                <attachment title='Screenshot' source='bdff4242-8153-44de-90ff-a94b5be022ea-attachment.png' type='image/png' size='665723'/>
+                <attachment title='Screenshot' source='50d49771-2c23-4e19-b128-6d13a54b4cfc-attachment.png' type='image/png' size='665723'/>
+            </attachments>
+            <failure>
+                <message>Cannot read property 'getAttribute' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'getAttribute' of undefined
+                    at accountPage.payForDetail (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/testiOSYamimeal/test_Home/account.element.js:114:43)
+                    at Context.&lt;anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:73:29)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

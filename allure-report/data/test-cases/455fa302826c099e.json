@@ -1,0 +1,91 @@
+{
+  "uid" : "455fa302826c099e",
+  "name" : "test_01",
+  "fullName" : "case_01.test_01",
+  "historyId" : "cbf0992ca3aaa93e05c9c74d7e910055",
+  "time" : {
+    "start" : 1611903890908,
+    "stop" : 1611903988870,
+    "duration" : 97962
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Method is not implemented",
+  "statusTrace" : "unknown method: Method is not implemented\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Context.<anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:60:31)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Method is not implemented",
+    "statusTrace" : "unknown method: Method is not implemented\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Context.<anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:60:31)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f902a1182fe80365",
+      "name" : "Screenshot",
+      "source" : "f902a1182fe80365.png",
+      "type" : "image/png",
+      "size" : 357642
+    }, {
+      "uid" : "d6e3422cab6079bd",
+      "name" : "Screenshot",
+      "source" : "d6e3422cab6079bd.png",
+      "type" : "image/png",
+      "size" : 362633
+    }, {
+      "uid" : "e532ffd45650c886",
+      "name" : "Screenshot",
+      "source" : "e532ffd45650c886.png",
+      "type" : "image/png",
+      "size" : 362633
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "frist test"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "case_01"
+  }, {
+    "name" : "testClass",
+    "value" : "case_01"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_01"
+  }, {
+    "name" : "package",
+    "value" : "case_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "CYRUS-14.1"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "455fa302826c099e.json",
+  "parameterValues" : [ "CYRUS-14.1" ]
+}

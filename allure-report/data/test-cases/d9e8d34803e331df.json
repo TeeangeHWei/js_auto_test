@@ -1,0 +1,79 @@
+{
+  "uid" : "d9e8d34803e331df",
+  "name" : "对比结账金额",
+  "fullName" : "case_01.对比结账金额",
+  "historyId" : "f4c6f0812673339048bab9c4cefe39db",
+  "time" : {
+    "start" : 1612436386278,
+    "stop" : 1612436400926,
+    "duration" : 14648
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "waitUntil condition failed with the following reason: Can't call getValue on element with selector \"-ios class chain:**/XCUIElementTypeStaticText[`value == \"你的賬戶需要更新\"`]\" because element wasn't found",
+  "statusTrace" : "Error: waitUntil condition failed with the following reason: Can't call getValue on element with selector \"-ios class chain:**/XCUIElementTypeStaticText[`value == \"你的賬戶需要更新\"`]\" because element wasn't found\n                    at HomePage.alertbindPhone (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/testiOSYamimeal/test_Home/home.js:28:16)\n                    at Context.<anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:25:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "waitUntil condition failed with the following reason: Can't call getValue on element with selector \"-ios class chain:**/XCUIElementTypeStaticText[`value == \"你的賬戶需要更新\"`]\" because element wasn't found",
+    "statusTrace" : "Error: waitUntil condition failed with the following reason: Can't call getValue on element with selector \"-ios class chain:**/XCUIElementTypeStaticText[`value == \"你的賬戶需要更新\"`]\" because element wasn't found\n                    at HomePage.alertbindPhone (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/testiOSYamimeal/test_Home/home.js:28:16)\n                    at Context.<anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:25:18)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6847f09d389dc47b",
+      "name" : "Screenshot",
+      "source" : "6847f09d389dc47b.png",
+      "type" : "image/png",
+      "size" : 575490
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "frist test"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "case_01"
+  }, {
+    "name" : "testClass",
+    "value" : "case_01"
+  }, {
+    "name" : "testMethod",
+    "value" : "对比结账金额"
+  }, {
+    "name" : "package",
+    "value" : "case_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "iPhone 12 Pro-14.2"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d9e8d34803e331df.json",
+  "parameterValues" : [ "iPhone 12 Pro-14.2" ]
+}

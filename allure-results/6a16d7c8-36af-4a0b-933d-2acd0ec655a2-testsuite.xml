@@ -1,0 +1,58 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1612436938282' stop='1612437078795'>
+    <name>case_01</name>
+    <title>case_01</title>
+    <test-cases>
+        <test-case start='1612436938282' status='broken' stop='1612436957449'>
+            <name>登录case</name>
+            <title>登录case</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='google登录测试'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iPhone 12 Pro-14.2'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='1e0780b3-a667-46ac-bf66-b8f54a6ba721-attachment.png' type='image/png' size='1760023'/>
+                <attachment title='Screenshot' source='43e4b274-8dbc-4ced-9090-9d5f4797f95c-attachment.png' type='image/png' size='176880'/>
+                <attachment title='Screenshot' source='1cb10037-b25b-4153-9ec0-31e5a8db7a0d-attachment.png' type='image/png' size='496339'/>
+                <attachment title='Screenshot' source='a36ecffd-a4d3-48b9-bd76-241858e355fe-attachment.png' type='image/png' size='1572028'/>
+                <attachment title='Screenshot' source='576390dc-03eb-450a-a382-67b6c9cc77b0-attachment.png' type='image/png' size='65452'/>
+            </attachments>
+            <failure>
+                <message>HomePage.alertBindPhone is not a function</message>
+                <stack-trace>TypeError: HomePage.alertBindPhone is not a function
+                    at Context.&lt;anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:22:18)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1612436957449' status='broken' stop='1612437078793'>
+            <name>对比结账金额</name>
+            <title>对比结账金额</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='frist test'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iPhone 12 Pro-14.2'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='69b3a660-b06a-4bce-8f85-fda8eac311a9-attachment.png' type='image/png' size='1690805'/>
+                <attachment title='Screenshot' source='417e4d7c-b341-48d8-9a72-f60c103de031-attachment.png' type='image/png' size='657553'/>
+                <attachment title='Screenshot' source='3b07c19e-475a-4f63-a3d1-923167270790-attachment.png' type='image/png' size='657553'/>
+            </attachments>
+            <failure>
+                <message>Cannot read property 'getAttribute' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'getAttribute' of undefined
+                    at accountPage.payForDetail (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/testiOSYamimeal/test_Home/account.element.js:114:43)
+                    at Context.&lt;anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:95:29)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

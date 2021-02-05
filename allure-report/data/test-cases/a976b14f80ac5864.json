@@ -1,0 +1,166 @@
+{
+  "uid" : "a976b14f80ac5864",
+  "name" : "登录case",
+  "fullName" : "case_01.登录case",
+  "historyId" : "69801a95b8acaa655082ff28cc120111",
+  "time" : {
+    "start" : 1612486238590,
+    "stop" : 1612486249103,
+    "duration" : 10513
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call click on element with selector \"-ios class chain:**/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeOther[3]\" because element wasn't found",
+  "statusTrace" : "Error: Can't call click on element with selector \"-ios class chain:**/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeOther[3]\" because element wasn't found\n                    at yamimealLoginPage.clickGoogle (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/testiOSYamimeal/test_Home/login.elements.js:9:29)\n                    at Context.<anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:11:19)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Can't call click on element with selector \"-ios class chain:**/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeOther[3]\" because element wasn't found",
+    "statusTrace" : "Error: Can't call click on element with selector \"-ios class chain:**/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeOther[3]\" because element wasn't found\n                    at yamimealLoginPage.clickGoogle (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/testiOSYamimeal/test_Home/login.elements.js:9:29)\n                    at Context.<anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:11:19)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "de59ba2aad34d564",
+      "name" : "Screenshot",
+      "source" : "de59ba2aad34d564.png",
+      "type" : "image/png",
+      "size" : 825674
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "google登录测试"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "case_01"
+  }, {
+    "name" : "testClass",
+    "value" : "case_01"
+  }, {
+    "name" : "testMethod",
+    "value" : "登录case"
+  }, {
+    "name" : "package",
+    "value" : "case_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "iPhone 12 Pro-14.2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "49072344f8c364c5",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios class chain:**/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeOther[3]\" because element wasn't found",
+      "time" : {
+        "start" : 1612486080544,
+        "stop" : 1612486091692,
+        "duration" : 11148
+      }
+    }, {
+      "uid" : "69a0a0226326710",
+      "status" : "broken",
+      "statusDetails" : "HomePage.alertBindPhone is not a function",
+      "time" : {
+        "start" : 1612436938282,
+        "stop" : 1612436957449,
+        "duration" : 19167
+      }
+    }, {
+      "uid" : "443fef93e9ae250e",
+      "status" : "broken",
+      "statusDetails" : "read ECONNRESET",
+      "time" : {
+        "start" : 1612436863942,
+        "stop" : 1612436868876,
+        "duration" : 4934
+      }
+    }, {
+      "uid" : "89bc1f024a05096e",
+      "status" : "broken",
+      "statusDetails" : "An attempt was made to operate on a modal dialog when one was not open",
+      "time" : {
+        "start" : 1612436755121,
+        "stop" : 1612436757150,
+        "duration" : 2029
+      }
+    }, {
+      "uid" : "496eb17e8622e365",
+      "status" : "broken",
+      "statusDetails" : "An attempt was made to operate on a modal dialog when one was not open",
+      "time" : {
+        "start" : 1612436687575,
+        "stop" : 1612436689567,
+        "duration" : 1992
+      }
+    }, {
+      "uid" : "4e8009592b11bfe6",
+      "status" : "broken",
+      "statusDetails" : "An attempt was made to operate on a modal dialog when one was not open",
+      "time" : {
+        "start" : 1612436638825,
+        "stop" : 1612436640865,
+        "duration" : 2040
+      }
+    }, {
+      "uid" : "7560684cbfad47ed",
+      "status" : "broken",
+      "statusDetails" : "el is not defined",
+      "time" : {
+        "start" : 1612436541836,
+        "stop" : 1612436559656,
+        "duration" : 17820
+      }
+    }, {
+      "uid" : "83f5d401a752a22a",
+      "status" : "broken",
+      "statusDetails" : "el is not defined",
+      "time" : {
+        "start" : 1612436443073,
+        "stop" : 1612436450026,
+        "duration" : 6953
+      }
+    }, {
+      "uid" : "b5be0201708d62ac",
+      "status" : "broken",
+      "statusDetails" : "el is not defined",
+      "time" : {
+        "start" : 1612436379135,
+        "stop" : 1612436386278,
+        "duration" : 7143
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a976b14f80ac5864.json",
+  "parameterValues" : [ "iPhone 12 Pro-14.2" ]
+}

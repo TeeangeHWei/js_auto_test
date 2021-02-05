@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1612436541836' stop='1612436573747'>
+    <name>case_01</name>
+    <title>case_01</title>
+    <test-cases>
+        <test-case start='1612436541836' status='broken' stop='1612436559656'>
+            <name>登录case</name>
+            <title>登录case</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='google登录测试'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iPhone 12 Pro-14.2'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='a14312e3-51f7-4184-a6b5-10418b3eb260-attachment.png' type='image/png' size='1572108'/>
+            </attachments>
+            <failure>
+                <message>el is not defined</message>
+                <stack-trace>ReferenceError: el is not defined
+                    at yamimealLoginPage.clickLocation (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/testiOSYamimeal/test_Home/login.elements.js:33:12)
+                    at Context.&lt;anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:17:19)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1612436559656' status='broken' stop='1612436573745'>
+            <name>对比结账金额</name>
+            <title>对比结账金额</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='frist test'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iPhone 12 Pro-14.2'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>waitUntil condition failed with the following reason: Can't call getValue on element with selector "-ios class chain:**/XCUIElementTypeStaticText[`value == "你的賬戶需要更新"`]" because element wasn't found</message>
+                <stack-trace>Error: waitUntil condition failed with the following reason: Can't call getValue on element with selector "-ios class chain:**/XCUIElementTypeStaticText[`value == "你的賬戶需要更新"`]" because element wasn't found
+                    at runNextTicks (internal/process/task_queues.js:58:5)
+                    at processTimers (internal/timers.js:494:9)
+                    at HomePage.alertbindPhone (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/testiOSYamimeal/test_Home/home.js:28:16)
+                    at Context.&lt;anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:25:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

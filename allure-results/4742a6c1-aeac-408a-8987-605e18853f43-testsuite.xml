@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1612405661518' stop='1612405745899'>
+    <name>case_01</name>
+    <title>case_01</title>
+    <test-cases>
+        <test-case start='1612405661518' status='broken' stop='1612405745895'>
+            <name>test_01</name>
+            <title>test_01</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='frist test'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iPhone 12 Pro-14.2'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='8a2f470a-9678-4c77-9e89-d6529b1448c4-attachment.png' type='image/png' size='1596531'/>
+            </attachments>
+            <failure>
+                <message>waitUntil condition failed with the following reason: Can't call getValue on element with selector "-ios class chain:**/XCUIElementTypeStaticText[`value == "10/20"`][1]" because element wasn't found</message>
+                <stack-trace>Error: waitUntil condition failed with the following reason: Can't call getValue on element with selector "-ios class chain:**/XCUIElementTypeStaticText[`value == "10/20"`][1]" because element wasn't found
+                    at accountPage.waitShop (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/testiOSYamimeal/test_Home/account.element.js:101:23)
+                    at Context.&lt;anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:40:21)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

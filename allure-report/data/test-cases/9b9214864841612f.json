@@ -1,0 +1,76 @@
+{
+  "uid" : "9b9214864841612f",
+  "name" : "test_01",
+  "fullName" : "case_01.test_01",
+  "historyId" : "7ad39b51973d3d2f9e5f3924c7d69ef0",
+  "time" : {
+    "start" : 1612419064122,
+    "stop" : 1612419064292,
+    "duration" : 170
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "ele is not defined",
+  "statusTrace" : "ReferenceError: ele is not defined\n                    at HomePage.alertBindPhoneEle (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/testiOSYamimeal/test_Home/home.js:19:13)\n                    at Context.<anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:10:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "ele is not defined",
+    "statusTrace" : "ReferenceError: ele is not defined\n                    at HomePage.alertBindPhoneEle (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/testiOSYamimeal/test_Home/home.js:19:13)\n                    at Context.<anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:10:18)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c9178bd55da5ee8e",
+      "name" : "Screenshot",
+      "source" : "c9178bd55da5ee8e.png",
+      "type" : "image/png",
+      "size" : 276324
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "case_01"
+  }, {
+    "name" : "testClass",
+    "value" : "case_01"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_01"
+  }, {
+    "name" : "package",
+    "value" : "case_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "iPhone 12 Pro-14.2"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9b9214864841612f.json",
+  "parameterValues" : [ "iPhone 12 Pro-14.2" ]
+}

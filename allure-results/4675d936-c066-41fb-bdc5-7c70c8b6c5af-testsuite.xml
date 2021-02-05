@@ -1,0 +1,58 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1612436863941' stop='1612436872884'>
+    <name>case_01</name>
+    <title>case_01</title>
+    <test-cases>
+        <test-case start='1612436863942' status='broken' stop='1612436868876'>
+            <name>登录case</name>
+            <title>登录case</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='google登录测试'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iPhone 12 Pro-14.2'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='5918fb74-4237-4efd-aea7-838df79aee6d-attachment.png' type='image/png' size='1759182'/>
+            </attachments>
+            <failure>
+                <message>read ECONNRESET</message>
+                <stack-trace>RequestError: read ECONNRESET
+                    at ClientRequest.&lt;anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/node_modules/got/dist/source/core/index.js:953:111)
+                    at ClientRequest.origin.emit (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/node_modules/@szmarczak/http-timer/dist/source/index.js:39:20)
+                    at Socket.socketErrorListener (_http_client.js:469:9)
+                    at emitErrorNT (internal/streams/destroy.js:106:8)
+                    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+                    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+                    at Context.&lt;anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:14:16)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1612436868876' status='broken' stop='1612436872882'>
+            <name>对比结账金额</name>
+            <title>对比结账金额</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='frist test'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iPhone 12 Pro-14.2'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>A sessionId is required for this command</message>
+                <stack-trace>Error: A sessionId is required for this command
+                    at global.$ (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/node_modules/@wdio/runner/build/index.js:114:42)
+                    at HomePage.get alertBindPhoneEle [as alertBindPhoneEle] (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/testiOSYamimeal/test_Home/home.js:23:16)
+                    at HomePage.alertbindPhone (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/testiOSYamimeal/test_Home/home.js:27:25)
+                    at Context.&lt;anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:31:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

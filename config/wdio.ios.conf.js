@@ -57,11 +57,11 @@ exports.config = {
     capabilities: [{
     
         platformName: "iOS",
-        deviceName: "CYRUS",
+        deviceName: "iPhone 12 Pro",
         bundleId: "com.benmu.mobile.YamiMeal",
         automationName: "XCUITest",
-        udid: "00008020-000E2D540209002E",
-        platformVersion: "14.1",
+        uuid: "3FCAB5E9-CECF-478D-A584-49A2814E5C71",
+        platformVersion: "14.2",
     }],
     //
     // ===================

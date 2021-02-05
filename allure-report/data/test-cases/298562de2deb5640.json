@@ -1,0 +1,61 @@
+{
+  "uid" : "298562de2deb5640",
+  "name" : "test_01",
+  "fullName" : "case_01.test_01",
+  "historyId" : "cbf0992ca3aaa93e05c9c74d7e910055",
+  "time" : {
+    "start" : 1611214321288,
+    "stop" : 1611214417618,
+    "duration" : 96330
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "socket hang up",
+  "statusTrace" : "RequestError: socket hang up\n                    at ClientRequest.<anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/node_modules/got/dist/source/core/index.js:953:111)\n                    at ClientRequest.origin.emit (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/node_modules/@szmarczak/http-timer/dist/source/index.js:39:20)\n                    at Socket.socketOnEnd (_http_client.js:493:9)\n                    at endReadableNT (internal/streams/readable.js:1327:12)\n                    at connResetException (internal/errors.js:607:14)\n                    at Socket.socketOnEnd (_http_client.js:493:23)\n                    at processTicksAndRejections (internal/process/task_queues.js:80:21)\n                    at accountPage.title_01 (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/testiOSYamimeal/test_Home/account.element.js:30:36)\n                    at Context.<anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:21:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "frist test"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "case_01"
+  }, {
+    "name" : "testClass",
+    "value" : "case_01"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_01"
+  }, {
+    "name" : "package",
+    "value" : "case_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "CYRUS-14.1"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "298562de2deb5640.json",
+  "parameterValues" : [ "CYRUS-14.1" ]
+}

@@ -1,0 +1,85 @@
+{
+  "uid" : "8d452e2ef996b4a3",
+  "name" : "test_01",
+  "fullName" : "case_01.test_01",
+  "historyId" : "cbf0992ca3aaa93e05c9c74d7e910055",
+  "time" : {
+    "start" : 1611824689081,
+    "stop" : 1611824748397,
+    "duration" : 59316
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Malformed type for \"elementId\" parameter of command elementClick\n                Expected: string\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-element-click\n                ",
+  "statusTrace" : "Error: Malformed type for \"elementId\" parameter of command elementClick\n                Expected: string\n                Actual: undefined\n                For more info see https://w3c.github.io/webdriver/#dfn-element-click\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at accountPage.addShopItemCell (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/testiOSYamimeal/test_Home/account.element.js:46:34)\n                    at Context.<anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:43:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Malformed type for \"elementId\" parameter of command elementClick\n                Expected: string\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-element-click\n                ",
+    "statusTrace" : "Error: Malformed type for \"elementId\" parameter of command elementClick\n                Expected: string\n                Actual: undefined\n                For more info see https://w3c.github.io/webdriver/#dfn-element-click\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at accountPage.addShopItemCell (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/testiOSYamimeal/test_Home/account.element.js:46:34)\n                    at Context.<anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:43:21)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6efc518b0d0a09b5",
+      "name" : "Screenshot",
+      "source" : "6efc518b0d0a09b5.png",
+      "type" : "image/png",
+      "size" : 340745
+    }, {
+      "uid" : "8cb7811e070d8b52",
+      "name" : "Screenshot",
+      "source" : "8cb7811e070d8b52.png",
+      "type" : "image/png",
+      "size" : 322659
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "frist test"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "case_01"
+  }, {
+    "name" : "testClass",
+    "value" : "case_01"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_01"
+  }, {
+    "name" : "package",
+    "value" : "case_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "CYRUS-14.1"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8d452e2ef996b4a3.json",
+  "parameterValues" : [ "CYRUS-14.1" ]
+}

@@ -1,0 +1,367 @@
+{
+  "uid" : "b6b14c862d37a24c",
+  "name" : "test_01",
+  "fullName" : "case_01.test_01",
+  "historyId" : "7ad39b51973d3d2f9e5f3924c7d69ef0",
+  "time" : {
+    "start" : 1612421650428,
+    "stop" : 1612422083509,
+    "duration" : 433081
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected '46.60' to equal '210.22'",
+  "statusTrace" : "AssertionError: expected '46.60' to equal '210.22'\n                    at Context.<anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:95:16)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected '46.60' to equal '210.22'",
+    "statusTrace" : "AssertionError: expected '46.60' to equal '210.22'\n                    at Context.<anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:95:16)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "57f1c5a3e5cd6cf8",
+      "name" : "Screenshot",
+      "source" : "57f1c5a3e5cd6cf8.png",
+      "type" : "image/png",
+      "size" : 1833470
+    }, {
+      "uid" : "43a1d7a6c16d7cba",
+      "name" : "Screenshot",
+      "source" : "43a1d7a6c16d7cba.png",
+      "type" : "image/png",
+      "size" : 665911
+    }, {
+      "uid" : "135376e9651f12f3",
+      "name" : "Screenshot",
+      "source" : "135376e9651f12f3.png",
+      "type" : "image/png",
+      "size" : 664890
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "frist test"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "case_01"
+  }, {
+    "name" : "testClass",
+    "value" : "case_01"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_01"
+  }, {
+    "name" : "package",
+    "value" : "case_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "iPhone 12 Pro-14.2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7dfaaa4918f53fa4",
+      "status" : "failed",
+      "statusDetails" : "Malformed type for \"elementId\" parameter of command elementClick\n                Expected: string\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-element-click\n                ",
+      "time" : {
+        "start" : 1612421322519,
+        "stop" : 1612421422102,
+        "duration" : 99583
+      }
+    }, {
+      "uid" : "50e309018328a4bb",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios predicate string:value == \"undefined\"\" because element wasn't found",
+      "time" : {
+        "start" : 1612421278221,
+        "stop" : 1612421312786,
+        "duration" : 34565
+      }
+    }, {
+      "uid" : "7a3fe69c613c60db",
+      "status" : "broken",
+      "statusDetails" : "read ECONNRESET",
+      "time" : {
+        "start" : 1612421114081,
+        "stop" : 1612421270536,
+        "duration" : 156455
+      }
+    }, {
+      "uid" : "522a0d10aa9bebb4",
+      "status" : "failed",
+      "statusDetails" : "Malformed type for \"elementId\" parameter of command elementClick\n                Expected: string\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-element-click\n                ",
+      "time" : {
+        "start" : 1612420865695,
+        "stop" : 1612420980065,
+        "duration" : 114370
+      }
+    }, {
+      "uid" : "d2088b72a228a719",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios class chain:**/XCUIElementTypeStaticText[`value == \"\"`][1]\" because element wasn't found",
+      "time" : {
+        "start" : 1612420540750,
+        "stop" : 1612420641575,
+        "duration" : 100825
+      }
+    }, {
+      "uid" : "a31eda86ab2d63c",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition failed with the following reason: Can't call getValue on element with selector \"-ios class chain:**/XCUIElementTypeStaticText[`value == \"10/20\"`][1]\" because element wasn't found",
+      "time" : {
+        "start" : 1612420233987,
+        "stop" : 1612420327619,
+        "duration" : 93632
+      }
+    }, {
+      "uid" : "daa2592972a65258",
+      "status" : "broken",
+      "statusDetails" : "selector is not defined",
+      "time" : {
+        "start" : 1612420191875,
+        "stop" : 1612420203677,
+        "duration" : 11802
+      }
+    }, {
+      "uid" : "5916647904409a4c",
+      "status" : "broken",
+      "statusDetails" : "read ECONNRESET",
+      "time" : {
+        "start" : 1612419895738,
+        "stop" : 1612419938451,
+        "duration" : 42713
+      }
+    }, {
+      "uid" : "a884596a0a8530dc",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition failed with the following reason: Can't call getValue on element with selector \"-ios class chain:**/XCUIElementTypeStaticText[`value == \"你的賬戶需要更新\"`]\" because element wasn't found",
+      "time" : {
+        "start" : 1612419845140,
+        "stop" : 1612419855384,
+        "duration" : 10244
+      }
+    }, {
+      "uid" : "73d597ae00813d1d",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition failed with the following reason: Can't call getValue on element with selector \"-ios class chain:**/XCUIElementTypeStaticText[`value == \"你的賬戶需要更新\"`]\" because element wasn't found",
+      "time" : {
+        "start" : 1612419790342,
+        "stop" : 1612419800607,
+        "duration" : 10265
+      }
+    }, {
+      "uid" : "a28c1156887e562c",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition failed with the following reason: Can't call getValue on element with selector \"-ios class chain:**/XCUIElementTypeStaticText[`value == \"你的賬戶需要更新\"`]\" because element wasn't found",
+      "time" : {
+        "start" : 1612419748781,
+        "stop" : 1612419759335,
+        "duration" : 10554
+      }
+    }, {
+      "uid" : "71a6d123cda1f979",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition failed with the following reason: element.isDisplayed is not a function",
+      "time" : {
+        "start" : 1612419529381,
+        "stop" : 1612419539628,
+        "duration" : 10247
+      }
+    }, {
+      "uid" : "c368fb7c197eb856",
+      "status" : "broken",
+      "statusDetails" : "socket hang up",
+      "time" : {
+        "start" : 1612419096993,
+        "stop" : 1612419175181,
+        "duration" : 78188
+      }
+    }, {
+      "uid" : "9b9214864841612f",
+      "status" : "broken",
+      "statusDetails" : "ele is not defined",
+      "time" : {
+        "start" : 1612419064122,
+        "stop" : 1612419064292,
+        "duration" : 170
+      }
+    }, {
+      "uid" : "e5ee754092d8ee16",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition failed with the following reason: selector is not defined",
+      "time" : {
+        "start" : 1612418712037,
+        "stop" : 1612418722199,
+        "duration" : 10162
+      }
+    }, {
+      "uid" : "9983715ecb0f5d77",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition failed with the following reason: ele is not defined",
+      "time" : {
+        "start" : 1612418410059,
+        "stop" : 1612418420226,
+        "duration" : 10167
+      }
+    }, {
+      "uid" : "eecc0fb48ecde15",
+      "status" : "broken",
+      "statusDetails" : "read ECONNRESET",
+      "time" : {
+        "start" : 1612407243612,
+        "stop" : 1612407419507,
+        "duration" : 175895
+      }
+    }, {
+      "uid" : "d138082f164ce990",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition failed with the following reason: Can't call getValue on element with selector \"-ios class chain:**/XCUIElementTypeStaticText[`value == \"10/20\"`][1]\" because element wasn't found",
+      "time" : {
+        "start" : 1612407125006,
+        "stop" : 1612407207179,
+        "duration" : 82173
+      }
+    }, {
+      "uid" : "8823881efe6c7f4f",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition failed with the following reason: Can't call getValue on element with selector \"-ios class chain:**/XCUIElementTypeStaticText[`value == \"10/20\"`][1]\" because element wasn't found",
+      "time" : {
+        "start" : 1612406330473,
+        "stop" : 1612406404437,
+        "duration" : 73964
+      }
+    }, {
+      "uid" : "affe6b34f7fb4efd",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios class chain:**/XCUIElementTypeStaticText[`value == \"\"`][1]\" because element wasn't found",
+      "time" : {
+        "start" : 1612406148336,
+        "stop" : 1612406241909,
+        "duration" : 93573
+      }
+    }, {
+      "uid" : "1a2f59e541ffba7",
+      "status" : "broken",
+      "statusDetails" : "read ECONNRESET",
+      "time" : {
+        "start" : 1612406015431,
+        "stop" : 1612406141131,
+        "duration" : 125700
+      }
+    }, {
+      "uid" : "18705df81bedaef6",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios class chain:**/XCUIElementTypeStaticText[`value == \"\"`][1]\" because element wasn't found",
+      "time" : {
+        "start" : 1612405900154,
+        "stop" : 1612405988771,
+        "duration" : 88617
+      }
+    }, {
+      "uid" : "c01c6cfc0ec3eab7",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'getAttribute' of undefined",
+      "time" : {
+        "start" : 1612405856537,
+        "stop" : 1612405891965,
+        "duration" : 35428
+      }
+    }, {
+      "uid" : "ed96375029495b21",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios class chain:**/XCUIElementTypeStaticText[`value == \"\"`][1]\" because element wasn't found",
+      "time" : {
+        "start" : 1612405759388,
+        "stop" : 1612405846048,
+        "duration" : 86660
+      }
+    }, {
+      "uid" : "de8b89ae8d0ab693",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition failed with the following reason: Can't call getValue on element with selector \"-ios class chain:**/XCUIElementTypeStaticText[`value == \"10/20\"`][1]\" because element wasn't found",
+      "time" : {
+        "start" : 1612405661518,
+        "stop" : 1612405745895,
+        "duration" : 84377
+      }
+    }, {
+      "uid" : "70e734f1b9d7ee61",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition failed with the following reason: Can't call getValue on element with selector \"-ios class chain:**/XCUIElementTypeStaticText[`value == \"10/20\"`][1]\" because element wasn't found",
+      "time" : {
+        "start" : 1612405577114,
+        "stop" : 1612405651564,
+        "duration" : 74450
+      }
+    }, {
+      "uid" : "5972af6fe490ba6d",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'getAttribute' of undefined",
+      "time" : {
+        "start" : 1612405348320,
+        "stop" : 1612405456456,
+        "duration" : 108136
+      }
+    }, {
+      "uid" : "b7370fb189026f3e",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'getAttribute' of undefined",
+      "time" : {
+        "start" : 1612405051386,
+        "stop" : 1612405167429,
+        "duration" : 116043
+      }
+    }, {
+      "uid" : "608f9961d44d5aa0",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'getAttribute' of undefined",
+      "time" : {
+        "start" : 1612404918279,
+        "stop" : 1612405038347,
+        "duration" : 120068
+      }
+    }, {
+      "uid" : "4743afdeda300a88",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios predicate string:value == \"undefined\"\" because element wasn't found",
+      "time" : {
+        "start" : 1612404822690,
+        "stop" : 1612404846088,
+        "duration" : 23398
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b6b14c862d37a24c.json",
+  "parameterValues" : [ "iPhone 12 Pro-14.2" ]
+}

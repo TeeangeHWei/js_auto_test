@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1612421650428' stop='1612422083510'>
+    <name>case_01</name>
+    <title>case_01</title>
+    <test-cases>
+        <test-case start='1612421650428' status='failed' stop='1612422083509'>
+            <name>test_01</name>
+            <title>test_01</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='frist test'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iPhone 12 Pro-14.2'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='978c8bfb-31e1-4f21-8f9d-8415833e44d9-attachment.png' type='image/png' size='1833470'/>
+                <attachment title='Screenshot' source='6f4898c1-e4fb-4c07-bbd8-5ccdd86f23d1-attachment.png' type='image/png' size='665911'/>
+                <attachment title='Screenshot' source='db8bf53c-b98e-4ec8-9b73-77cd40e1825d-attachment.png' type='image/png' size='664890'/>
+            </attachments>
+            <failure>
+                <message>expected '46.60' to equal '210.22'</message>
+                <stack-trace>AssertionError: expected '46.60' to equal '210.22'
+                    at Context.&lt;anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:95:16)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

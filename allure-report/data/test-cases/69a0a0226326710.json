@@ -1,0 +1,103 @@
+{
+  "uid" : "69a0a0226326710",
+  "name" : "登录case",
+  "fullName" : "case_01.登录case",
+  "historyId" : "69801a95b8acaa655082ff28cc120111",
+  "time" : {
+    "start" : 1612436938282,
+    "stop" : 1612436957449,
+    "duration" : 19167
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HomePage.alertBindPhone is not a function",
+  "statusTrace" : "TypeError: HomePage.alertBindPhone is not a function\n                    at Context.<anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:22:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "HomePage.alertBindPhone is not a function",
+    "statusTrace" : "TypeError: HomePage.alertBindPhone is not a function\n                    at Context.<anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:22:18)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4d642df03e89a79e",
+      "name" : "Screenshot",
+      "source" : "4d642df03e89a79e.png",
+      "type" : "image/png",
+      "size" : 1760023
+    }, {
+      "uid" : "c953a114a3badabf",
+      "name" : "Screenshot",
+      "source" : "c953a114a3badabf.png",
+      "type" : "image/png",
+      "size" : 176880
+    }, {
+      "uid" : "88fb70ef3a27aaca",
+      "name" : "Screenshot",
+      "source" : "88fb70ef3a27aaca.png",
+      "type" : "image/png",
+      "size" : 496339
+    }, {
+      "uid" : "a0d92065ed838085",
+      "name" : "Screenshot",
+      "source" : "a0d92065ed838085.png",
+      "type" : "image/png",
+      "size" : 1572028
+    }, {
+      "uid" : "f06909ec765ebc5e",
+      "name" : "Screenshot",
+      "source" : "f06909ec765ebc5e.png",
+      "type" : "image/png",
+      "size" : 65452
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "google登录测试"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "case_01"
+  }, {
+    "name" : "testClass",
+    "value" : "case_01"
+  }, {
+    "name" : "testMethod",
+    "value" : "登录case"
+  }, {
+    "name" : "package",
+    "value" : "case_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "iPhone 12 Pro-14.2"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "69a0a0226326710.json",
+  "parameterValues" : [ "iPhone 12 Pro-14.2" ]
+}

@@ -1,0 +1,79 @@
+{
+  "uid" : "b5be0201708d62ac",
+  "name" : "登录case",
+  "fullName" : "case_01.登录case",
+  "historyId" : "69801a95b8acaa655082ff28cc120111",
+  "time" : {
+    "start" : 1612436379135,
+    "stop" : 1612436386278,
+    "duration" : 7143
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "el is not defined",
+  "statusTrace" : "ReferenceError: el is not defined\n                    at yamimealLoginPage.clickAccountLogin (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/testiOSYamimeal/test_Home/login.elements.js:26:12)\n                    at Context.<anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:15:19)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "el is not defined",
+    "statusTrace" : "ReferenceError: el is not defined\n                    at yamimealLoginPage.clickAccountLogin (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/testiOSYamimeal/test_Home/login.elements.js:26:12)\n                    at Context.<anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:15:19)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6227ae096707919",
+      "name" : "Screenshot",
+      "source" : "6227ae096707919.png",
+      "type" : "image/png",
+      "size" : 577720
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "google登录测试"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "case_01"
+  }, {
+    "name" : "testClass",
+    "value" : "case_01"
+  }, {
+    "name" : "testMethod",
+    "value" : "登录case"
+  }, {
+    "name" : "package",
+    "value" : "case_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "iPhone 12 Pro-14.2"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b5be0201708d62ac.json",
+  "parameterValues" : [ "iPhone 12 Pro-14.2" ]
+}

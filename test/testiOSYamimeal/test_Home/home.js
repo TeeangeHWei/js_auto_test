@@ -14,10 +14,23 @@ class HomePage{
     get account(){
         return $('~帳戶')
     }
-    get acc(){
-        return $('-ios class chain,')
+    get closeBindPhoneAlert(){
+        const selector = '**/XCUIElementTypeStaticText[`value == ""`]'
+        return $(`-ios class chain:${selector}`);
     }
-     
+    get alertBindPhoneEle(){
+        const selector = '**/XCUIElementTypeStaticText[`value == "你的賬戶需要更新"`]'
+        return $(`-ios class chain:${selector}`);
+    }
+
+    alertbindPhone(){
+        const el = this.alertBindPhoneEle;
+        driver.waitUntil(function(){
+            console.log(el.isDisplayed());
+            return el.getValue() === '你的賬戶需要更新'
+        },7000);
+        this.closeBindPhoneAlert.click();
+    }
 
     homeClick(){
         this.Home.click()

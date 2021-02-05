@@ -4,17 +4,56 @@
     "name" : "case_01",
     "children" : [ {
       "name" : "test_01",
-      "uid" : "fe9b9872f5d23089",
+      "uid" : "ff22160375d5ad62",
       "parentUid" : "b5eee49606eb86b7fae4bc4d50261609",
-      "status" : "failed",
+      "status" : "broken",
       "time" : {
-        "start" : 1612172007479,
-        "stop" : 1612173095748,
-        "duration" : 1088269
+        "start" : 1612231539438,
+        "stop" : 1612232236280,
+        "duration" : 696842
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "CYRUS-14.1" ]
+    }, {
+      "name" : "test_01",
+      "uid" : "b6b14c862d37a24c",
+      "parentUid" : "b5eee49606eb86b7fae4bc4d50261609",
+      "status" : "failed",
+      "time" : {
+        "start" : 1612421650428,
+        "stop" : 1612422083509,
+        "duration" : 433081
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "iPhone 12 Pro-14.2" ]
+    }, {
+      "name" : "登录case",
+      "uid" : "a976b14f80ac5864",
+      "parentUid" : "b5eee49606eb86b7fae4bc4d50261609",
+      "status" : "broken",
+      "time" : {
+        "start" : 1612486238590,
+        "stop" : 1612486249103,
+        "duration" : 10513
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "iPhone 12 Pro-14.2" ]
+    }, {
+      "name" : "对比结账金额",
+      "uid" : "802e5b15251afd62",
+      "parentUid" : "b5eee49606eb86b7fae4bc4d50261609",
+      "status" : "failed",
+      "time" : {
+        "start" : 1612486249104,
+        "stop" : 1612486696713,
+        "duration" : 447609
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "iPhone 12 Pro-14.2" ]
     } ],
     "uid" : "b5eee49606eb86b7fae4bc4d50261609"
   } ],

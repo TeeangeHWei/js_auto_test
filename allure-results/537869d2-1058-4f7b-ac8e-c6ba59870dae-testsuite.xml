@@ -1,0 +1,40 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1612420865695' stop='1612420980067'>
+    <name>case_01</name>
+    <title>case_01</title>
+    <test-cases>
+        <test-case start='1612420865695' status='failed' stop='1612420980065'>
+            <name>test_01</name>
+            <title>test_01</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='frist test'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iPhone 12 Pro-14.2'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='56fbef41-9660-49c6-ada3-994dab54bd5b-attachment.png' type='image/png' size='1731575'/>
+                <attachment title='Screenshot' source='2f64f4a4-215d-4fcd-aaba-83a35ed947e6-attachment.png' type='image/png' size='1834713'/>
+            </attachments>
+            <failure>
+                <message>Malformed type for "elementId" parameter of command elementClick
+                Expected: string
+                Actual: undefined
+                
+                For more info see https://w3c.github.io/webdriver/#dfn-element-click
+                </message>
+                <stack-trace>Error: Malformed type for "elementId" parameter of command elementClick
+                Expected: string
+                Actual: undefined
+                For more info see https://w3c.github.io/webdriver/#dfn-element-click
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at accountPage.addShopItemCell (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/testiOSYamimeal/test_Home/account.element.js:59:34)
+                    at Context.&lt;anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:52:21)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

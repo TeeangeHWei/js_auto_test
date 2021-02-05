@@ -1,0 +1,54 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1612436755121' stop='1612436771405'>
+    <name>case_01</name>
+    <title>case_01</title>
+    <test-cases>
+        <test-case start='1612436755121' status='broken' stop='1612436757150'>
+            <name>登录case</name>
+            <title>登录case</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='google登录测试'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iPhone 12 Pro-14.2'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='c3181bd7-7bc3-4ea9-8bb2-750835941612-attachment.png' type='image/png' size='1759779'/>
+                <attachment title='Screenshot' source='e64a60fd-4bf0-4965-bcd7-eb5a975f403e-attachment.png' type='image/png' size='1560917'/>
+            </attachments>
+            <failure>
+                <message>An attempt was made to operate on a modal dialog when one was not open</message>
+                <stack-trace>no such alert: An attempt was made to operate on a modal dialog when one was not open
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Context.&lt;anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:14:16)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1612436757151' status='broken' stop='1612436771404'>
+            <name>对比结账金额</name>
+            <title>对比结账金额</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='frist test'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iPhone 12 Pro-14.2'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='7e290461-777b-4ef0-a319-4fe50f7c49e3-attachment.png' type='image/png' size='1570820'/>
+            </attachments>
+            <failure>
+                <message>waitUntil condition failed with the following reason: Can't call getValue on element with selector "-ios class chain:**/XCUIElementTypeStaticText[`value == "你的賬戶需要更新"`]" because element wasn't found</message>
+                <stack-trace>Error: waitUntil condition failed with the following reason: Can't call getValue on element with selector "-ios class chain:**/XCUIElementTypeStaticText[`value == "你的賬戶需要更新"`]" because element wasn't found
+                    at HomePage.alertbindPhone (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/testiOSYamimeal/test_Home/home.js:28:16)
+                    at Context.&lt;anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:31:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

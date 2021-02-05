@@ -1,0 +1,54 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1612486238590' stop='1612486696714'>
+    <name>case_01</name>
+    <title>case_01</title>
+    <test-cases>
+        <test-case start='1612486238590' status='broken' stop='1612486249103'>
+            <name>登录case</name>
+            <title>登录case</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='google登录测试'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iPhone 12 Pro-14.2'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='0282597c-961d-43b8-972b-10ee9f354ca7-attachment.png' type='image/png' size='825674'/>
+            </attachments>
+            <failure>
+                <message>Can't call click on element with selector "-ios class chain:**/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeOther[3]" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "-ios class chain:**/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeOther[3]" because element wasn't found
+                    at yamimealLoginPage.clickGoogle (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/testiOSYamimeal/test_Home/login.elements.js:9:29)
+                    at Context.&lt;anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:11:19)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1612486249104' status='failed' stop='1612486696713'>
+            <name>对比结账金额</name>
+            <title>对比结账金额</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='frist test'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iPhone 12 Pro-14.2'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='a2bcdb1b-14ec-4d4c-83aa-21f14e77285c-attachment.png' type='image/png' size='1733155'/>
+                <attachment title='Screenshot' source='0dd00850-a428-44aa-81d8-0392f2579b4a-attachment.png' type='image/png' size='664709'/>
+                <attachment title='Screenshot' source='692a16e1-7128-48a0-be40-372a3ffedf51-attachment.png' type='image/png' size='786116'/>
+            </attachments>
+            <failure>
+                <message>expected '33.30' to equal '210.22'</message>
+                <stack-trace>AssertionError: expected '33.30' to equal '210.22'
+                    at Context.&lt;anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:114:16)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

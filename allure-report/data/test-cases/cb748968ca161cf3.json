@@ -1,0 +1,61 @@
+{
+  "uid" : "cb748968ca161cf3",
+  "name" : "对比结账金额",
+  "fullName" : "case_01.对比结账金额",
+  "historyId" : "f4c6f0812673339048bab9c4cefe39db",
+  "time" : {
+    "start" : 1612436868876,
+    "stop" : 1612436872882,
+    "duration" : 4006
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "A sessionId is required for this command",
+  "statusTrace" : "Error: A sessionId is required for this command\n                    at global.$ (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/node_modules/@wdio/runner/build/index.js:114:42)\n                    at HomePage.get alertBindPhoneEle [as alertBindPhoneEle] (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/testiOSYamimeal/test_Home/home.js:23:16)\n                    at HomePage.alertbindPhone (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/testiOSYamimeal/test_Home/home.js:27:25)\n                    at Context.<anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:31:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "frist test"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "case_01"
+  }, {
+    "name" : "testClass",
+    "value" : "case_01"
+  }, {
+    "name" : "testMethod",
+    "value" : "对比结账金额"
+  }, {
+    "name" : "package",
+    "value" : "case_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "iPhone 12 Pro-14.2"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cb748968ca161cf3.json",
+  "parameterValues" : [ "iPhone 12 Pro-14.2" ]
+}

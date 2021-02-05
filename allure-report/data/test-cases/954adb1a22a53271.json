@@ -1,0 +1,61 @@
+{
+  "uid" : "954adb1a22a53271",
+  "name" : "对比结账金额",
+  "fullName" : "case_01.对比结账金额",
+  "historyId" : "f4c6f0812673339048bab9c4cefe39db",
+  "time" : {
+    "start" : 1612436559656,
+    "stop" : 1612436573745,
+    "duration" : 14089
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "waitUntil condition failed with the following reason: Can't call getValue on element with selector \"-ios class chain:**/XCUIElementTypeStaticText[`value == \"你的賬戶需要更新\"`]\" because element wasn't found",
+  "statusTrace" : "Error: waitUntil condition failed with the following reason: Can't call getValue on element with selector \"-ios class chain:**/XCUIElementTypeStaticText[`value == \"你的賬戶需要更新\"`]\" because element wasn't found\n                    at runNextTicks (internal/process/task_queues.js:58:5)\n                    at processTimers (internal/timers.js:494:9)\n                    at HomePage.alertbindPhone (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/testiOSYamimeal/test_Home/home.js:28:16)\n                    at Context.<anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:25:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "frist test"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "case_01"
+  }, {
+    "name" : "testClass",
+    "value" : "case_01"
+  }, {
+    "name" : "testMethod",
+    "value" : "对比结账金额"
+  }, {
+    "name" : "package",
+    "value" : "case_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "iPhone 12 Pro-14.2"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "954adb1a22a53271.json",
+  "parameterValues" : [ "iPhone 12 Pro-14.2" ]
+}

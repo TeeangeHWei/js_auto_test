@@ -1,6 +1,26 @@
 {
   "cbf0992ca3aaa93e05c9c74d7e910055" : {
     "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ff22160375d5ad62",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"~帳戶\" because element wasn't found",
+      "time" : {
+        "start" : 1612231539438,
+        "stop" : 1612232236280,
+        "duration" : 696842
+      }
+    } ]
+  },
+  "f4c6f0812673339048bab9c4cefe39db" : {
+    "statistic" : {
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
@@ -9,13 +29,53 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fe9b9872f5d23089",
+      "uid" : "802e5b15251afd62",
       "status" : "failed",
-      "statusDetails" : "expected '308.50' to equal '210.22'",
+      "statusDetails" : "expected '33.30' to equal '210.22'",
       "time" : {
-        "start" : 1612172007479,
-        "stop" : 1612173095748,
-        "duration" : 1088269
+        "start" : 1612486249104,
+        "stop" : 1612486696713,
+        "duration" : 447609
+      }
+    } ]
+  },
+  "69801a95b8acaa655082ff28cc120111" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a976b14f80ac5864",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios class chain:**/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeOther[3]\" because element wasn't found",
+      "time" : {
+        "start" : 1612486238590,
+        "stop" : 1612486249103,
+        "duration" : 10513
+      }
+    } ]
+  },
+  "7ad39b51973d3d2f9e5f3924c7d69ef0" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b6b14c862d37a24c",
+      "status" : "failed",
+      "statusDetails" : "expected '46.60' to equal '210.22'",
+      "time" : {
+        "start" : 1612421650428,
+        "stop" : 1612422083509,
+        "duration" : 433081
       }
     } ]
   }

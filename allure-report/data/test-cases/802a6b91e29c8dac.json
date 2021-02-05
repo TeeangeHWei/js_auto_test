@@ -1,0 +1,91 @@
+{
+  "uid" : "802a6b91e29c8dac",
+  "name" : "test_01",
+  "fullName" : "case_01.test_01",
+  "historyId" : "cbf0992ca3aaa93e05c9c74d7e910055",
+  "time" : {
+    "start" : 1612155535903,
+    "stop" : 1612155923372,
+    "duration" : 387469
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Cannot read property 'getAttribute' of undefined",
+  "statusTrace" : "TypeError: Cannot read property 'getAttribute' of undefined\n                    at accountPage.payForDetail (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/testiOSYamimeal/test_Home/account.element.js:114:43)\n                    at Context.<anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:64:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Cannot read property 'getAttribute' of undefined",
+    "statusTrace" : "TypeError: Cannot read property 'getAttribute' of undefined\n                    at accountPage.payForDetail (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/testiOSYamimeal/test_Home/account.element.js:114:43)\n                    at Context.<anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:64:29)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c797c3b85b4dece2",
+      "name" : "Screenshot",
+      "source" : "c797c3b85b4dece2.png",
+      "type" : "image/png",
+      "size" : 352988
+    }, {
+      "uid" : "de886d444375afd0",
+      "name" : "Screenshot",
+      "source" : "de886d444375afd0.png",
+      "type" : "image/png",
+      "size" : 339710
+    }, {
+      "uid" : "27854cb03bade8fc",
+      "name" : "Screenshot",
+      "source" : "27854cb03bade8fc.png",
+      "type" : "image/png",
+      "size" : 23661
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "frist test"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "case_01"
+  }, {
+    "name" : "testClass",
+    "value" : "case_01"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_01"
+  }, {
+    "name" : "package",
+    "value" : "case_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "CYRUS-14.1"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "802a6b91e29c8dac.json",
+  "parameterValues" : [ "CYRUS-14.1" ]
+}

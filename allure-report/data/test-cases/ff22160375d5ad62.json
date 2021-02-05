@@ -1,0 +1,3786 @@
+{
+  "uid" : "ff22160375d5ad62",
+  "name" : "test_01",
+  "fullName" : "case_01.test_01",
+  "historyId" : "cbf0992ca3aaa93e05c9c74d7e910055",
+  "time" : {
+    "start" : 1612231539438,
+    "stop" : 1612232236280,
+    "duration" : 696842
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call click on element with selector \"~帳戶\" because element wasn't found",
+  "statusTrace" : "Error: Can't call click on element with selector \"~帳戶\" because element wasn't found\n                    at HomePage.accountClick (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/testiOSYamimeal/test_Home/home.js:32:22)\n                    at getAccountPage.inAccount (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/testiOSYamimeal/page_interface/accountPage.js:6:18)\n                    at Context.<anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:11:24)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Can't call click on element with selector \"~帳戶\" because element wasn't found",
+    "statusTrace" : "Error: Can't call click on element with selector \"~帳戶\" because element wasn't found\n                    at HomePage.accountClick (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/testiOSYamimeal/test_Home/home.js:32:22)\n                    at getAccountPage.inAccount (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/testiOSYamimeal/page_interface/accountPage.js:6:18)\n                    at Context.<anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:11:24)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "afb416d14832ea9f",
+      "name" : "Screenshot",
+      "source" : "afb416d14832ea9f.png",
+      "type" : "image/png",
+      "size" : 935568
+    }, {
+      "uid" : "a3d58e8368bf3c9e",
+      "name" : "Screenshot",
+      "source" : "a3d58e8368bf3c9e.png",
+      "type" : "image/png",
+      "size" : 412402
+    }, {
+      "uid" : "bfb30f073c5caf70",
+      "name" : "Screenshot",
+      "source" : "bfb30f073c5caf70.png",
+      "type" : "image/png",
+      "size" : 414786
+    }, {
+      "uid" : "595d9f349a4be737",
+      "name" : "Screenshot",
+      "source" : "595d9f349a4be737.png",
+      "type" : "image/png",
+      "size" : 341829
+    }, {
+      "uid" : "315b8a2d712fa2b9",
+      "name" : "Screenshot",
+      "source" : "315b8a2d712fa2b9.png",
+      "type" : "image/png",
+      "size" : 341829
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "frist test"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "case_01"
+  }, {
+    "name" : "testClass",
+    "value" : "case_01"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_01"
+  }, {
+    "name" : "package",
+    "value" : "case_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "CYRUS-14.1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "27c1edf59645167d",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"~帳戶\" because element wasn't found",
+      "time" : {
+        "start" : 1612231189001,
+        "stop" : 1612231282095,
+        "duration" : 93094
+      }
+    }, {
+      "uid" : "689cd4cddb4f315a",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"~帳戶\" because element wasn't found",
+      "time" : {
+        "start" : 1612231038261,
+        "stop" : 1612231140351,
+        "duration" : 102090
+      }
+    }, {
+      "uid" : "d46ed9712ded1e69",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"~帳戶\" because element wasn't found",
+      "time" : {
+        "start" : 1612230530997,
+        "stop" : 1612230832359,
+        "duration" : 301362
+      }
+    }, {
+      "uid" : "8f5838b81126b462",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"~帳戶\" because element wasn't found",
+      "time" : {
+        "start" : 1612229794589,
+        "stop" : 1612230491592,
+        "duration" : 697003
+      }
+    }, {
+      "uid" : "2c8386b1d0754849",
+      "status" : "failed",
+      "statusDetails" : "expected '308.50' to equal '210.22'",
+      "time" : {
+        "start" : 1612172007479,
+        "stop" : 1612173095748,
+        "duration" : 1088269
+      }
+    }, {
+      "uid" : "e9d6060fa2c46fc5",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'getAttribute' of undefined",
+      "time" : {
+        "start" : 1612171970032,
+        "stop" : 1612172001252,
+        "duration" : 31220
+      }
+    }, {
+      "uid" : "1b4a90f569cd6ebd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612170622461,
+        "stop" : 1612171686805,
+        "duration" : 1064344
+      }
+    }, {
+      "uid" : "8f73c9dd3aa18b66",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'getAttribute' of undefined",
+      "time" : {
+        "start" : 1612169444199,
+        "stop" : 1612170023390,
+        "duration" : 579191
+      }
+    }, {
+      "uid" : "d91bd65fd9814cf7",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'getAttribute' of undefined",
+      "time" : {
+        "start" : 1612169396671,
+        "stop" : 1612169435670,
+        "duration" : 38999
+      }
+    }, {
+      "uid" : "8548ce480027ec7d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612165412329,
+        "stop" : 1612166491425,
+        "duration" : 1079096
+      }
+    }, {
+      "uid" : "290e47ab2b26853",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"~帳戶\" because element wasn't found",
+      "time" : {
+        "start" : 1612165242911,
+        "stop" : 1612165369582,
+        "duration" : 126671
+      }
+    }, {
+      "uid" : "2921e75d42d07e8e",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"~帳戶\" because element wasn't found",
+      "time" : {
+        "start" : 1612165110677,
+        "stop" : 1612165236096,
+        "duration" : 125419
+      }
+    }, {
+      "uid" : "d4cda2744c7231d0",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"~帳戶\" because element wasn't found",
+      "time" : {
+        "start" : 1612163069538,
+        "stop" : 1612163116316,
+        "duration" : 46778
+      }
+    }, {
+      "uid" : "b80cb022494bd036",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios predicate string:value == \"undefined\"\" because element wasn't found",
+      "time" : {
+        "start" : 1612162695760,
+        "stop" : 1612162721655,
+        "duration" : 25895
+      }
+    }, {
+      "uid" : "e66459d54ce0b7c1",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios predicate string:value == \"undefined\"\" because element wasn't found",
+      "time" : {
+        "start" : 1612162659136,
+        "stop" : 1612162684880,
+        "duration" : 25744
+      }
+    }, {
+      "uid" : "3bff096b8ed0749a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612161473588,
+        "stop" : 1612162557434,
+        "duration" : 1083846
+      }
+    }, {
+      "uid" : "bbd47cc1a276b72d",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'getAttribute' of undefined",
+      "time" : {
+        "start" : 1612160694848,
+        "stop" : 1612161070044,
+        "duration" : 375196
+      }
+    }, {
+      "uid" : "735616731682c9d1",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'getAttribute' of undefined",
+      "time" : {
+        "start" : 1612159819616,
+        "stop" : 1612160541757,
+        "duration" : 722141
+      }
+    }, {
+      "uid" : "d00006d9aad7362f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612159718286,
+        "stop" : 1612159807761,
+        "duration" : 89475
+      }
+    }, {
+      "uid" : "fd11110b32a26eb1",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 600000ms exceeded. The execution in the test \"case_01 test_01\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js)",
+      "time" : {
+        "start" : 1612159066233,
+        "stop" : 1612159666209,
+        "duration" : 599976
+      }
+    }, {
+      "uid" : "e78a5fb35b4689b4",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition failed with the following reason: Can't call getValue on element with selector \"-ios class chain:**/XCUIElementTypeStaticText[`value == \"10/20\"`][1]\" because element wasn't found",
+      "time" : {
+        "start" : 1612158986163,
+        "stop" : 1612159053394,
+        "duration" : 67231
+      }
+    }, {
+      "uid" : "65287b0833351442",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition failed with the following reason: Can't call getValue on element with selector \"-ios class chain:**/XCUIElementTypeStaticText[`value == \"10/20\"`][1]\" because element wasn't found",
+      "time" : {
+        "start" : 1612158736411,
+        "stop" : 1612158809347,
+        "duration" : 72936
+      }
+    }, {
+      "uid" : "aac22c336e6421eb",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios predicate string:value == \"undefined\"\" because element wasn't found",
+      "time" : {
+        "start" : 1612158592691,
+        "stop" : 1612158618557,
+        "duration" : 25866
+      }
+    }, {
+      "uid" : "8f2cc60feb36e55c",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios predicate string:value == \"undefined\"\" because element wasn't found",
+      "time" : {
+        "start" : 1612158454212,
+        "stop" : 1612158480147,
+        "duration" : 25935
+      }
+    }, {
+      "uid" : "3ee010521f96a320",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios predicate string:value == \"undefined\"\" because element wasn't found",
+      "time" : {
+        "start" : 1612158315075,
+        "stop" : 1612158340551,
+        "duration" : 25476
+      }
+    }, {
+      "uid" : "802a6b91e29c8dac",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'getAttribute' of undefined",
+      "time" : {
+        "start" : 1612155535903,
+        "stop" : 1612155923372,
+        "duration" : 387469
+      }
+    }, {
+      "uid" : "9001993a97a42a17",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition failed with the following reason: Can't call getValue on element with selector \"-ios class chain:**/XCUIElementTypeStaticText[`value == \"預計送達時間\"`]\" because element wasn't found",
+      "time" : {
+        "start" : 1612155435326,
+        "stop" : 1612155529628,
+        "duration" : 94302
+      }
+    }, {
+      "uid" : "a68512c159927dcb",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios predicate string:value == \"undefined\"\" because element wasn't found",
+      "time" : {
+        "start" : 1612155396899,
+        "stop" : 1612155422187,
+        "duration" : 25288
+      }
+    }, {
+      "uid" : "fc88b348b1da99e7",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios predicate string:value == \"undefined\"\" because element wasn't found",
+      "time" : {
+        "start" : 1612152418933,
+        "stop" : 1612152449745,
+        "duration" : 30812
+      }
+    }, {
+      "uid" : "cbab91b9622e4605",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios predicate string:value == \"undefined\"\" because element wasn't found",
+      "time" : {
+        "start" : 1612152363141,
+        "stop" : 1612152389539,
+        "duration" : 26398
+      }
+    }, {
+      "uid" : "3b4ceba9917e3bc7",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios predicate string:value == \"undefined\"\" because element wasn't found",
+      "time" : {
+        "start" : 1612152283711,
+        "stop" : 1612152309560,
+        "duration" : 25849
+      }
+    }, {
+      "uid" : "cda3755b18a37f08",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'getAttribute' of undefined",
+      "time" : {
+        "start" : 1612148812499,
+        "stop" : 1612149197587,
+        "duration" : 385088
+      }
+    }, {
+      "uid" : "8bd050939ca15e0",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'getAttribute' of undefined",
+      "time" : {
+        "start" : 1612148266537,
+        "stop" : 1612148574124,
+        "duration" : 307587
+      }
+    }, {
+      "uid" : "26f7fe235fe5f3e6",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'getAttribute' of undefined",
+      "time" : {
+        "start" : 1612148189897,
+        "stop" : 1612148237000,
+        "duration" : 47103
+      }
+    }, {
+      "uid" : "edb77f93f82d23cc",
+      "status" : "broken",
+      "statusDetails" : "read ECONNRESET",
+      "time" : {
+        "start" : 1612147790599,
+        "stop" : 1612148016918,
+        "duration" : 226319
+      }
+    }, {
+      "uid" : "ecdd4b9e40eab8ec",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios predicate string:value == \"undefined\"\" because element wasn't found",
+      "time" : {
+        "start" : 1612147753815,
+        "stop" : 1612147779294,
+        "duration" : 25479
+      }
+    }, {
+      "uid" : "48b618a04893d3ab",
+      "status" : "broken",
+      "statusDetails" : "selector needs to be typeof `string` or `function`",
+      "time" : {
+        "start" : 1612147049913,
+        "stop" : 1612147164388,
+        "duration" : 114475
+      }
+    }, {
+      "uid" : "9f7e3af72dd36c89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612146884374,
+        "stop" : 1612146993606,
+        "duration" : 109232
+      }
+    }, {
+      "uid" : "dfdf05d0deeba7b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612146637218,
+        "stop" : 1612146759531,
+        "duration" : 122313
+      }
+    }, {
+      "uid" : "1681a615d1373c99",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios predicate string:value == \"undefined\"\" because element wasn't found",
+      "time" : {
+        "start" : 1612146589318,
+        "stop" : 1612146614605,
+        "duration" : 25287
+      }
+    }, {
+      "uid" : "7fec619f359cc8f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612145837236,
+        "stop" : 1612145938907,
+        "duration" : 101671
+      }
+    }, {
+      "uid" : "39f3c69096497841",
+      "status" : "broken",
+      "statusDetails" : "payData_03[1].getAttribute is not a function",
+      "time" : {
+        "start" : 1612145367420,
+        "stop" : 1612145450101,
+        "duration" : 82681
+      }
+    }, {
+      "uid" : "6f12cebbfb2ddd45",
+      "status" : "broken",
+      "statusDetails" : "payData_03.getAttribute is not a function",
+      "time" : {
+        "start" : 1612145252831,
+        "stop" : 1612145345426,
+        "duration" : 92595
+      }
+    }, {
+      "uid" : "3c9e8bb62193f0b2",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios predicate string:value == \"undefined\"\" because element wasn't found",
+      "time" : {
+        "start" : 1612145216072,
+        "stop" : 1612145251827,
+        "duration" : 35755
+      }
+    }, {
+      "uid" : "81cb610cec1930ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612143977100,
+        "stop" : 1612144118189,
+        "duration" : 141089
+      }
+    }, {
+      "uid" : "b8c6237738031488",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition failed with the following reason: Can't call getValue on element with selector \"-ios class chain:**/XCUIElementTypeStaticText[`value == \"10/20\"`][1]\" because element wasn't found",
+      "time" : {
+        "start" : 1612143905101,
+        "stop" : 1612143970697,
+        "duration" : 65596
+      }
+    }, {
+      "uid" : "4e0020ee133b789b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612142986421,
+        "stop" : 1612143121686,
+        "duration" : 135265
+      }
+    }, {
+      "uid" : "ad6edc51225c516a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612140435151,
+        "stop" : 1612140559954,
+        "duration" : 124803
+      }
+    }, {
+      "uid" : "3023078056432e14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612140183028,
+        "stop" : 1612140276246,
+        "duration" : 93218
+      }
+    }, {
+      "uid" : "3e1dae42a9b96f99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612139128688,
+        "stop" : 1612139220975,
+        "duration" : 92287
+      }
+    }, {
+      "uid" : "5cbc67902ea39915",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition failed with the following reason: Can't call getValue on element with selector \"-ios class chain:**/XCUIElementTypeStaticText[`value == \"預計送達時間\"`]\" because element wasn't found",
+      "time" : {
+        "start" : 1612139032722,
+        "stop" : 1612139116864,
+        "duration" : 84142
+      }
+    }, {
+      "uid" : "968f7a9b948c5cbe",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition failed with the following reason: Can't call getValue on element with selector \"-ios class chain:**/XCUIElementTypeStaticText[`value == \"預計送達時間\"`]\" because element wasn't found",
+      "time" : {
+        "start" : 1612138949895,
+        "stop" : 1612139026719,
+        "duration" : 76824
+      }
+    }, {
+      "uid" : "d8f808b830ae6b4b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612138707185,
+        "stop" : 1612138799420,
+        "duration" : 92235
+      }
+    }, {
+      "uid" : "6b76ff9e2227a439",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition failed with the following reason: Can't call getValue on element with selector \"-ios class chain:**/XCUIElementTypeStaticText[`value == \"10/20\"`][1]\" because element wasn't found",
+      "time" : {
+        "start" : 1612138642148,
+        "stop" : 1612138693613,
+        "duration" : 51465
+      }
+    }, {
+      "uid" : "70b967671b7bef5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611912337918,
+        "stop" : 1611912436007,
+        "duration" : 98089
+      }
+    }, {
+      "uid" : "3d0018ffdae9cfc7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611910497014,
+        "stop" : 1611910585654,
+        "duration" : 88640
+      }
+    }, {
+      "uid" : "500d72fbfb9f5a4b",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios predicate string:value == \"undefined\"\" because element wasn't found",
+      "time" : {
+        "start" : 1611910461190,
+        "stop" : 1611910486795,
+        "duration" : 25605
+      }
+    }, {
+      "uid" : "1684dad41ee856ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611910322799,
+        "stop" : 1611910414629,
+        "duration" : 91830
+      }
+    }, {
+      "uid" : "e19520c65fddb55c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611906471313,
+        "stop" : 1611906573967,
+        "duration" : 102654
+      }
+    }, {
+      "uid" : "cf6c392791363e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611905641187,
+        "stop" : 1611905742563,
+        "duration" : 101376
+      }
+    }, {
+      "uid" : "eedd5e8beed8bbb5",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios predicate string:value == \"undefined\"\" because element wasn't found",
+      "time" : {
+        "start" : 1611905529150,
+        "stop" : 1611905555490,
+        "duration" : 26340
+      }
+    }, {
+      "uid" : "2aca2a86ae3d8ba0",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition failed with the following reason: Can't call getValue on element with selector \"-ios class chain:**/XCUIElementTypeStaticText[`value == \"10/20\"`][1]\" because element wasn't found",
+      "time" : {
+        "start" : 1611905458508,
+        "stop" : 1611905515371,
+        "duration" : 56863
+      }
+    }, {
+      "uid" : "fa98b5dbbd9deebe",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios predicate string:value == \"undefined\"\" because element wasn't found",
+      "time" : {
+        "start" : 1611905372560,
+        "stop" : 1611905398377,
+        "duration" : 25817
+      }
+    }, {
+      "uid" : "7cb8955cd6d5dcb5",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'getAttribute' of undefined",
+      "time" : {
+        "start" : 1611905101824,
+        "stop" : 1611905253194,
+        "duration" : 151370
+      }
+    }, {
+      "uid" : "aead130e6fce3107",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'getAttribute' of undefined",
+      "time" : {
+        "start" : 1611904074819,
+        "stop" : 1611904451678,
+        "duration" : 376859
+      }
+    }, {
+      "uid" : "5bdd66fe7464829c",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'getAttribute' of undefined",
+      "time" : {
+        "start" : 1611904018288,
+        "stop" : 1611904064706,
+        "duration" : 46418
+      }
+    }, {
+      "uid" : "455fa302826c099e",
+      "status" : "broken",
+      "statusDetails" : "Method is not implemented",
+      "time" : {
+        "start" : 1611903890908,
+        "stop" : 1611903988870,
+        "duration" : 97962
+      }
+    }, {
+      "uid" : "abb21ca3141c8ceb",
+      "status" : "broken",
+      "statusDetails" : "Method is not implemented",
+      "time" : {
+        "start" : 1611903723022,
+        "stop" : 1611903826353,
+        "duration" : 103331
+      }
+    }, {
+      "uid" : "4b70ca4e87ac46",
+      "status" : "broken",
+      "statusDetails" : "Method is not implemented",
+      "time" : {
+        "start" : 1611901863998,
+        "stop" : 1611901973283,
+        "duration" : 109285
+      }
+    }, {
+      "uid" : "d33c00d155431879",
+      "status" : "broken",
+      "statusDetails" : "Method is not implemented",
+      "time" : {
+        "start" : 1611901615338,
+        "stop" : 1611901702338,
+        "duration" : 87000
+      }
+    }, {
+      "uid" : "af1f14069dbdb1eb",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition failed with the following reason: Can't call getValue on element with selector \"-ios class chain:**/XCUIElementTypeStaticText[`value == \"10/20\"`][1]\" because element wasn't found",
+      "time" : {
+        "start" : 1611901545244,
+        "stop" : 1611901601807,
+        "duration" : 56563
+      }
+    }, {
+      "uid" : "222cd367bc94a4b7",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios predicate string:value == \"undefined\"\" because element wasn't found",
+      "time" : {
+        "start" : 1611901503706,
+        "stop" : 1611901529583,
+        "duration" : 25877
+      }
+    }, {
+      "uid" : "4be9185e1f66c230",
+      "status" : "broken",
+      "statusDetails" : "Method is not implemented",
+      "time" : {
+        "start" : 1611890097063,
+        "stop" : 1611890181229,
+        "duration" : 84166
+      }
+    }, {
+      "uid" : "471c59159121ffdd",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios predicate string:value == \"undefined\"\" because element wasn't found",
+      "time" : {
+        "start" : 1611890063184,
+        "stop" : 1611890088864,
+        "duration" : 25680
+      }
+    }, {
+      "uid" : "189f219e1e62e41f",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'getAttribute' of undefined",
+      "time" : {
+        "start" : 1611889491764,
+        "stop" : 1611889536700,
+        "duration" : 44936
+      }
+    }, {
+      "uid" : "b5c501b34a70889a",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'getAttribute' of undefined",
+      "time" : {
+        "start" : 1611889438588,
+        "stop" : 1611889483409,
+        "duration" : 44821
+      }
+    }, {
+      "uid" : "13590d3c347ac9d0",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 600000ms exceeded. The execution in the test \"case_01 test_01\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js)",
+      "time" : {
+        "start" : 1611886606981,
+        "stop" : 1611887206961,
+        "duration" : 599980
+      }
+    }, {
+      "uid" : "269cfcd82230433f",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition failed with the following reason: Can't call getValue on element with selector \"-ios class chain:**/XCUIElementTypeStaticText[`value == \"預計送達時間\"`]\" because element wasn't found",
+      "time" : {
+        "start" : 1611886415274,
+        "stop" : 1611886502615,
+        "duration" : 87341
+      }
+    }, {
+      "uid" : "3decc1abcfb4cb4c",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition failed with the following reason: Can't call getValue on element with selector \"-ios class chain:**/XCUIElementTypeStaticText[`value == \"預計送達時間\"`]\" because element wasn't found",
+      "time" : {
+        "start" : 1611886315098,
+        "stop" : 1611886409985,
+        "duration" : 94887
+      }
+    }, {
+      "uid" : "a26d61805f558b92",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition failed with the following reason: Can't call getValue on element with selector \"-ios class chain:**/XCUIElementTypeStaticText[`value == \"預計送達時間\"`]\" because element wasn't found",
+      "time" : {
+        "start" : 1611886125725,
+        "stop" : 1611886209477,
+        "duration" : 83752
+      }
+    }, {
+      "uid" : "6650e7bf9f7b17d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611884709829,
+        "stop" : 1611884789856,
+        "duration" : 80027
+      }
+    }, {
+      "uid" : "3e7c80a767c90314",
+      "status" : "broken",
+      "statusDetails" : "read ECONNRESET",
+      "time" : {
+        "start" : 1611884550870,
+        "stop" : 1611884703139,
+        "duration" : 152269
+      }
+    }, {
+      "uid" : "b2309df2416b6c29",
+      "status" : "failed",
+      "statusDetails" : "Malformed type for \"actions\" parameter of command touchPerform\n                Expected: object[]\n                Actual: (object)[]\n                \n                For more info see http://appium.io/docs/en/commands/interactions/touch/touch-perform/\n                ",
+      "time" : {
+        "start" : 1611883859577,
+        "stop" : 1611883934929,
+        "duration" : 75352
+      }
+    }, {
+      "uid" : "4b9966e21c1577a2",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios predicate string:value == \"undefined\"\" because element wasn't found",
+      "time" : {
+        "start" : 1611882901250,
+        "stop" : 1611882927207,
+        "duration" : 25957
+      }
+    }, {
+      "uid" : "6016c57b1a71bbfb",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios predicate string:value == \"undefined\"\" because element wasn't found",
+      "time" : {
+        "start" : 1611882867480,
+        "stop" : 1611882893280,
+        "duration" : 25800
+      }
+    }, {
+      "uid" : "e40b0d0bf59498c4",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios predicate string:value == \"undefined\"\" because element wasn't found",
+      "time" : {
+        "start" : 1611882826545,
+        "stop" : 1611882852316,
+        "duration" : 25771
+      }
+    }, {
+      "uid" : "ccf211a56d016da7",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition failed with the following reason: Can't call getValue on element with selector \"-ios class chain:**/XCUIElementTypeStaticText[`value == \"10/20\"`][1]\" because element wasn't found",
+      "time" : {
+        "start" : 1611882385612,
+        "stop" : 1611882450023,
+        "duration" : 64411
+      }
+    }, {
+      "uid" : "ff0542cac43face1",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition failed with the following reason: Can't call getValue on element with selector \"-ios class chain:**/XCUIElementTypeStaticText[`value == \"10/20\"`][1]\" because element wasn't found",
+      "time" : {
+        "start" : 1611882289247,
+        "stop" : 1611882348776,
+        "duration" : 59529
+      }
+    }, {
+      "uid" : "23e5f7b76f9f241d",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition failed with the following reason: Can't call getValue on element with selector \"-ios class chain:**/XCUIElementTypeStaticText[`value == \"10/20\"`][1]\" because element wasn't found",
+      "time" : {
+        "start" : 1611826394278,
+        "stop" : 1611826459056,
+        "duration" : 64778
+      }
+    }, {
+      "uid" : "9fb092d88ac1bb70",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition failed with the following reason: value is not defined",
+      "time" : {
+        "start" : 1611826177786,
+        "stop" : 1611826264512,
+        "duration" : 86726
+      }
+    }, {
+      "uid" : "8b9e89e5ddaa3bc7",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition failed with the following reason: Can't call getValue on element with selector \"-ios class chain:**/XCUIElementTypeStaticText[`value == \"10/20\"`][1]\" because element wasn't found",
+      "time" : {
+        "start" : 1611825403236,
+        "stop" : 1611825467067,
+        "duration" : 63831
+      }
+    }, {
+      "uid" : "94bd3788cbca4a5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611824810548,
+        "stop" : 1611824876967,
+        "duration" : 66419
+      }
+    }, {
+      "uid" : "8d452e2ef996b4a3",
+      "status" : "failed",
+      "statusDetails" : "Malformed type for \"elementId\" parameter of command elementClick\n                Expected: string\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-element-click\n                ",
+      "time" : {
+        "start" : 1611824689081,
+        "stop" : 1611824748397,
+        "duration" : 59316
+      }
+    }, {
+      "uid" : "663c685b18c12902",
+      "status" : "failed",
+      "statusDetails" : "Malformed type for \"elementId\" parameter of command elementClick\n                Expected: string\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-element-click\n                ",
+      "time" : {
+        "start" : 1611824461633,
+        "stop" : 1611824534811,
+        "duration" : 73178
+      }
+    }, {
+      "uid" : "a9062e0207144ac6",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios predicate string:value == \"undefined\"\" because element wasn't found",
+      "time" : {
+        "start" : 1611824284852,
+        "stop" : 1611824310794,
+        "duration" : 25942
+      }
+    }, {
+      "uid" : "a4dd326cb5e18200",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios predicate string:value == \"undefined\"\" because element wasn't found",
+      "time" : {
+        "start" : 1611824236978,
+        "stop" : 1611824263323,
+        "duration" : 26345
+      }
+    }, {
+      "uid" : "c281e8c84c3a34a0",
+      "status" : "broken",
+      "statusDetails" : "this.shopWaitItem is not a function",
+      "time" : {
+        "start" : 1611824165119,
+        "stop" : 1611824208919,
+        "duration" : 43800
+      }
+    }, {
+      "uid" : "766f4804350d21e",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition failed with the following reason: Cannot read property 'getValue' of undefined",
+      "time" : {
+        "start" : 1611823680753,
+        "stop" : 1611823733809,
+        "duration" : 53056
+      }
+    }, {
+      "uid" : "76ae92128737b062",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition failed with the following reason: Cannot read property 'getValue' of undefined",
+      "time" : {
+        "start" : 1611823515127,
+        "stop" : 1611823611611,
+        "duration" : 96484
+      }
+    }, {
+      "uid" : "564e55593e50d034",
+      "status" : "failed",
+      "statusDetails" : "Malformed type for \"elementId\" parameter of command elementClick\n                Expected: string\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-element-click\n                ",
+      "time" : {
+        "start" : 1611823360203,
+        "stop" : 1611823429520,
+        "duration" : 69317
+      }
+    }, {
+      "uid" : "88da630951e02126",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios class chain:**/XCUIElementTypeStaticText[`value == \"\"`][2]\" because element wasn't found",
+      "time" : {
+        "start" : 1611821152962,
+        "stop" : 1611821230638,
+        "duration" : 77676
+      }
+    }, {
+      "uid" : "d1e72a2cacfda5a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611818383149,
+        "stop" : 1611818461584,
+        "duration" : 78435
+      }
+    }, {
+      "uid" : "f32bba30b75984",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611816675328,
+        "stop" : 1611816749444,
+        "duration" : 74116
+      }
+    }, {
+      "uid" : "386aa0eac37fce82",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611815916555,
+        "stop" : 1611815997791,
+        "duration" : 81236
+      }
+    }, {
+      "uid" : "c11d8cbed9a62102",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611815770213,
+        "stop" : 1611815851443,
+        "duration" : 81230
+      }
+    }, {
+      "uid" : "e340aa435e1d8702",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios class chain:**/XCUIElementTypeStaticText[`value == \"\"`][2]\" because element wasn't found",
+      "time" : {
+        "start" : 1611815327933,
+        "stop" : 1611815406492,
+        "duration" : 78559
+      }
+    }, {
+      "uid" : "32f56e4fde6a8881",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios predicate string:value == \"undefined\"\" because element wasn't found",
+      "time" : {
+        "start" : 1611814882116,
+        "stop" : 1611814908088,
+        "duration" : 25972
+      }
+    }, {
+      "uid" : "27b4f0f4dba800c7",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios class chain:**/XCUIElementTypeStaticText[`value == \"\"`][2]\" because element wasn't found",
+      "time" : {
+        "start" : 1611814765517,
+        "stop" : 1611814855546,
+        "duration" : 90029
+      }
+    }, {
+      "uid" : "f502776460880b71",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611814197319,
+        "stop" : 1611814256233,
+        "duration" : 58914
+      }
+    }, {
+      "uid" : "c2a5ba2ceecec817",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios predicate string:value == \"undefined\"\" because element wasn't found",
+      "time" : {
+        "start" : 1611803197118,
+        "stop" : 1611803223365,
+        "duration" : 26247
+      }
+    }, {
+      "uid" : "7af3f0d0b86929fe",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios predicate string:value == \"undefined\"\" because element wasn't found",
+      "time" : {
+        "start" : 1611803164031,
+        "stop" : 1611803189919,
+        "duration" : 25888
+      }
+    }, {
+      "uid" : "25c1d927340277d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611802404469,
+        "stop" : 1611802465374,
+        "duration" : 60905
+      }
+    }, {
+      "uid" : "69b1ae9be9900f44",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios class chain:**/XCUIElementTypeStaticText[`value == \"䞍\"`][1]\" because element wasn't found",
+      "time" : {
+        "start" : 1611802105338,
+        "stop" : 1611802180207,
+        "duration" : 74869
+      }
+    }, {
+      "uid" : "3259b9998777d68",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios class chain:**/XCUIElementTypeStaticText[`value == \"䞍\"`]'[1]'\" because element wasn't found",
+      "time" : {
+        "start" : 1611801987523,
+        "stop" : 1611802067054,
+        "duration" : 79531
+      }
+    }, {
+      "uid" : "adc7afa942fb29e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611739478781,
+        "stop" : 1611739722690,
+        "duration" : 243909
+      }
+    }, {
+      "uid" : "fffdf3e1b69dc879",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios predicate string:value == \"undefined\"\" because element wasn't found",
+      "time" : {
+        "start" : 1611739350505,
+        "stop" : 1611739376286,
+        "duration" : 25781
+      }
+    }, {
+      "uid" : "a9b6615bcde5077b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611738389573,
+        "stop" : 1611738591544,
+        "duration" : 201971
+      }
+    }, {
+      "uid" : "bee39dc0ea95d97d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611738255551,
+        "stop" : 1611738350930,
+        "duration" : 95379
+      }
+    }, {
+      "uid" : "80f4ea92e6552e63",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611738042152,
+        "stop" : 1611738226719,
+        "duration" : 184567
+      }
+    }, {
+      "uid" : "b7e73c1cc2aea72d",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios predicate string:value == \"undefined\"\" because element wasn't found",
+      "time" : {
+        "start" : 1611737999873,
+        "stop" : 1611738036913,
+        "duration" : 37040
+      }
+    }, {
+      "uid" : "9c0ec485a06b6e1f",
+      "status" : "broken",
+      "statusDetails" : "read ECONNRESET",
+      "time" : {
+        "start" : 1611737856072,
+        "stop" : 1611737994098,
+        "duration" : 138026
+      }
+    }, {
+      "uid" : "833cb0c967cab120",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611737719892,
+        "stop" : 1611737811000,
+        "duration" : 91108
+      }
+    }, {
+      "uid" : "23ef42b5606848ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611737373673,
+        "stop" : 1611737439947,
+        "duration" : 66274
+      }
+    }, {
+      "uid" : "b2745503d0989362",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611736678583,
+        "stop" : 1611736749915,
+        "duration" : 71332
+      }
+    }, {
+      "uid" : "3122743a73bd129f",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition failed with the following reason: cellElement.isDisplayed is not a function",
+      "time" : {
+        "start" : 1611734503441,
+        "stop" : 1611734584875,
+        "duration" : 81434
+      }
+    }, {
+      "uid" : "7e3c258122f16965",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition failed with the following reason: cellElement.isDisplayed is not a function",
+      "time" : {
+        "start" : 1611732176683,
+        "stop" : 1611732261139,
+        "duration" : 84456
+      }
+    }, {
+      "uid" : "45926a51cb55e269",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition failed with the following reason: shopCategoryCell is not defined",
+      "time" : {
+        "start" : 1611731920967,
+        "stop" : 1611732011725,
+        "duration" : 90758
+      }
+    }, {
+      "uid" : "92961bbbe1535603",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition failed with the following reason: Cannot read property 'isDisplayed' of undefined",
+      "time" : {
+        "start" : 1611731667506,
+        "stop" : 1611731744730,
+        "duration" : 77224
+      }
+    }, {
+      "uid" : "3b7cd1ca0ff0e62c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611731199272,
+        "stop" : 1611731259428,
+        "duration" : 60156
+      }
+    }, {
+      "uid" : "f4ab6099fdce152c",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'getAttribute' of undefined",
+      "time" : {
+        "start" : 1611731157509,
+        "stop" : 1611731189044,
+        "duration" : 31535
+      }
+    }, {
+      "uid" : "85b728db0f730fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611731078945,
+        "stop" : 1611731139832,
+        "duration" : 60887
+      }
+    }, {
+      "uid" : "de565b8c7f4419af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611730579757,
+        "stop" : 1611730748640,
+        "duration" : 168883
+      }
+    }, {
+      "uid" : "ffa8d9e541b92217",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611729660770,
+        "stop" : 1611729727686,
+        "duration" : 66916
+      }
+    }, {
+      "uid" : "c70d5669d9c1e78",
+      "status" : "failed",
+      "statusDetails" : "Malformed type for \"value\" parameter of command findElements\n                Expected: string\n                Actual: function\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-find-elements\n                ",
+      "time" : {
+        "start" : 1611729528674,
+        "stop" : 1611729595412,
+        "duration" : 66738
+      }
+    }, {
+      "uid" : "f3ce9d8186d965e2",
+      "status" : "broken",
+      "statusDetails" : "accountPage.shopCategoryCell is not a function",
+      "time" : {
+        "start" : 1611729267650,
+        "stop" : 1611729324151,
+        "duration" : 56501
+      }
+    }, {
+      "uid" : "26816bb9612cb3c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611729123442,
+        "stop" : 1611729180649,
+        "duration" : 57207
+      }
+    }, {
+      "uid" : "c9128bf29c4b467a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611729025151,
+        "stop" : 1611729086734,
+        "duration" : 61583
+      }
+    }, {
+      "uid" : "99c4bdb346de4df8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611727399183,
+        "stop" : 1611727469824,
+        "duration" : 70641
+      }
+    }, {
+      "uid" : "8cbfc5396a9fa575",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios predicate string:value == \"undefined\"\" because element wasn't found",
+      "time" : {
+        "start" : 1611727364293,
+        "stop" : 1611727390103,
+        "duration" : 25810
+      }
+    }, {
+      "uid" : "c052abd404944a68",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611727244101,
+        "stop" : 1611727305204,
+        "duration" : 61103
+      }
+    }, {
+      "uid" : "13685bb46eb38d98",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611727162864,
+        "stop" : 1611727235009,
+        "duration" : 72145
+      }
+    }, {
+      "uid" : "b7e361579e0d4b51",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611725779027,
+        "stop" : 1611726069595,
+        "duration" : 290568
+      }
+    }, {
+      "uid" : "dc62f72cbf1a7c46",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios class chain:**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeTable/XCUIElementTypeOther/XCUIElementTypeImage[0]\" because element wasn't found",
+      "time" : {
+        "start" : 1611716597454,
+        "stop" : 1611716694338,
+        "duration" : 96884
+      }
+    }, {
+      "uid" : "eee439b9127cb83b",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios class chain:**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeTable/XCUIElementTypeOther/XCUIElementTypeImage0\" because element wasn't found",
+      "time" : {
+        "start" : 1611716467668,
+        "stop" : 1611716564178,
+        "duration" : 96510
+      }
+    }, {
+      "uid" : "efbb7fc53b2328d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611715793591,
+        "stop" : 1611715866624,
+        "duration" : 73033
+      }
+    }, {
+      "uid" : "e67f6cdcfa3bc9c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611714552932,
+        "stop" : 1611714624477,
+        "duration" : 71545
+      }
+    }, {
+      "uid" : "ef3cd18d73b7f224",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611714442789,
+        "stop" : 1611714520384,
+        "duration" : 77595
+      }
+    }, {
+      "uid" : "3b12cb7663f039a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611714310344,
+        "stop" : 1611714365944,
+        "duration" : 55600
+      }
+    }, {
+      "uid" : "c7c2e56a90e55fe2",
+      "status" : "broken",
+      "statusDetails" : "Locator Strategy 'XPath' is not supported for this session",
+      "time" : {
+        "start" : 1611714178294,
+        "stop" : 1611714246033,
+        "duration" : 67739
+      }
+    }, {
+      "uid" : "645977291297a63f",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios predicate string:value == \"undefined\"\" because element wasn't found",
+      "time" : {
+        "start" : 1611714121383,
+        "stop" : 1611714157138,
+        "duration" : 35755
+      }
+    }, {
+      "uid" : "34b37a90de2556fb",
+      "status" : "broken",
+      "statusDetails" : "ss1 is not defined",
+      "time" : {
+        "start" : 1611713965458,
+        "stop" : 1611714029168,
+        "duration" : 63710
+      }
+    }, {
+      "uid" : "78ced060706fef66",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611713690390,
+        "stop" : 1611713748844,
+        "duration" : 58454
+      }
+    }, {
+      "uid" : "98d6d9c75e864021",
+      "status" : "broken",
+      "statusDetails" : "read ECONNRESET",
+      "time" : {
+        "start" : 1611713662759,
+        "stop" : 1611713668649,
+        "duration" : 5890
+      }
+    }, {
+      "uid" : "1be91960dae13a3d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611653768771,
+        "stop" : 1611653833737,
+        "duration" : 64966
+      }
+    }, {
+      "uid" : "b8613317be346452",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611653453678,
+        "stop" : 1611653516029,
+        "duration" : 62351
+      }
+    }, {
+      "uid" : "d269d406a8c7460b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611653217013,
+        "stop" : 1611653283519,
+        "duration" : 66506
+      }
+    }, {
+      "uid" : "242bf3418f1cff5a",
+      "status" : "broken",
+      "statusDetails" : "Locator Strategy 'css selector' is not supported for this session",
+      "time" : {
+        "start" : 1611653064787,
+        "stop" : 1611653130480,
+        "duration" : 65693
+      }
+    }, {
+      "uid" : "c97aecc3bc980c32",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'getAttribute' of undefined",
+      "time" : {
+        "start" : 1611653018399,
+        "stop" : 1611653050052,
+        "duration" : 31653
+      }
+    }, {
+      "uid" : "84a65d17303a0d33",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'getAttribute' of undefined",
+      "time" : {
+        "start" : 1611652973946,
+        "stop" : 1611653010716,
+        "duration" : 36770
+      }
+    }, {
+      "uid" : "301a1b3526a51cff",
+      "status" : "broken",
+      "statusDetails" : "this.shopDetailPage is not a function",
+      "time" : {
+        "start" : 1611650745151,
+        "stop" : 1611650822590,
+        "duration" : 77439
+      }
+    }, {
+      "uid" : "eb30da1911666294",
+      "status" : "broken",
+      "statusDetails" : "this.shopDetailPage is not a function",
+      "time" : {
+        "start" : 1611650382688,
+        "stop" : 1611650465396,
+        "duration" : 82708
+      }
+    }, {
+      "uid" : "de4866f7e6e622c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611649292572,
+        "stop" : 1611649359759,
+        "duration" : 67187
+      }
+    }, {
+      "uid" : "3c2532d77cb2a7d2",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'getAttribute' of undefined",
+      "time" : {
+        "start" : 1611649236767,
+        "stop" : 1611649268944,
+        "duration" : 32177
+      }
+    }, {
+      "uid" : "2db7a7b0cf997e74",
+      "status" : "broken",
+      "statusDetails" : "accountPage.shopDetailPage is not a function",
+      "time" : {
+        "start" : 1611649000494,
+        "stop" : 1611649076380,
+        "duration" : 75886
+      }
+    }, {
+      "uid" : "271cf56108efb23a",
+      "status" : "broken",
+      "statusDetails" : "Locator Strategy 'ios class chain' is not supported for this session",
+      "time" : {
+        "start" : 1611648793782,
+        "stop" : 1611648861197,
+        "duration" : 67415
+      }
+    }, {
+      "uid" : "aef3bfaff3a47a6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611642235022,
+        "stop" : 1611642298959,
+        "duration" : 63937
+      }
+    }, {
+      "uid" : "225fa0b2a15fd3cd",
+      "status" : "failed",
+      "statusDetails" : "expected 1 to equal 2",
+      "time" : {
+        "start" : 1611641919086,
+        "stop" : 1611641989447,
+        "duration" : 70361
+      }
+    }, {
+      "uid" : "b2605d825835fdb2",
+      "status" : "failed",
+      "statusDetails" : "expected 1 to equal 2",
+      "time" : {
+        "start" : 1611641130786,
+        "stop" : 1611641192110,
+        "duration" : 61324
+      }
+    }, {
+      "uid" : "65bba420cdb8e760",
+      "status" : "failed",
+      "statusDetails" : "expected 1 to equal 2",
+      "time" : {
+        "start" : 1611630190403,
+        "stop" : 1611630255691,
+        "duration" : 65288
+      }
+    }, {
+      "uid" : "bbbf8a14b267ad47",
+      "status" : "failed",
+      "statusDetails" : "expected 1 to equal 2",
+      "time" : {
+        "start" : 1611629580982,
+        "stop" : 1611629651884,
+        "duration" : 70902
+      }
+    }, {
+      "uid" : "2cb04a4f8a347d1e",
+      "status" : "failed",
+      "statusDetails" : "expected 1 to equal 2",
+      "time" : {
+        "start" : 1611628952374,
+        "stop" : 1611629023056,
+        "duration" : 70682
+      }
+    }, {
+      "uid" : "ae792315a0131029",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611626649469,
+        "stop" : 1611626714295,
+        "duration" : 64826
+      }
+    }, {
+      "uid" : "d02ac0b813a1d616",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611626205693,
+        "stop" : 1611626275205,
+        "duration" : 69512
+      }
+    }, {
+      "uid" : "a1c22d666c420d86",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios predicate string:value == \"undefined\"\" because element wasn't found",
+      "time" : {
+        "start" : 1611626168992,
+        "stop" : 1611626194716,
+        "duration" : 25724
+      }
+    }, {
+      "uid" : "ef2b61b6d241dc1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611626041381,
+        "stop" : 1611626112175,
+        "duration" : 70794
+      }
+    }, {
+      "uid" : "7f8bae01febd7242",
+      "status" : "broken",
+      "statusDetails" : "this._calculateXY is not a function",
+      "time" : {
+        "start" : 1611625898110,
+        "stop" : 1611625958867,
+        "duration" : 60757
+      }
+    }, {
+      "uid" : "b51071a053931f19",
+      "status" : "broken",
+      "statusDetails" : "Method is not implemented",
+      "time" : {
+        "start" : 1611619965590,
+        "stop" : 1611620025626,
+        "duration" : 60036
+      }
+    }, {
+      "uid" : "ecaf2dd5f4c07c95",
+      "status" : "broken",
+      "statusDetails" : "Touch actions like \"press\" need at least some kind of position information like \"element\", \"x\" or \"y\" options, you've none given.",
+      "time" : {
+        "start" : 1611559903386,
+        "stop" : 1611559970394,
+        "duration" : 67008
+      }
+    }, {
+      "uid" : "afc40a5a518bceb2",
+      "status" : "broken",
+      "statusDetails" : "Method is not implemented",
+      "time" : {
+        "start" : 1611559603427,
+        "stop" : 1611559661217,
+        "duration" : 57790
+      }
+    }, {
+      "uid" : "3d05977a6446977c",
+      "status" : "broken",
+      "statusDetails" : "Method is not implemented",
+      "time" : {
+        "start" : 1611541820208,
+        "stop" : 1611541886032,
+        "duration" : 65824
+      }
+    }, {
+      "uid" : "976d415a380d1baf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611539493761,
+        "stop" : 1611539556030,
+        "duration" : 62269
+      }
+    }, {
+      "uid" : "f63c0d7345f4db40",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611538765169,
+        "stop" : 1611538826921,
+        "duration" : 61752
+      }
+    }, {
+      "uid" : "e7ba193896f2581a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611538190517,
+        "stop" : 1611538246072,
+        "duration" : 55555
+      }
+    }, {
+      "uid" : "9cad4d1af46b986c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611386477729,
+        "stop" : 1611386531275,
+        "duration" : 53546
+      }
+    }, {
+      "uid" : "1bbe08a9d788bea0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611386403665,
+        "stop" : 1611386462017,
+        "duration" : 58352
+      }
+    }, {
+      "uid" : "209a8b98d96b22a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611386055509,
+        "stop" : 1611386106636,
+        "duration" : 51127
+      }
+    }, {
+      "uid" : "16fa516396562463",
+      "status" : "broken",
+      "statusDetails" : "An unknown server-side error occurred while processing the command. Original error: Error Domain=com.facebook.WebDriverAgent Code=1 \"'action' property is mandatory for gesture chain item {\n                }\" UserInfo={NSLocalizedDescription='action' property is mandatory for gesture chain item {\n                }}",
+      "time" : {
+        "start" : 1611385877169,
+        "stop" : 1611385931445,
+        "duration" : 54276
+      }
+    }, {
+      "uid" : "ac74e9d8c43478c1",
+      "status" : "broken",
+      "statusDetails" : "action \"press\" doesn't accept \"ms\" as option",
+      "time" : {
+        "start" : 1611385759567,
+        "stop" : 1611385820266,
+        "duration" : 60699
+      }
+    }, {
+      "uid" : "40c024643f094770",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611385430875,
+        "stop" : 1611385485510,
+        "duration" : 54635
+      }
+    }, {
+      "uid" : "d14e96542e69cf0f",
+      "status" : "broken",
+      "statusDetails" : "Method is not implemented",
+      "time" : {
+        "start" : 1611382971298,
+        "stop" : 1611383038842,
+        "duration" : 67544
+      }
+    }, {
+      "uid" : "9a514ce608119a42",
+      "status" : "broken",
+      "statusDetails" : "selector is not defined",
+      "time" : {
+        "start" : 1611381669749,
+        "stop" : 1611381733210,
+        "duration" : 63461
+      }
+    }, {
+      "uid" : "dd924d94ebdb6eb9",
+      "status" : "broken",
+      "statusDetails" : "selector is not defined",
+      "time" : {
+        "start" : 1611380265381,
+        "stop" : 1611380320126,
+        "duration" : 54745
+      }
+    }, {
+      "uid" : "544752c32298c0a9",
+      "status" : "broken",
+      "statusDetails" : "selector is not defined",
+      "time" : {
+        "start" : 1611371854625,
+        "stop" : 1611371905681,
+        "duration" : 51056
+      }
+    }, {
+      "uid" : "188c0deb11f6803f",
+      "status" : "broken",
+      "statusDetails" : "selector is not defined",
+      "time" : {
+        "start" : 1611371664044,
+        "stop" : 1611371723092,
+        "duration" : 59048
+      }
+    }, {
+      "uid" : "3405fe2653d60bfb",
+      "status" : "broken",
+      "statusDetails" : "selector is not defined",
+      "time" : {
+        "start" : 1611371267775,
+        "stop" : 1611371325816,
+        "duration" : 58041
+      }
+    }, {
+      "uid" : "e4375e95cf3e49bc",
+      "status" : "broken",
+      "statusDetails" : "selector is not defined",
+      "time" : {
+        "start" : 1611371071745,
+        "stop" : 1611371118787,
+        "duration" : 47042
+      }
+    }, {
+      "uid" : "dd9260cf11163691",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios predicate string:value == \"undefined\"\" because element wasn't found",
+      "time" : {
+        "start" : 1611370726286,
+        "stop" : 1611370761504,
+        "duration" : 35218
+      }
+    }, {
+      "uid" : "14ce647e95eb69df",
+      "status" : "broken",
+      "statusDetails" : "Method is not implemented",
+      "time" : {
+        "start" : 1611368840978,
+        "stop" : 1611368897094,
+        "duration" : 56116
+      }
+    }, {
+      "uid" : "61f52c28321ae0b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611368478255,
+        "stop" : 1611368534712,
+        "duration" : 56457
+      }
+    }, {
+      "uid" : "1dac9b3f9648c81e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611368286502,
+        "stop" : 1611368351503,
+        "duration" : 65001
+      }
+    }, {
+      "uid" : "475599ba6ab7963f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611365592419,
+        "stop" : 1611365657557,
+        "duration" : 65138
+      }
+    }, {
+      "uid" : "773898495542fd23",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611365361682,
+        "stop" : 1611365421918,
+        "duration" : 60236
+      }
+    }, {
+      "uid" : "5788018b98f24e7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611307760946,
+        "stop" : 1611307827148,
+        "duration" : 66202
+      }
+    }, {
+      "uid" : "73f6c24035b2bb43",
+      "status" : "broken",
+      "statusDetails" : "read ECONNRESET",
+      "time" : {
+        "start" : 1611306256825,
+        "stop" : 1611306286883,
+        "duration" : 30058
+      }
+    }, {
+      "uid" : "a4f0988712469dcf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611305161655,
+        "stop" : 1611305218324,
+        "duration" : 56669
+      }
+    }, {
+      "uid" : "eb024c5399c460c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611305087478,
+        "stop" : 1611305142837,
+        "duration" : 55359
+      }
+    }, {
+      "uid" : "c9af5a21635dd777",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 10000ms",
+      "time" : {
+        "start" : 1611304390726,
+        "stop" : 1611304418859,
+        "duration" : 28133
+      }
+    }, {
+      "uid" : "da02af2dec8d8d78",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 10000ms",
+      "time" : {
+        "start" : 1611304292558,
+        "stop" : 1611304310640,
+        "duration" : 18082
+      }
+    }, {
+      "uid" : "7519daef169a5b6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611304084019,
+        "stop" : 1611304125818,
+        "duration" : 41799
+      }
+    }, {
+      "uid" : "bc5e94e241804d70",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 10000ms",
+      "time" : {
+        "start" : 1611304049361,
+        "stop" : 1611304065746,
+        "duration" : 16385
+      }
+    }, {
+      "uid" : "138ce9f1f47101cf",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 10000ms",
+      "time" : {
+        "start" : 1611304025686,
+        "stop" : 1611304042055,
+        "duration" : 16369
+      }
+    }, {
+      "uid" : "2baf01d343784d47",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 10000ms",
+      "time" : {
+        "start" : 1611303952829,
+        "stop" : 1611303972585,
+        "duration" : 19756
+      }
+    }, {
+      "uid" : "c28d5de6b7d2a8cf",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 10000ms",
+      "time" : {
+        "start" : 1611303665591,
+        "stop" : 1611303684980,
+        "duration" : 19389
+      }
+    }, {
+      "uid" : "6c54657b6dbced60",
+      "status" : "broken",
+      "statusDetails" : "A sessionId is required for this command",
+      "time" : {
+        "start" : 1611303507122,
+        "stop" : 1611303634136,
+        "duration" : 127014
+      }
+    }, {
+      "uid" : "19ec79bf42b3a80f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611302831034,
+        "stop" : 1611302882382,
+        "duration" : 51348
+      }
+    }, {
+      "uid" : "9c413a1ba5886ac9",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 10000ms",
+      "time" : {
+        "start" : 1611302784206,
+        "stop" : 1611302800715,
+        "duration" : 16509
+      }
+    }, {
+      "uid" : "c9dcb74b8298d654",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 10000ms",
+      "time" : {
+        "start" : 1611302707103,
+        "stop" : 1611302732667,
+        "duration" : 25564
+      }
+    }, {
+      "uid" : "f56c2870f38887e5",
+      "status" : "broken",
+      "statusDetails" : "read ECONNRESET",
+      "time" : {
+        "start" : 1611302580068,
+        "stop" : 1611302603869,
+        "duration" : 23801
+      }
+    }, {
+      "uid" : "66dcf4aab04c50ae",
+      "status" : "broken",
+      "statusDetails" : "accountPage.activeincator is not a function",
+      "time" : {
+        "start" : 1611302535381,
+        "stop" : 1611302542414,
+        "duration" : 7033
+      }
+    }, {
+      "uid" : "27613d042fd46b02",
+      "status" : "broken",
+      "statusDetails" : "read ECONNRESET",
+      "time" : {
+        "start" : 1611302497351,
+        "stop" : 1611302531058,
+        "duration" : 33707
+      }
+    }, {
+      "uid" : "48f64722fdfec7bf",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 10000ms",
+      "time" : {
+        "start" : 1611302376536,
+        "stop" : 1611302401431,
+        "duration" : 24895
+      }
+    }, {
+      "uid" : "70f78c7d0984c8e6",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 10000ms",
+      "time" : {
+        "start" : 1611301957515,
+        "stop" : 1611301982304,
+        "duration" : 24789
+      }
+    }, {
+      "uid" : "c6674432a2fb5bab",
+      "status" : "broken",
+      "statusDetails" : "accountPage.activeincator is not a function",
+      "time" : {
+        "start" : 1611301885169,
+        "stop" : 1611301899425,
+        "duration" : 14256
+      }
+    }, {
+      "uid" : "3096d4ba242e100c",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition failed with the following reason: Cannot read property 'isDisplayed' of undefined",
+      "time" : {
+        "start" : 1611301826617,
+        "stop" : 1611301850203,
+        "duration" : 23586
+      }
+    }, {
+      "uid" : "cc8527dd766511c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611298514074,
+        "stop" : 1611298556649,
+        "duration" : 42575
+      }
+    }, {
+      "uid" : "e67f2a89f21d44c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611296650137,
+        "stop" : 1611296692001,
+        "duration" : 41864
+      }
+    }, {
+      "uid" : "4885c91e4c046dd1",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 10000ms",
+      "time" : {
+        "start" : 1611296494166,
+        "stop" : 1611296540518,
+        "duration" : 46352
+      }
+    }, {
+      "uid" : "890741b170b8d238",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 10000ms",
+      "time" : {
+        "start" : 1611279809921,
+        "stop" : 1611279832866,
+        "duration" : 22945
+      }
+    }, {
+      "uid" : "edc76e471f7df4a3",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios predicate string:value == \"undefined\"\" because element wasn't found",
+      "time" : {
+        "start" : 1611278891819,
+        "stop" : 1611278915923,
+        "duration" : 24104
+      }
+    }, {
+      "uid" : "5ce02c36b86c3fe4",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios predicate string:value == \"undefined\"\" because element wasn't found",
+      "time" : {
+        "start" : 1611278321847,
+        "stop" : 1611278345861,
+        "duration" : 24014
+      }
+    }, {
+      "uid" : "f4290f32dc204c36",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 10000ms",
+      "time" : {
+        "start" : 1611221230404,
+        "stop" : 1611221280305,
+        "duration" : 49901
+      }
+    }, {
+      "uid" : "d57cc18985a5063c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611220465923,
+        "stop" : 1611220506885,
+        "duration" : 40962
+      }
+    }, {
+      "uid" : "40e419df01e63a24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611215606081,
+        "stop" : 1611215651466,
+        "duration" : 45385
+      }
+    }, {
+      "uid" : "bbb74d0edb7890e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611215539929,
+        "stop" : 1611215585432,
+        "duration" : 45503
+      }
+    }, {
+      "uid" : "d17abc9f747b9ede",
+      "status" : "broken",
+      "statusDetails" : "read ECONNRESET",
+      "time" : {
+        "start" : 1611215456272,
+        "stop" : 1611215511438,
+        "duration" : 55166
+      }
+    }, {
+      "uid" : "882dc06555d6512c",
+      "status" : "broken",
+      "statusDetails" : "read ECONNRESET",
+      "time" : {
+        "start" : 1611215353424,
+        "stop" : 1611215452547,
+        "duration" : 99123
+      }
+    }, {
+      "uid" : "970b487f36bc3fe9",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios predicate string:value == \"undefined\"\" because element wasn't found",
+      "time" : {
+        "start" : 1611215321327,
+        "stop" : 1611215345485,
+        "duration" : 24158
+      }
+    }, {
+      "uid" : "66309c463b42d22",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios predicate string:value == \"undefined\"\" because element wasn't found",
+      "time" : {
+        "start" : 1611215156137,
+        "stop" : 1611215180188,
+        "duration" : 24051
+      }
+    }, {
+      "uid" : "a13ccb97c7eb2705",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios predicate string:value == \"undefined\"\" because element wasn't found",
+      "time" : {
+        "start" : 1611214635577,
+        "stop" : 1611214660203,
+        "duration" : 24626
+      }
+    }, {
+      "uid" : "312bac24121ee4f8",
+      "status" : "broken",
+      "statusDetails" : "read ECONNRESET",
+      "time" : {
+        "start" : 1611214479580,
+        "stop" : 1611214527424,
+        "duration" : 47844
+      }
+    }, {
+      "uid" : "298562de2deb5640",
+      "status" : "broken",
+      "statusDetails" : "socket hang up",
+      "time" : {
+        "start" : 1611214321288,
+        "stop" : 1611214417618,
+        "duration" : 96330
+      }
+    }, {
+      "uid" : "edf0faadaf3d437d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611213706796,
+        "stop" : 1611213839627,
+        "duration" : 132831
+      }
+    }, {
+      "uid" : "10e5de10c16cf8ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611210631523,
+        "stop" : 1611210765257,
+        "duration" : 133734
+      }
+    }, {
+      "uid" : "afda0ba8d1fe717d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611210351191,
+        "stop" : 1611210484021,
+        "duration" : 132830
+      }
+    }, {
+      "uid" : "a18bbd5a82434577",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'getAttribute' of undefined",
+      "time" : {
+        "start" : 1611210330280,
+        "stop" : 1611210343625,
+        "duration" : 13345
+      }
+    }, {
+      "uid" : "7f232426ea0fcf0b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611210150809,
+        "stop" : 1611210278594,
+        "duration" : 127785
+      }
+    }, {
+      "uid" : "b6beb7fb3c08363",
+      "status" : "broken",
+      "statusDetails" : "read ECONNRESET",
+      "time" : {
+        "start" : 1611210123029,
+        "stop" : 1611210147547,
+        "duration" : 24518
+      }
+    }, {
+      "uid" : "19e7547797bc476b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611209921963,
+        "stop" : 1611210049394,
+        "duration" : 127431
+      }
+    }, {
+      "uid" : "50c17c7783396fb3",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'getAttribute' of undefined",
+      "time" : {
+        "start" : 1611209784880,
+        "stop" : 1611209895715,
+        "duration" : 110835
+      }
+    }, {
+      "uid" : "88d493537d6a5fc2",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios class chain:**/XCUIElementTypeStaticText[`value == \"broc storebroc storebroc storebroc storebroc sbroc storebroc st\"`]\" because element wasn't found",
+      "time" : {
+        "start" : 1611209684840,
+        "stop" : 1611209708773,
+        "duration" : 23933
+      }
+    }, {
+      "uid" : "5de449481706eb8d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611209529428,
+        "stop" : 1611209661689,
+        "duration" : 132261
+      }
+    }, {
+      "uid" : "b763c9add52a0858",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611209374296,
+        "stop" : 1611209499766,
+        "duration" : 125470
+      }
+    }, {
+      "uid" : "911ad2fc48bdb5e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611209055078,
+        "stop" : 1611209180138,
+        "duration" : 125060
+      }
+    }, {
+      "uid" : "9462e3fef6eaf108",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611208444827,
+        "stop" : 1611208571307,
+        "duration" : 126480
+      }
+    }, {
+      "uid" : "fcc616ab5e8568d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611208417675,
+        "stop" : 1611208432237,
+        "duration" : 14562
+      }
+    }, {
+      "uid" : "df0165c6ffeeb08",
+      "status" : "broken",
+      "statusDetails" : "Locator Strategy 'css selector' is not supported for this session",
+      "time" : {
+        "start" : 1611208081678,
+        "stop" : 1611208208203,
+        "duration" : 126525
+      }
+    }, {
+      "uid" : "95de258d543f195b",
+      "status" : "broken",
+      "statusDetails" : "Locator Strategy 'css selector' is not supported for this session",
+      "time" : {
+        "start" : 1611207823112,
+        "stop" : 1611207948152,
+        "duration" : 125040
+      }
+    }, {
+      "uid" : "8011dc682403e73a",
+      "status" : "failed",
+      "statusDetails" : "expected 'broc storebroc storebroc storebroc storebroc sbroc storebroc st' to equal 'broc storebroc storebroc storebroc storebroc sbroc storebroc s'",
+      "time" : {
+        "start" : 1611197738761,
+        "stop" : 1611197866737,
+        "duration" : 127976
+      }
+    }, {
+      "uid" : "c04de1a33e0f1706",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611197118616,
+        "stop" : 1611197244821,
+        "duration" : 126205
+      }
+    }, {
+      "uid" : "154ce18b8a842f64",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611193713658,
+        "stop" : 1611193841776,
+        "duration" : 128118
+      }
+    }, {
+      "uid" : "3b9259443eb5a6ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611193559651,
+        "stop" : 1611193630886,
+        "duration" : 71235
+      }
+    }, {
+      "uid" : "ac7ae43eaf79b60f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611193537670,
+        "stop" : 1611193544510,
+        "duration" : 6840
+      }
+    }, {
+      "uid" : "bef2da4767de151a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611193509625,
+        "stop" : 1611193516619,
+        "duration" : 6994
+      }
+    }, {
+      "uid" : "a25365379f6eee64",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611193491429,
+        "stop" : 1611193498237,
+        "duration" : 6808
+      }
+    }, {
+      "uid" : "d882cb2c3af5b9ce",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"case_01 test_01\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js)",
+      "time" : {
+        "start" : 1611193299252,
+        "stop" : 1611193359251,
+        "duration" : 59999
+      }
+    }, {
+      "uid" : "ff3cb5693d3edfc5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611134505330,
+        "stop" : 1611134512958,
+        "duration" : 7628
+      }
+    }, {
+      "uid" : "84843479cdfb06e1",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'getAttribute' of undefined",
+      "time" : {
+        "start" : 1611134488910,
+        "stop" : 1611134495971,
+        "duration" : 7061
+      }
+    }, {
+      "uid" : "8d99b76b42761428",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"case_01 test_01\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js)",
+      "time" : {
+        "start" : 1611134305767,
+        "stop" : 1611134365772,
+        "duration" : 60005
+      }
+    }, {
+      "uid" : "5ca36d8034e708ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611134201982,
+        "stop" : 1611134213029,
+        "duration" : 11047
+      }
+    }, {
+      "uid" : "860950a6b3ddea38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611134186152,
+        "stop" : 1611134193202,
+        "duration" : 7050
+      }
+    }, {
+      "uid" : "c8f156e19dc2721f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611134161543,
+        "stop" : 1611134168416,
+        "duration" : 6873
+      }
+    }, {
+      "uid" : "3439eb201e45432d",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"case_01 test_01\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js)",
+      "time" : {
+        "start" : 1611134069123,
+        "stop" : 1611134129127,
+        "duration" : 60004
+      }
+    }, {
+      "uid" : "87d2eadb7083ba51",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"case_01 test_01\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js)",
+      "time" : {
+        "start" : 1611133877795,
+        "stop" : 1611133937800,
+        "duration" : 60005
+      }
+    }, {
+      "uid" : "a2e7b05ef15e441f",
+      "status" : "broken",
+      "statusDetails" : "this.aa.getAttribute is not a function",
+      "time" : {
+        "start" : 1611133833106,
+        "stop" : 1611133848318,
+        "duration" : 15212
+      }
+    }, {
+      "uid" : "263b3fcbcb0e55a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611132964389,
+        "stop" : 1611132984672,
+        "duration" : 20283
+      }
+    }, {
+      "uid" : "1750db1cf8e5316",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611132888842,
+        "stop" : 1611132908629,
+        "duration" : 19787
+      }
+    }, {
+      "uid" : "5b340da58d745700",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611132739658,
+        "stop" : 1611132759900,
+        "duration" : 20242
+      }
+    }, {
+      "uid" : "7689afc13bda1f3b",
+      "status" : "broken",
+      "statusDetails" : "i.getAttribute is not a function",
+      "time" : {
+        "start" : 1611132487568,
+        "stop" : 1611132506412,
+        "duration" : 18844
+      }
+    }, {
+      "uid" : "49d080142487c115",
+      "status" : "broken",
+      "statusDetails" : "i is not defined",
+      "time" : {
+        "start" : 1611132425721,
+        "stop" : 1611132444538,
+        "duration" : 18817
+      }
+    }, {
+      "uid" : "f419136e4d5788f8",
+      "status" : "broken",
+      "statusDetails" : "this.aa.getAttribute is not a function",
+      "time" : {
+        "start" : 1611131395781,
+        "stop" : 1611131414135,
+        "duration" : 18354
+      }
+    }, {
+      "uid" : "4602ee2ae4384f8b",
+      "status" : "broken",
+      "statusDetails" : "this.aa.getAttribute is not a function",
+      "time" : {
+        "start" : 1611131357004,
+        "stop" : 1611131375142,
+        "duration" : 18138
+      }
+    }, {
+      "uid" : "f1a153dffb4b30b6",
+      "status" : "broken",
+      "statusDetails" : "this.aa.getAttribute is not a function",
+      "time" : {
+        "start" : 1611131279385,
+        "stop" : 1611131297138,
+        "duration" : 17753
+      }
+    }, {
+      "uid" : "d24188e260bacbbf",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"~帳戶\" because element wasn't found",
+      "time" : {
+        "start" : 1611129416666,
+        "stop" : 1611129426914,
+        "duration" : 10248
+      }
+    }, {
+      "uid" : "a3079a0f853b9cbb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611128649856,
+        "stop" : 1611128665160,
+        "duration" : 15304
+      }
+    }, {
+      "uid" : "e6000b09c55f037f",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'getAttribute' of undefined",
+      "time" : {
+        "start" : 1611128616498,
+        "stop" : 1611128631606,
+        "duration" : 15108
+      }
+    }, {
+      "uid" : "1d481c15422585c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611128563704,
+        "stop" : 1611128577316,
+        "duration" : 13612
+      }
+    }, {
+      "uid" : "1af12699c2defa01",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611128460217,
+        "stop" : 1611128473829,
+        "duration" : 13612
+      }
+    }, {
+      "uid" : "fc1081c850ea8266",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611128411769,
+        "stop" : 1611128425388,
+        "duration" : 13619
+      }
+    }, {
+      "uid" : "b452dd2b49673fa6",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'getAttribute' of undefined",
+      "time" : {
+        "start" : 1611128295494,
+        "stop" : 1611128308059,
+        "duration" : 12565
+      }
+    }, {
+      "uid" : "42d0056fa73aeb35",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'getAttribute' of undefined",
+      "time" : {
+        "start" : 1611127949122,
+        "stop" : 1611127960884,
+        "duration" : 11762
+      }
+    }, {
+      "uid" : "872983575b6e3bc7",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'getAttribute' of undefined",
+      "time" : {
+        "start" : 1611127060066,
+        "stop" : 1611127071608,
+        "duration" : 11542
+      }
+    }, {
+      "uid" : "515753e0eafc8826",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611127017157,
+        "stop" : 1611127028730,
+        "duration" : 11573
+      }
+    }, {
+      "uid" : "67d164c3aae6685d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611126974853,
+        "stop" : 1611126986778,
+        "duration" : 11925
+      }
+    }, {
+      "uid" : "832c2996520b8b87",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'getAttribute' of undefined",
+      "time" : {
+        "start" : 1611126542113,
+        "stop" : 1611126555588,
+        "duration" : 13475
+      }
+    }, {
+      "uid" : "6d05a3e1477621f5",
+      "status" : "broken",
+      "statusDetails" : "ss[i].getAttribute is not a function",
+      "time" : {
+        "start" : 1611126256050,
+        "stop" : 1611126267871,
+        "duration" : 11821
+      }
+    }, {
+      "uid" : "939b69790c91419f",
+      "status" : "broken",
+      "statusDetails" : "ss.getAttribute is not a function",
+      "time" : {
+        "start" : 1611125799787,
+        "stop" : 1611125812785,
+        "duration" : 12998
+      }
+    }, {
+      "uid" : "a0998003a2e2ed02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611125515082,
+        "stop" : 1611125526813,
+        "duration" : 11731
+      }
+    }, {
+      "uid" : "421749d210ed0f04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611125011020,
+        "stop" : 1611125024209,
+        "duration" : 13189
+      }
+    }, {
+      "uid" : "fcda67dd0b618d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611124970653,
+        "stop" : 1611124983899,
+        "duration" : 13246
+      }
+    }, {
+      "uid" : "e48d919cef52ad89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611124938467,
+        "stop" : 1611124951946,
+        "duration" : 13479
+      }
+    }, {
+      "uid" : "d4637a4b23ffdb4c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611124819513,
+        "stop" : 1611124832536,
+        "duration" : 13023
+      }
+    }, {
+      "uid" : "5f47aa7933cdac50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611124699258,
+        "stop" : 1611124712596,
+        "duration" : 13338
+      }
+    }, {
+      "uid" : "f345a810bd65724c",
+      "status" : "broken",
+      "statusDetails" : "i.getAttribute is not a function",
+      "time" : {
+        "start" : 1611124545816,
+        "stop" : 1611124558427,
+        "duration" : 12611
+      }
+    }, {
+      "uid" : "65db7015291fe05c",
+      "status" : "broken",
+      "statusDetails" : "i.getAttribute is not a function",
+      "time" : {
+        "start" : 1611124490058,
+        "stop" : 1611124501387,
+        "duration" : 11329
+      }
+    }, {
+      "uid" : "7db8d5f26914bd1f",
+      "status" : "broken",
+      "statusDetails" : "i.getAttribute is not a function",
+      "time" : {
+        "start" : 1611124288771,
+        "stop" : 1611124300561,
+        "duration" : 11790
+      }
+    }, {
+      "uid" : "d851cfd773b83415",
+      "status" : "broken",
+      "statusDetails" : "i.getAttribute is not a function",
+      "time" : {
+        "start" : 1611124195696,
+        "stop" : 1611124207073,
+        "duration" : 11377
+      }
+    }, {
+      "uid" : "214a94567ba508a1",
+      "status" : "broken",
+      "statusDetails" : "i.getAttribute is not a function",
+      "time" : {
+        "start" : 1611123534839,
+        "stop" : 1611123546637,
+        "duration" : 11798
+      }
+    }, {
+      "uid" : "277eec61a3f936a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611123467123,
+        "stop" : 1611123479174,
+        "duration" : 12051
+      }
+    }, {
+      "uid" : "6487bdac9a90de14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611123434843,
+        "stop" : 1611123447181,
+        "duration" : 12338
+      }
+    }, {
+      "uid" : "bfde7121d7cd37e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611123361356,
+        "stop" : 1611123374380,
+        "duration" : 13024
+      }
+    }, {
+      "uid" : "4fe10952e2b172f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611123330087,
+        "stop" : 1611123343684,
+        "duration" : 13597
+      }
+    }, {
+      "uid" : "24ce91ba1defa7fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611123243141,
+        "stop" : 1611123255677,
+        "duration" : 12536
+      }
+    }, {
+      "uid" : "56490eadbd2f3ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611112939822,
+        "stop" : 1611112953235,
+        "duration" : 13413
+      }
+    }, {
+      "uid" : "2816ac2875283630",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611112885199,
+        "stop" : 1611112898618,
+        "duration" : 13419
+      }
+    }, {
+      "uid" : "75bfb36e8ece07f8",
+      "status" : "broken",
+      "statusDetails" : "accountPage.title_01 is not a function",
+      "time" : {
+        "start" : 1611112809881,
+        "stop" : 1611112823713,
+        "duration" : 13832
+      }
+    }, {
+      "uid" : "ec531830b0461733",
+      "status" : "broken",
+      "statusDetails" : "this.aa.getAttribute is not a function",
+      "time" : {
+        "start" : 1611112752898,
+        "stop" : 1611112767157,
+        "duration" : 14259
+      }
+    }, {
+      "uid" : "2ea2e460b2abf441",
+      "status" : "broken",
+      "statusDetails" : "a2.getAttribute is not a function",
+      "time" : {
+        "start" : 1611112581195,
+        "stop" : 1611112595550,
+        "duration" : 14355
+      }
+    }, {
+      "uid" : "450198d1fa71b604",
+      "status" : "broken",
+      "statusDetails" : "a2.getAttribute is not a function",
+      "time" : {
+        "start" : 1611112551722,
+        "stop" : 1611112566369,
+        "duration" : 14647
+      }
+    }, {
+      "uid" : "baabac3a058510f",
+      "status" : "broken",
+      "statusDetails" : "$$(...).getAttribute is not a function",
+      "time" : {
+        "start" : 1611112000768,
+        "stop" : 1611112015355,
+        "duration" : 14587
+      }
+    }, {
+      "uid" : "453983495aabcb90",
+      "status" : "broken",
+      "statusDetails" : "driver.findElements(...).getAttribute is not a function",
+      "time" : {
+        "start" : 1611111839256,
+        "stop" : 1611111859207,
+        "duration" : 19951
+      }
+    }, {
+      "uid" : "97c4be01f86b9eee",
+      "status" : "broken",
+      "statusDetails" : "i.getAttribute is not a function",
+      "time" : {
+        "start" : 1611110477468,
+        "stop" : 1611110490282,
+        "duration" : 12814
+      }
+    }, {
+      "uid" : "73d4f790c0e027c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611110377280,
+        "stop" : 1611110390197,
+        "duration" : 12917
+      }
+    }, {
+      "uid" : "8fe5f6e612e7ec60",
+      "status" : "broken",
+      "statusDetails" : "read ECONNRESET",
+      "time" : {
+        "start" : 1611110371448,
+        "stop" : 1611110371642,
+        "duration" : 194
+      }
+    }, {
+      "uid" : "871ec29c3a60d452",
+      "status" : "broken",
+      "statusDetails" : "i.getAttribute is not a function",
+      "time" : {
+        "start" : 1611110343867,
+        "stop" : 1611110359503,
+        "duration" : 15636
+      }
+    }, {
+      "uid" : "dd5ec2d6b2c38c6b",
+      "status" : "broken",
+      "statusDetails" : "i.getAttribute is not a function",
+      "time" : {
+        "start" : 1611108288028,
+        "stop" : 1611108301252,
+        "duration" : 13224
+      }
+    }, {
+      "uid" : "688b0d7cb2f50fee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611107651506,
+        "stop" : 1611107664347,
+        "duration" : 12841
+      }
+    }, {
+      "uid" : "7148d02e8dad4d1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611107558265,
+        "stop" : 1611107571945,
+        "duration" : 13680
+      }
+    }, {
+      "uid" : "e11a9e22382ebd43",
+      "status" : "broken",
+      "statusDetails" : "Wrong parameters applied for findElementsFromElement\n                Usage: findElementsFromElement(elementId, using, value)\n                \n                Property Description:\n                  \"elementId\" (string): the id of an element returned in a previous call to Find Element(s)\n                  \"using\" (string): a valid element location strategy\n                  \"value\" (string): the actual selector that will be used to find an element\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-find-elements-from-element\n                ",
+      "time" : {
+        "start" : 1611107519852,
+        "stop" : 1611107532662,
+        "duration" : 12810
+      }
+    }, {
+      "uid" : "42646472b26bbefc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611048397548,
+        "stop" : 1611048411782,
+        "duration" : 14234
+      }
+    }, {
+      "uid" : "65f5816bb666a0a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611048357418,
+        "stop" : 1611048370716,
+        "duration" : 13298
+      }
+    }, {
+      "uid" : "9f865c87c321246f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611044653547,
+        "stop" : 1611044667709,
+        "duration" : 14162
+      }
+    }, {
+      "uid" : "88081b9cabaed501",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611044118050,
+        "stop" : 1611044132582,
+        "duration" : 14532
+      }
+    }, {
+      "uid" : "a3fdbe6d46c13257",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611042572346,
+        "stop" : 1611042586568,
+        "duration" : 14222
+      }
+    }, {
+      "uid" : "de5efb56a2ab1585",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611042553343,
+        "stop" : 1611042564854,
+        "duration" : 11511
+      }
+    }, {
+      "uid" : "1da736e93949d63e",
+      "status" : "broken",
+      "statusDetails" : "Wrong parameters applied for findElements\n                Usage: findElements(using, value)\n                \n                Property Description:\n                  \"using\" (string): a valid element location strategy\n                  \"value\" (string): the actual selector that will be used to find an element\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-find-elements\n                ",
+      "time" : {
+        "start" : 1611042517751,
+        "stop" : 1611042530302,
+        "duration" : 12551
+      }
+    }, {
+      "uid" : "24a7e32db20e1fd3",
+      "status" : "broken",
+      "statusDetails" : "accountPage.aa.getAttribute is not a function",
+      "time" : {
+        "start" : 1611040813593,
+        "stop" : 1611040826082,
+        "duration" : 12489
+      }
+    }, {
+      "uid" : "3a70cddea27be495",
+      "status" : "broken",
+      "statusDetails" : "accountPage.aa.getText is not a function",
+      "time" : {
+        "start" : 1611040066850,
+        "stop" : 1611040079809,
+        "duration" : 12959
+      }
+    }, {
+      "uid" : "1edeb4844f1a30a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611039989007,
+        "stop" : 1611040000932,
+        "duration" : 11925
+      }
+    }, {
+      "uid" : "75b8e038a08bece7",
+      "status" : "broken",
+      "statusDetails" : "Locator Strategy 'css selector' is not supported for this session",
+      "time" : {
+        "start" : 1611025975197,
+        "stop" : 1611025987065,
+        "duration" : 11868
+      }
+    }, {
+      "uid" : "ea3fb46a7b32300d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611023510279,
+        "stop" : 1611023531617,
+        "duration" : 21338
+      }
+    }, {
+      "uid" : "cda8301c10ab4182",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611023484051,
+        "stop" : 1611023495382,
+        "duration" : 11331
+      }
+    }, {
+      "uid" : "3a98295474ae5854",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611023360799,
+        "stop" : 1611023362853,
+        "duration" : 2054
+      }
+    }, {
+      "uid" : "b8d964e63d5811f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611023350790,
+        "stop" : 1611023351753,
+        "duration" : 963
+      }
+    }, {
+      "uid" : "42170b079855a294",
+      "status" : "failed",
+      "statusDetails" : "Malformed type for \"elementId\" parameter of command elementClick\n                Expected: string\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-element-click\n                ",
+      "time" : {
+        "start" : 1611023344517,
+        "stop" : 1611023345555,
+        "duration" : 1038
+      }
+    }, {
+      "uid" : "55f04ead8eff5c03",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611023335738,
+        "stop" : 1611023336795,
+        "duration" : 1057
+      }
+    }, {
+      "uid" : "df483fad6645e244",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611023318560,
+        "stop" : 1611023320432,
+        "duration" : 1872
+      }
+    }, {
+      "uid" : "3bb5cf351d70bdb4",
+      "status" : "failed",
+      "statusDetails" : "Malformed type for \"elementId\" parameter of command elementClick\n                Expected: string\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-element-click\n                ",
+      "time" : {
+        "start" : 1610950718528,
+        "stop" : 1610950719791,
+        "duration" : 1263
+      }
+    }, {
+      "uid" : "5582addbf1cdbe3f",
+      "status" : "failed",
+      "statusDetails" : "Malformed type for \"elementId\" parameter of command elementClick\n                Expected: string\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-element-click\n                ",
+      "time" : {
+        "start" : 1610950696888,
+        "stop" : 1610950698144,
+        "duration" : 1256
+      }
+    }, {
+      "uid" : "c2d838c386c3399b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610950687821,
+        "stop" : 1610950689404,
+        "duration" : 1583
+      }
+    }, {
+      "uid" : "6b9b6919d039e5c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610950669746,
+        "stop" : 1610950681620,
+        "duration" : 11874
+      }
+    }, {
+      "uid" : "ec7c3f74dfbdffe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610950658392,
+        "stop" : 1610950659879,
+        "duration" : 1487
+      }
+    }, {
+      "uid" : "f757b0b2d5f19bc",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition failed with the following reason: Method is not implemented",
+      "time" : {
+        "start" : 1610950221506,
+        "stop" : 1610950226078,
+        "duration" : 4572
+      }
+    }, {
+      "uid" : "ca899726506b995a",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition failed with the following reason: Method is not implemented",
+      "time" : {
+        "start" : 1610949696761,
+        "stop" : 1610949701851,
+        "duration" : 5090
+      }
+    }, {
+      "uid" : "6d4ee600bd62d895",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"case_01 test_01\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js)",
+      "time" : {
+        "start" : 1610949561976,
+        "stop" : 1610949621977,
+        "duration" : 60001
+      }
+    }, {
+      "uid" : "c481a1b4951f7929",
+      "status" : "broken",
+      "statusDetails" : "Method is not implemented",
+      "time" : {
+        "start" : 1610936004777,
+        "stop" : 1610936005865,
+        "duration" : 1088
+      }
+    }, {
+      "uid" : "2b4899f59a9d04cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610935507320,
+        "stop" : 1610935508802,
+        "duration" : 1482
+      }
+    }, {
+      "uid" : "8304d898b36883e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610935498408,
+        "stop" : 1610935500376,
+        "duration" : 1968
+      }
+    }, {
+      "uid" : "e0cc7f496d46ff08",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610935475409,
+        "stop" : 1610935486441,
+        "duration" : 11032
+      }
+    }, {
+      "uid" : "e8ddac4fba80c6d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610935460019,
+        "stop" : 1610935461571,
+        "duration" : 1552
+      }
+    }, {
+      "uid" : "bf730107997c59e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610935446531,
+        "stop" : 1610935448090,
+        "duration" : 1559
+      }
+    }, {
+      "uid" : "d77e113151fb8953",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610935418533,
+        "stop" : 1610935419775,
+        "duration" : 1242
+      }
+    }, {
+      "uid" : "3a61121f6727082d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610935410241,
+        "stop" : 1610935411709,
+        "duration" : 1468
+      }
+    }, {
+      "uid" : "3866e7ab546192ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610935380707,
+        "stop" : 1610935382033,
+        "duration" : 1326
+      }
+    }, {
+      "uid" : "f110ae7800cc835c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610935369666,
+        "stop" : 1610935370753,
+        "duration" : 1087
+      }
+    }, {
+      "uid" : "f223a32a5ac058a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610935340370,
+        "stop" : 1610935352244,
+        "duration" : 11874
+      }
+    }, {
+      "uid" : "3260a2814a320428",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610935328479,
+        "stop" : 1610935329658,
+        "duration" : 1179
+      }
+    }, {
+      "uid" : "e0614e863852f169",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610776471370,
+        "stop" : 1610776473126,
+        "duration" : 1756
+      }
+    }, {
+      "uid" : "712a14c612fb1b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610776417267,
+        "stop" : 1610776418742,
+        "duration" : 1475
+      }
+    }, {
+      "uid" : "8aa2a0bb978b3b70",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610776118182,
+        "stop" : 1610776119416,
+        "duration" : 1234
+      }
+    }, {
+      "uid" : "cb41df255776ae06",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610776094973,
+        "stop" : 1610776097265,
+        "duration" : 2292
+      }
+    }, {
+      "uid" : "85e0231b82081a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610776088284,
+        "stop" : 1610776089724,
+        "duration" : 1440
+      }
+    }, {
+      "uid" : "78b9b973f9152353",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610768179331,
+        "stop" : 1610768181313,
+        "duration" : 1982
+      }
+    }, {
+      "uid" : "2025c960874607e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610767721349,
+        "stop" : 1610767722935,
+        "duration" : 1586
+      }
+    }, {
+      "uid" : "c2fada9cd7767899",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610767660795,
+        "stop" : 1610767662455,
+        "duration" : 1660
+      }
+    }, {
+      "uid" : "fc11923ac3fb4bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610766169519,
+        "stop" : 1610766171496,
+        "duration" : 1977
+      }
+    }, {
+      "uid" : "cc867b7f0de9ffca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610765860864,
+        "stop" : 1610765863070,
+        "duration" : 2206
+      }
+    }, {
+      "uid" : "1bb5d91d1b5faeeb",
+      "status" : "broken",
+      "statusDetails" : "print is not defined",
+      "time" : {
+        "start" : 1610765840239,
+        "stop" : 1610765842171,
+        "duration" : 1932
+      }
+    }, {
+      "uid" : "318f42382d6c92f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610765799028,
+        "stop" : 1610765800249,
+        "duration" : 1221
+      }
+    }, {
+      "uid" : "88a0244bcf893aa2",
+      "status" : "broken",
+      "statusDetails" : "attr is not defined",
+      "time" : {
+        "start" : 1610764535426,
+        "stop" : 1610764536667,
+        "duration" : 1241
+      }
+    }, {
+      "uid" : "311ec83c298c03e",
+      "status" : "broken",
+      "statusDetails" : "Locator Strategy 'css selector' is not supported for this session",
+      "time" : {
+        "start" : 1610701626702,
+        "stop" : 1610701628452,
+        "duration" : 1750
+      }
+    }, {
+      "uid" : "518a12d40b4f1dfe",
+      "status" : "failed",
+      "statusDetails" : "Malformed type for \"elementId\" parameter of command elementClick\n                Expected: string\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-element-click\n                ",
+      "time" : {
+        "start" : 1610701607518,
+        "stop" : 1610701608673,
+        "duration" : 1155
+      }
+    }, {
+      "uid" : "1471d53d2ce1128",
+      "status" : "broken",
+      "statusDetails" : "Locator Strategy 'css selector' is not supported for this session",
+      "time" : {
+        "start" : 1610701581786,
+        "stop" : 1610701583737,
+        "duration" : 1951
+      }
+    }, {
+      "uid" : "a3c880800ad7a872",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'getAttribute' of undefined",
+      "time" : {
+        "start" : 1610701535359,
+        "stop" : 1610701537313,
+        "duration" : 1954
+      }
+    }, {
+      "uid" : "3b053c0b6d943874",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610701082062,
+        "stop" : 1610701083952,
+        "duration" : 1890
+      }
+    }, {
+      "uid" : "6eab8fca1fccb3f1",
+      "status" : "failed",
+      "statusDetails" : "Malformed type for \"elementId\" parameter of command elementClick\n                Expected: string\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-element-click\n                ",
+      "time" : {
+        "start" : 1610701010205,
+        "stop" : 1610701011207,
+        "duration" : 1002
+      }
+    }, {
+      "uid" : "d2696df4b28b9675",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610700479570,
+        "stop" : 1610700481544,
+        "duration" : 1974
+      }
+    }, {
+      "uid" : "492309efa99bde14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610697463150,
+        "stop" : 1610697465829,
+        "duration" : 2679
+      }
+    }, {
+      "uid" : "196e13b0997299e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610697431559,
+        "stop" : 1610697433618,
+        "duration" : 2059
+      }
+    }, {
+      "uid" : "e8622415305bd1f7",
+      "status" : "broken",
+      "statusDetails" : "Locator Strategy 'XCUIElementTypeStaticText' is not supported for this session",
+      "time" : {
+        "start" : 1610696440071,
+        "stop" : 1610696441898,
+        "duration" : 1827
+      }
+    }, {
+      "uid" : "1dcfa4aad6277e15",
+      "status" : "broken",
+      "statusDetails" : "Wrong parameters applied for findElements\n                Usage: findElements(using, value)\n                \n                Property Description:\n                  \"using\" (string): a valid element location strategy\n                  \"value\" (string): the actual selector that will be used to find an element\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-find-elements\n                ",
+      "time" : {
+        "start" : 1610695968710,
+        "stop" : 1610695970507,
+        "duration" : 1797
+      }
+    }, {
+      "uid" : "857361a55114cb1d",
+      "status" : "broken",
+      "statusDetails" : "Wrong parameters applied for findElements\n                Usage: findElements(using, value)\n                \n                Property Description:\n                  \"using\" (string): a valid element location strategy\n                  \"value\" (string): the actual selector that will be used to find an element\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-find-elements\n                ",
+      "time" : {
+        "start" : 1610695932420,
+        "stop" : 1610695933579,
+        "duration" : 1159
+      }
+    }, {
+      "uid" : "cc9d3573d44b8c31",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610695898866,
+        "stop" : 1610695900270,
+        "duration" : 1404
+      }
+    }, {
+      "uid" : "1de26cbf53af5378",
+      "status" : "broken",
+      "statusDetails" : "driver.elements is not a function",
+      "time" : {
+        "start" : 1610695873861,
+        "stop" : 1610695875168,
+        "duration" : 1307
+      }
+    }, {
+      "uid" : "e7bd811375a73cc7",
+      "status" : "broken",
+      "statusDetails" : "Locator Strategy 'css selector' is not supported for this session",
+      "time" : {
+        "start" : 1610694503522,
+        "stop" : 1610694505425,
+        "duration" : 1903
+      }
+    }, {
+      "uid" : "39a49db90aaad7a1",
+      "status" : "broken",
+      "statusDetails" : "Locator Strategy 'css selector' is not supported for this session",
+      "time" : {
+        "start" : 1610694456493,
+        "stop" : 1610694457868,
+        "duration" : 1375
+      }
+    }, {
+      "uid" : "3448577267213245",
+      "status" : "broken",
+      "statusDetails" : "Locator Strategy 'css selector' is not supported for this session",
+      "time" : {
+        "start" : 1610694410027,
+        "stop" : 1610694422220,
+        "duration" : 12193
+      }
+    }, {
+      "uid" : "1cfe7c3406e84ab5",
+      "status" : "broken",
+      "statusDetails" : "Locator Strategy 'css selector' is not supported for this session",
+      "time" : {
+        "start" : 1610694393119,
+        "stop" : 1610694395172,
+        "duration" : 2053
+      }
+    }, {
+      "uid" : "3f8c760f8212a6f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610693376265,
+        "stop" : 1610693378282,
+        "duration" : 2017
+      }
+    }, {
+      "uid" : "18f241a251211076",
+      "status" : "broken",
+      "statusDetails" : "browser.elements is not a function",
+      "time" : {
+        "start" : 1610693360361,
+        "stop" : 1610693362340,
+        "duration" : 1979
+      }
+    }, {
+      "uid" : "70e5a045c5a0d730",
+      "status" : "broken",
+      "statusDetails" : "browser.elements is not a function",
+      "time" : {
+        "start" : 1610692865015,
+        "stop" : 1610692866729,
+        "duration" : 1714
+      }
+    }, {
+      "uid" : "fa92d9365c67d6d5",
+      "status" : "broken",
+      "statusDetails" : "browser.elements is not a function",
+      "time" : {
+        "start" : 1610692569234,
+        "stop" : 1610692571134,
+        "duration" : 1900
+      }
+    }, {
+      "uid" : "9c5c4af1bc4125b8",
+      "status" : "broken",
+      "statusDetails" : "broswer is not defined",
+      "time" : {
+        "start" : 1610692547995,
+        "stop" : 1610692549750,
+        "duration" : 1755
+      }
+    }, {
+      "uid" : "71bb59c9393dd275",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610692255399,
+        "stop" : 1610692257719,
+        "duration" : 2320
+      }
+    }, {
+      "uid" : "a7f6045b12f996b",
+      "status" : "broken",
+      "statusDetails" : "accountPage.itemTitle is not a function",
+      "time" : {
+        "start" : 1610691295707,
+        "stop" : 1610691298332,
+        "duration" : 2625
+      }
+    }, {
+      "uid" : "c3e48916e9edc62f",
+      "status" : "broken",
+      "statusDetails" : "accountPage.itemTitle is not a function",
+      "time" : {
+        "start" : 1610691181013,
+        "stop" : 1610691182308,
+        "duration" : 1295
+      }
+    }, {
+      "uid" : "3a71656e6c59d61f",
+      "status" : "broken",
+      "statusDetails" : "accountPage.itemTitle is not a function",
+      "time" : {
+        "start" : 1610691145410,
+        "stop" : 1610691147304,
+        "duration" : 1894
+      }
+    }, {
+      "uid" : "34cca3c5fee06dec",
+      "status" : "broken",
+      "statusDetails" : "accountPage.itemTitle is not a function",
+      "time" : {
+        "start" : 1610691113194,
+        "stop" : 1610691114475,
+        "duration" : 1281
+      }
+    }, {
+      "uid" : "f896464837a5305e",
+      "status" : "broken",
+      "statusDetails" : "accountPage.itemTitle is not a function",
+      "time" : {
+        "start" : 1610690994065,
+        "stop" : 1610690996106,
+        "duration" : 2041
+      }
+    }, {
+      "uid" : "8f1a189ff54e6ae3",
+      "status" : "broken",
+      "statusDetails" : "browser.elements is not a function",
+      "time" : {
+        "start" : 1610690901799,
+        "stop" : 1610690903254,
+        "duration" : 1455
+      }
+    }, {
+      "uid" : "583d4faea86e910c",
+      "status" : "broken",
+      "statusDetails" : "accountPage.itemTitle is not a function",
+      "time" : {
+        "start" : 1610690779140,
+        "stop" : 1610690781072,
+        "duration" : 1932
+      }
+    }, {
+      "uid" : "146481e1f7c6b987",
+      "status" : "broken",
+      "statusDetails" : "accountPage.itemTitle is not a function",
+      "time" : {
+        "start" : 1610690766192,
+        "stop" : 1610690770369,
+        "duration" : 4177
+      }
+    }, {
+      "uid" : "c16bad3357a6d56a",
+      "status" : "broken",
+      "statusDetails" : "browser.elements is not a function",
+      "time" : {
+        "start" : 1610690484500,
+        "stop" : 1610690486012,
+        "duration" : 1512
+      }
+    }, {
+      "uid" : "9001ee4c366f5233",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"~帳戶\" because element wasn't found",
+      "time" : {
+        "start" : 1610690466486,
+        "stop" : 1610690476736,
+        "duration" : 10250
+      }
+    }, {
+      "uid" : "c53014896d234219",
+      "status" : "broken",
+      "statusDetails" : "browser.elements is not a function",
+      "time" : {
+        "start" : 1610689548776,
+        "stop" : 1610689560995,
+        "duration" : 12219
+      }
+    }, {
+      "uid" : "7e5bea6f62becb5e",
+      "status" : "broken",
+      "statusDetails" : "accountPage.itemTitle is not a function",
+      "time" : {
+        "start" : 1610680721064,
+        "stop" : 1610680722482,
+        "duration" : 1418
+      }
+    }, {
+      "uid" : "3841f31d7d511227",
+      "status" : "broken",
+      "statusDetails" : "accountPage.itemTitle is not a function",
+      "time" : {
+        "start" : 1610680635936,
+        "stop" : 1610680648574,
+        "duration" : 12638
+      }
+    }, {
+      "uid" : "18fa314e9f2bb76a",
+      "status" : "broken",
+      "statusDetails" : "Locator Strategy 'css selector' is not supported for this session",
+      "time" : {
+        "start" : 1610680508216,
+        "stop" : 1610680508687,
+        "duration" : 471
+      }
+    }, {
+      "uid" : "6dda577c722a8a70",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"-ios predicate string:**/XCUIElementTypeStaticText[`value == \"收藏\"`]\" because element wasn't found",
+      "time" : {
+        "start" : 1610680455457,
+        "stop" : 1610680465959,
+        "duration" : 10502
+      }
+    }, {
+      "uid" : "65dae37ce15c3c46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610614589255,
+        "stop" : 1610614590971,
+        "duration" : 1716
+      }
+    }, {
+      "uid" : "b5c73377dba356a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610614566066,
+        "stop" : 1610614567760,
+        "duration" : 1694
+      }
+    }, {
+      "uid" : "ecb3c220df6cc51f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610614550666,
+        "stop" : 1610614552402,
+        "duration" : 1736
+      }
+    }, {
+      "uid" : "3ca595c8c040b10a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610609312685,
+        "stop" : 1610609312687,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "71e4243c8f609c3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610608150270,
+        "stop" : 1610608150271,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "60445e267cb480e8",
+      "status" : "failed",
+      "statusDetails" : "不想打: expected 2 to equal 3",
+      "time" : {
+        "start" : 1610607301412,
+        "stop" : 1610607301415,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "e27bf3274845ae7b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610606483475,
+        "stop" : 1610606483477,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "736bc85459cd871e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610606422237,
+        "stop" : 1610606422239,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "d20926b700ac3b84",
+      "status" : "broken",
+      "statusDetails" : "allureReporter is not defined",
+      "time" : {
+        "start" : 1610606362778,
+        "stop" : 1610606362780,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "5e3ced7f411d9a6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610592895121,
+        "stop" : 1610592895122,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ff22160375d5ad62.json",
+  "parameterValues" : [ "CYRUS-14.1" ]
+}

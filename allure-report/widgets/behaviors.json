@@ -1,11 +1,22 @@
 {
-  "total" : 1,
+  "total" : 2,
   "items" : [ {
     "uid" : "fbcb55f1ceee387398ac8b9520850cdc",
     "name" : "frist test",
     "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
+      "failed" : 2,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "f51c0a8380465afbca8df998ec4f53a2",
+    "name" : "google登录测试",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,

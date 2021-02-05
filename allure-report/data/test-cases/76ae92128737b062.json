@@ -1,0 +1,85 @@
+{
+  "uid" : "76ae92128737b062",
+  "name" : "test_01",
+  "fullName" : "case_01.test_01",
+  "historyId" : "cbf0992ca3aaa93e05c9c74d7e910055",
+  "time" : {
+    "start" : 1611823515127,
+    "stop" : 1611823611611,
+    "duration" : 96484
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "waitUntil condition failed with the following reason: Cannot read property 'getValue' of undefined",
+  "statusTrace" : "Error: waitUntil condition failed with the following reason: Cannot read property 'getValue' of undefined\n                    at accountPage.waitShop (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/testiOSYamimeal/test_Home/account.element.js:83:23)\n                    at Context.<anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:54:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "waitUntil condition failed with the following reason: Cannot read property 'getValue' of undefined",
+    "statusTrace" : "Error: waitUntil condition failed with the following reason: Cannot read property 'getValue' of undefined\n                    at accountPage.waitShop (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/testiOSYamimeal/test_Home/account.element.js:83:23)\n                    at Context.<anonymous> (/Users/cyrus.h/Desktop/AutoTest/js_auto_test/test/specs/Test.App.yamimeal.js:54:21)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4dd943a926e28d66",
+      "name" : "Screenshot",
+      "source" : "4dd943a926e28d66.png",
+      "type" : "image/png",
+      "size" : 341125
+    }, {
+      "uid" : "bc6f51b5a0887b01",
+      "name" : "Screenshot",
+      "source" : "bc6f51b5a0887b01.png",
+      "type" : "image/png",
+      "size" : 244751
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "frist test"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "case_01"
+  }, {
+    "name" : "testClass",
+    "value" : "case_01"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_01"
+  }, {
+    "name" : "package",
+    "value" : "case_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "CYRUS-14.1"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "76ae92128737b062.json",
+  "parameterValues" : [ "CYRUS-14.1" ]
+}

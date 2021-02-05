@@ -125,13 +125,13 @@ class Gestures {
      *   const to = { x: 25, y:50 }
      * </pre>
      */
-    swipe (from, to) {
+    swipe (from, to,time) {
         driver.touchPerform([{
             action: 'press',
             options: from,
         }, {
             action: 'wait',
-            options: { ms: 1000 },
+            options: { ms: time },
         }, {
             action: 'moveTo',
             options: to,
